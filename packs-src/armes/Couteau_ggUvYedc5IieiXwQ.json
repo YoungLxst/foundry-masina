@@ -1,0 +1,33 @@
+{
+  "_id": "ggUvYedc5IieiXwQ",
+  "_key": "!items!ggUvYedc5IieiXwQ",
+  "name": "Couteau",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "petitesLames",
+    "categorie": "courante",
+    "degats": "1d4",
+    "typeDegats": "perforant",
+    "poids": 0.3,
+    "prix": "5 pc",
+    "proprietes": {
+      "finesse": true,
+      "legere": true,
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "gXvyWmd8Ot4j9wQk",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

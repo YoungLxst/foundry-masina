@@ -1,0 +1,32 @@
+{
+  "_id": "cS4kXon1D6nKPgPL",
+  "_key": "!items!cS4kXon1D6nKPgPL",
+  "name": "Arc court",
+  "type": "arme",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "competence": "arc",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 1,
+    "prix": "1 pe",
+    "proprietes": {
+      "munitions": true,
+      "deuxMains": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "24/96 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NGnBeEpxeESGaUjl",
+  "sort": 2800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "6ir2yatB2LQXr56H",
+  "_key": "!items!6ir2yatB2LQXr56H",
+  "name": "Attaque supplémentaire (distance)",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Quand il utilise son action pour attaquer à distance, il peut faire deux attaques au lieu d'une.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 545,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

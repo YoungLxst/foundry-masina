@@ -1,0 +1,32 @@
+{
+  "_id": "GQ7i34xQZ82x3sjw",
+  "_key": "!items!GQ7i34xQZ82x3sjw",
+  "name": "Bolas",
+  "type": "arme",
+  "img": "icons/svg/thrust.svg",
+  "system": {
+    "competence": "armesJet",
+    "categorie": "guerre",
+    "degats": "0",
+    "typeDegats": "",
+    "poids": 1,
+    "prix": "5 pc",
+    "proprietes": {
+      "special": true,
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": "<p>Si l'attaque touche, la cible fait un jet d'Esquive contre le total de l'attaque. En cas d'échec, elle tombe à terre et est entravée jusqu'à ce qu'elle se libère (une action et un jet d'Athlétisme SD 13).</p>"
+  },
+  "effects": [],
+  "folder": "9bXWAKHu3cpRlW82",
+  "sort": 3800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_id": "pGHLzCSzeY6XqORk",
+  "_key": "!items!pGHLzCSzeY6XqORk",
+  "name": "Hachette",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "petitesLames",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "tranchant",
+    "poids": 1,
+    "prix": "1 pe",
+    "proprietes": {
+      "legere": true,
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "gXvyWmd8Ot4j9wQk",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

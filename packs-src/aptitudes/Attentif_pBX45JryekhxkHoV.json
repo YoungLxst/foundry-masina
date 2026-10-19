@@ -1,0 +1,27 @@
+{
+  "_id": "pBX45JryekhxkHoV",
+  "_key": "!items!pBX45JryekhxkHoV",
+  "name": "Attentif",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« Je ne le sens pas, espérons que je ne prenne pas trop cher. »",
+    "effet": "<p>+B aux jets de Parade. Il ignore son malus de classe.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Les dégâts de ses attaques sont divisés par 2 (pas ceux de la riposte de Parade).</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 120,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

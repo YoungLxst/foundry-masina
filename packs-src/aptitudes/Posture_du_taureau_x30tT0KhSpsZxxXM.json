@@ -1,0 +1,27 @@
+{
+  "_id": "x30tT0KhSpsZxxXM",
+  "_key": "!items!x30tT0KhSpsZxxXM",
+  "name": "Posture du taureau",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "« Je ne bougerai pas d'ici. »",
+    "effet": "<p>À chaque début de tour où il garde cette posture sans s'être déplacé, il gagne +1 au Blocage (cumulable jusqu'à +3).</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> S'il se déplace ou change de posture, le bonus retombe à 0.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 510,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

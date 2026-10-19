@@ -1,0 +1,27 @@
+{
+  "_id": "xDjSEHVZMNfQ35X0",
+  "_key": "!items!xDjSEHVZMNfQ35X0",
+  "name": "La stratégie est la clé",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« La force fait gagner les batailles, mais c'est l'intelligence qui fait gagner la guerre. »",
+    "effet": "<p>+½B aux jets d'attaque et de Blocage. Ses jets de Perception pour lire l'adversaire ignorent son malus de classe.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Aucune. C'est une posture d'équilibre, moins forte que les autres.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 105,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

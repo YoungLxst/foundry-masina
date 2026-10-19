@@ -1,0 +1,27 @@
+{
+  "_id": "MkRXx8hxEVayig3f",
+  "_key": "!items!MkRXx8hxEVayig3f",
+  "name": "Pisteur",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "Le Trappeur",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il a l'avantage pour pister. Lors d'un repos court, il fabrique un nombre de pièges égal à B.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "YAqi33iW0eJX1GSr",
+  "sort": 346,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

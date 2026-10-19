@@ -1,0 +1,27 @@
+{
+  "_id": "iZigsYAp8FPH3GNW",
+  "_key": "!items!iZigsYAp8FPH3GNW",
+  "name": "Posture d'avancée",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "« Tête baissée, bouclier devant. »",
+    "effet": "<p>Les dégâts des attaques à distance qu'il subit sont divisés par 2. Il peut faire l'alternative (action + mouvement) sans diviser son mouvement.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> −2 DP contre les attaques au corps à corps.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 307,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

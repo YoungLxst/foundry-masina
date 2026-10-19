@@ -1,0 +1,27 @@
+{
+  "_id": "WafOxGxFYdTPCrUk",
+  "_key": "!items!WafOxGxFYdTPCrUk",
+  "name": "Blocage naturel",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Quand un Blocage échoue, le Soldat gagne +2 DP contre l'attaque qui l'a déclenché, ce qui peut la faire rater.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 102,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

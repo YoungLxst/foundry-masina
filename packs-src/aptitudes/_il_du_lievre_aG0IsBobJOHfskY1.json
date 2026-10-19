@@ -1,0 +1,27 @@
+{
+  "_id": "aG0IsBobJOHfskY1",
+  "_key": "!items!aG0IsBobJOHfskY1",
+  "name": "Œil du lièvre",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "« Rien ne bouge sans que je le voie. »",
+    "effet": "<p>Il ne peut pas être surpris, et à la fin de son tour il peut lire la Posture de deux ennemis au lieu d'un.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 341,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

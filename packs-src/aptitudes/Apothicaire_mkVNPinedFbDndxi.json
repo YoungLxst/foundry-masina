@@ -1,0 +1,27 @@
+{
+  "_id": "mkVNPinedFbDndxi",
+  "_key": "!items!mkVNPinedFbDndxi",
+  "name": "Apothicaire",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "fourbe",
+    "voie": "L'Empoisonneur",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il maîtrise le matériel d'empoisonneur et le kit d'herboriste. Lors d'un repos court, il prépare un nombre de doses égal à B, soit en poison (pour Lame enduite), soit en remède (une action pour soigner 1d6 + mod. INT PV à une créature).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "hwNpcfetSlqxR6R0",
+  "sort": 327,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

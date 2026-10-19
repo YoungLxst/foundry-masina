@@ -1,0 +1,27 @@
+{
+  "_id": "t8Wkvzsdmi0x3nCZ",
+  "_key": "!items!t8Wkvzsdmi0x3nCZ",
+  "name": "Repli tactique",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 4,
+    "limite": "aucune",
+    "citation": "« On recule, on se regroupe. »",
+    "effet": "<p>Se déplace de toute sa vitesse sans provoquer d'attaque d'opportunité. Jusqu'à son prochain tour, il gagne +B en Perception, même à découvert.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 408,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

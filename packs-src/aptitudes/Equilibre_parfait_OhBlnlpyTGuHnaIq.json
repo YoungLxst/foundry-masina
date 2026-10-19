@@ -1,0 +1,27 @@
+{
+  "_id": "OhBlnlpyTGuHnaIq",
+  "_key": "!items!OhBlnlpyTGuHnaIq",
+  "name": "Équilibre parfait",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "« Le souffle, la ligne, le tir. »",
+    "effet": "<p>Il ignore les malus liés au terrain, au vent et à la lumière faible, ainsi que le terrain difficile.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 340,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

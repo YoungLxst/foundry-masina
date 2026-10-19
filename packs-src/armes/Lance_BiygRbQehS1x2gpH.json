@@ -1,0 +1,32 @@
+{
+  "_id": "BiygRbQehS1x2gpH",
+  "_key": "!items!BiygRbQehS1x2gpH",
+  "name": "Lance",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesHast",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 1.5,
+    "prix": "5 pc",
+    "proprietes": {
+      "lancer": true,
+      "polyvalente": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "1d8",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "x7lDAadPkRvnsbL2",
+  "sort": 2300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

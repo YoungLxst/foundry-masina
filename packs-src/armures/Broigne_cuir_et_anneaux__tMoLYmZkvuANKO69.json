@@ -1,0 +1,34 @@
+{
+  "_id": "tMoLYmZkvuANKO69",
+  "_key": "!items!tMoLYmZkvuANKO69",
+  "name": "Broigne (cuir et anneaux)",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "intermediaire",
+    "couvre": {
+      "tete": false,
+      "torse": true,
+      "bras": true,
+      "jambes": false
+    },
+    "pa": 4,
+    "dexMax": 3,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 10,
+    "prix": "1 po",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "1shvPnW3GwxP29Fe",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

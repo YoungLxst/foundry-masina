@@ -1,0 +1,34 @@
+{
+  "_id": "wKxoPSNp62Bba6ls",
+  "_key": "!items!wKxoPSNp62Bba6ls",
+  "name": "Chausses de mailles",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "piece",
+    "couvre": {
+      "tete": false,
+      "torse": false,
+      "bras": false,
+      "jambes": true
+    },
+    "pa": 4,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": true,
+    "poids": 5,
+    "prix": "1 po",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NnbQ49ZUGOnpX3Zc",
+  "sort": 1300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "dubMietT5EQ2mxc5",
+  "_key": "!items!dubMietT5EQ2mxc5",
+  "name": "Arbalète lourde",
+  "type": "arme",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "competence": "arbalete",
+    "categorie": "guerre",
+    "degats": "1d10",
+    "typeDegats": "perforant",
+    "poids": 8,
+    "prix": "2 po",
+    "proprietes": {
+      "munitions": true,
+      "rechargement": true,
+      "deuxMains": true,
+      "lourde": true,
+      "perceArmure": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "30/120 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "rkiUG6IbeNPMQ5N5",
+  "sort": 3200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

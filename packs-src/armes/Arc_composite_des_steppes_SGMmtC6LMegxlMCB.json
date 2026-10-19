@@ -1,0 +1,33 @@
+{
+  "_id": "SGMmtC6LMegxlMCB",
+  "_key": "!items!SGMmtC6LMegxlMCB",
+  "name": "Arc composite des steppes",
+  "type": "arme",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "competence": "arc",
+    "categorie": "guerre",
+    "degats": "1d8",
+    "typeDegats": "perforant",
+    "poids": 1,
+    "prix": "1 po",
+    "proprietes": {
+      "munitions": true,
+      "deuxMains": true,
+      "rare": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "30/120 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": "<p>Utilisable à cheval.</p>"
+  },
+  "effects": [],
+  "folder": "NGnBeEpxeESGaUjl",
+  "sort": 3000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

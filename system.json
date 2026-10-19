@@ -1,0 +1,72 @@
+{
+  "id": "masina",
+  "title": "La Mašina",
+  "description": "Système de jeu pour La Mašina : un JDR d'âge du fer, rude et presque sans magie. Jets VC + compétence + 1d10 contre un SD, Postures secrètes, défense active, armure localisée et blessures graves.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    { "name": "Ilian" }
+  ],
+  "esmodules": ["masina.mjs"],
+  "styles": ["styles/masina.css"],
+  "languages": [
+    { "lang": "fr", "name": "Français", "path": "lang/fr.json" },
+    { "lang": "en", "name": "English", "path": "lang/fr.json" }
+  ],
+  "packs": [
+    {
+      "name": "armes",
+      "label": "Armes",
+      "path": "packs/armes",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "armures",
+      "label": "Armures et boucliers",
+      "path": "packs/armures",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "aptitudes",
+      "label": "Aptitudes de classe",
+      "path": "packs/aptitudes",
+      "type": "Item",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "La Mašina",
+      "sorting": "m",
+      "color": "#8a3b1f",
+      "packs": ["armes", "armures", "aptitudes"]
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "personnage": {},
+      "pnj": {}
+    },
+    "Item": {
+      "arme": {},
+      "armure": {},
+      "aptitude": {},
+      "objet": {},
+      "trait": {}
+    }
+  },
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "pv",
+  "initiative": "1d10 + @caracs.dex.vc",
+  "url": "https://github.com/YoungLxst/foundry-masina",
+  "manifest": "https://raw.githubusercontent.com/YoungLxst/foundry-masina/main/system.json",
+  "download": "https://github.com/YoungLxst/foundry-masina/archive/refs/heads/main.zip"
+}

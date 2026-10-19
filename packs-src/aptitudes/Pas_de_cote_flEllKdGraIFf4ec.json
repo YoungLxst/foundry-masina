@@ -1,0 +1,27 @@
+{
+  "_id": "flEllKdGraIFf4ec",
+  "_key": "!items!flEllKdGraIFf4ec",
+  "name": "Pas de côté",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "fourbe",
+    "voie": "Le Duelliste",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Après une Parade réussie, il peut se déplacer de 3 m sans provoquer d'attaque d'opportunité.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "AUrv2MCf4itx126P",
+  "sort": 330,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

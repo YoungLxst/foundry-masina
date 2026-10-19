@@ -1,0 +1,27 @@
+{
+  "_id": "saTx81vI4KDPx5Be",
+  "_key": "!items!saTx81vI4KDPx5Be",
+  "name": "Interception",
+  "type": "aptitude",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "genre": "reflexe",
+    "classe": "soldat",
+    "voie": "Le Rempart",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Quand un allié adjacent est visé par une attaque, il devient la cible à la place (avant le jet d'attaque). Utilise sa réaction ; il peut quand même bloquer cette attaque grâce à Maître du bouclier.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "cfkMFwVXBWw6t95x",
+  "sort": 315,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "7PmQ30ixH2RFBdW5",
+  "_key": "!items!7PmQ30ixH2RFBdW5",
+  "name": "Mains nues",
+  "type": "arme",
+  "img": "icons/svg/fist.svg",
+  "system": {
+    "competence": "bagarre",
+    "categorie": "courante",
+    "degats": "1",
+    "typeDegats": "contondant",
+    "poids": 0,
+    "prix": "—",
+    "proprietes": {},
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "2z1gLGNxXHZQfH6v",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

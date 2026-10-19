@@ -1,0 +1,27 @@
+{
+  "_id": "dVMHyUa8yJcwjMUm",
+  "_key": "!items!dVMHyUa8yJcwjMUm",
+  "name": "Protectionnisme",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« Le soldat lève son bouclier et se prépare à encaisser. »",
+    "effet": "<p>+B aux jets de Blocage. Ses attaques ne peuvent pas être parées.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Les dégâts de ses attaques sont divisés par 2.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 103,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

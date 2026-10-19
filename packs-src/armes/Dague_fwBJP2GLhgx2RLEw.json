@@ -1,0 +1,33 @@
+{
+  "_id": "fwBJP2GLhgx2RLEw",
+  "_key": "!items!fwBJP2GLhgx2RLEw",
+  "name": "Dague",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "petitesLames",
+    "categorie": "courante",
+    "degats": "1d4",
+    "typeDegats": "perforant",
+    "poids": 0.5,
+    "prix": "1 pe",
+    "proprietes": {
+      "finesse": true,
+      "legere": true,
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "gXvyWmd8Ot4j9wQk",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

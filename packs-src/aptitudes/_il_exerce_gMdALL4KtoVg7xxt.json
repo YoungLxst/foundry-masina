@@ -1,0 +1,27 @@
+{
+  "_id": "gMdALL4KtoVg7xxt",
+  "_key": "!items!gMdALL4KtoVg7xxt",
+  "name": "Œil exercé",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il ajoute deux fois B à ses jets de Perception, y compris pour lire l'adversaire.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 132,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

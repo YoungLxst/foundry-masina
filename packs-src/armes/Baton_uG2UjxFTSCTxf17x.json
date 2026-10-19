@@ -1,0 +1,31 @@
+{
+  "_id": "uG2UjxFTSCTxf17x",
+  "_key": "!items!uG2UjxFTSCTxf17x",
+  "name": "Bâton",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesHast",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "contondant",
+    "poids": 2,
+    "prix": "5 pf",
+    "proprietes": {
+      "polyvalente": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "1d8",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "x7lDAadPkRvnsbL2",
+  "sort": 2100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

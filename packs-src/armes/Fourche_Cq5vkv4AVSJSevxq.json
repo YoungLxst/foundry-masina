@@ -1,0 +1,32 @@
+{
+  "_id": "Cq5vkv4AVSJSevxq",
+  "_key": "!items!Cq5vkv4AVSJSevxq",
+  "name": "Fourche",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesHast",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 2.5,
+    "prix": "3 pc",
+    "proprietes": {
+      "deuxMains": true,
+      "allonge": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "x7lDAadPkRvnsbL2",
+  "sort": 2200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "bXalvEVOEJS2JuCD",
+  "_key": "!items!bXalvEVOEJS2JuCD",
+  "name": "Serpe",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "petitesLames",
+    "categorie": "courante",
+    "degats": "1d4",
+    "typeDegats": "tranchant",
+    "poids": 1,
+    "prix": "5 pc",
+    "proprietes": {
+      "legere": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "gXvyWmd8Ot4j9wQk",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

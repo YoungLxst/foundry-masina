@@ -1,0 +1,27 @@
+{
+  "_id": "e0NxSRLjjGtxLqid",
+  "_key": "!items!e0NxSRLjjGtxLqid",
+  "name": "Cri de guerre",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 4,
+    "limite": "combat",
+    "citation": "« Pour ceux qui sont tombés ! »",
+    "effet": "<p>Les alliés à 9 m qui l'entendent gagnent +½B à leurs jets d'attaque et ont l'avantage contre la peur pendant 2 rounds.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 409,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "V4CtCcffgzsLoMeL",
+  "_key": "!items!V4CtCcffgzsLoMeL",
+  "name": "Pluie de flèches",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Toujours disponible, n'occupe pas d'emplacement. Il charge son tir pendant un tour (action), puis le libère au tour suivant (action) en cône de 9 m ou en ligne de 18 m. Toutes les créatures dans la zone, alliés compris, font un jet d'Esquive (SD de classe). En cas d'échec elles subissent DA ×2, la moitié en cas de réussite. Si le tir est interrompu pendant la charge (il subit des dégâts et rate un jet de Résistance SD 10), la charge est perdue.</p>",
+    "contrepartie": "",
+    "equipee": true,
+    "horsEmplacement": true,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 135,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

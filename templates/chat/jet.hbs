@@ -1,0 +1,24 @@
+<div class="masina-carte">
+  <header>
+    <h3>{{titre}}</h3>
+    {{#if sousTitre}}<div class="sous-titre">{{sousTitre}}</div>{{/if}}
+  </header>
+  <div class="detail">
+    {{#each details}}<span class="terme">{{label}} <b>{{texte}}</b></span>{{/each}}
+  </div>
+  <div class="des">
+    {{#each faces}}<span class="d10 {{#unless gardee}}ecarte{{/unless}} {{#if (eq valeur 10)}}max{{/if}} {{#if (eq valeur 1)}}min{{/if}}">{{valeur}}</span>{{/each}}
+    {{#if (eq mode 1)}}<span class="tag">avantage</span>{{/if}}
+    {{#if (eq mode -1)}}<span class="tag">désavantage</span>{{/if}}
+    {{#if relance}}<span class="relance" title="{{relance.label}}">{{relance.signe}} <span class="d10">{{relance.valeur}}</span></span>{{/if}}
+  </div>
+  {{#if relance}}<div class="note">{{relance.label}}</div>{{/if}}
+  <div class="total">{{total}}{{#if sd}} <small>contre SD {{sd}}</small>{{/if}}</div>
+  {{#if degre}}<div class="degre {{degre.cle}}">{{degre.label}}</div>{{/if}}
+  {{{contenu}}}
+  {{#if boutons.length}}
+  <div class="boutons">
+    {{#each boutons}}<button type="button" data-masina-action="{{action}}"><i class="{{icon}}"></i> {{label}}</button>{{/each}}
+  </div>
+  {{/if}}
+</div>

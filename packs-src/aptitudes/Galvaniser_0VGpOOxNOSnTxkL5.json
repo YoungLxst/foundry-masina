@@ -1,0 +1,27 @@
+{
+  "_id": "0VGpOOxNOSnTxkL5",
+  "_key": "!items!0VGpOOxNOSnTxkL5",
+  "name": "Galvaniser",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "oeil",
+    "voie": "Le Chirurgien de campagne",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il tire une flèche-seringue sur un allié à 18 m. L'allié regagne 1d8 + mod. SAG PV ou a l'avantage à son prochain jet.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "Kdfw1JWCnQUDiq9X",
+  "sort": 349,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

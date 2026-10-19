@@ -1,0 +1,29 @@
+{
+  "_id": "4iUW1Erb1Nptrp8U",
+  "_key": "!items!4iUW1Erb1Nptrp8U",
+  "name": "Morgenstern",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesUneMain",
+    "categorie": "guerre",
+    "degats": "1d8",
+    "typeDegats": "perforant",
+    "poids": 2,
+    "prix": "3 pe",
+    "proprietes": {},
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "3lY2LxmcyBB3QrR0",
+  "sort": 1400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

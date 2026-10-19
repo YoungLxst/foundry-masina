@@ -1,0 +1,27 @@
+{
+  "_id": "w3XWhH59xANYwtv4",
+  "_key": "!items!w3XWhH59xANYwtv4",
+  "name": "Plutôt toi que moi",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« L'honneur, c'est pour les morts. Moi, je préfère être vivant. »",
+    "effet": "<p>Sa première attaque de chaque tour inflige DA ×3.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Il ne peut ni parer ni esquiver.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 119,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

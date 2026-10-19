@@ -1,0 +1,32 @@
+{
+  "_id": "F4PTivniqVhSXRTS",
+  "_key": "!items!F4PTivniqVhSXRTS",
+  "name": "Épée courte",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesUneMain",
+    "categorie": "guerre",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 1,
+    "prix": "4 pe",
+    "proprietes": {
+      "finesse": true,
+      "legere": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "3lY2LxmcyBB3QrR0",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

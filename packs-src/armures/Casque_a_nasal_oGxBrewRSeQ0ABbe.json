@@ -1,0 +1,34 @@
+{
+  "_id": "oGxBrewRSeQ0ABbe",
+  "_key": "!items!oGxBrewRSeQ0ABbe",
+  "name": "Casque à nasal",
+  "type": "armure",
+  "img": "icons/svg/helmet.svg",
+  "system": {
+    "categorie": "casque",
+    "couvre": {
+      "tete": true,
+      "torse": false,
+      "bras": false,
+      "jambes": false
+    },
+    "pa": 3,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 1.5,
+    "prix": "1 pe",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NnbQ49ZUGOnpX3Zc",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "XOXWpixyaYYP2Lv4",
+  "_key": "!items!XOXWpixyaYYP2Lv4",
+  "name": "Escrime",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "fourbe",
+    "voie": "Le Duelliste",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Avec une arme à une main et l'autre main libre, il gagne +1 DP et +1 aux jets de Parade.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "AUrv2MCf4itx126P",
+  "sort": 329,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

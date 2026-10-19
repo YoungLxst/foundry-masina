@@ -1,0 +1,32 @@
+{
+  "_id": "hbLReIFypenl3Yzr",
+  "_key": "!items!hbLReIFypenl3Yzr",
+  "name": "Sax (long couteau)",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "petitesLames",
+    "categorie": "guerre",
+    "degats": "1d6",
+    "typeDegats": "tranchant",
+    "poids": 1,
+    "prix": "2 pe",
+    "proprietes": {
+      "finesse": true,
+      "legere": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "gXvyWmd8Ot4j9wQk",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

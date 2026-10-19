@@ -1,0 +1,18 @@
+{
+  "TYPES": {
+    "Actor": {
+      "personnage": "Personnage",
+      "pnj": "PNJ"
+    },
+    "Item": {
+      "arme": "Arme",
+      "armure": "Armure",
+      "aptitude": "Aptitude",
+      "objet": "Objet",
+      "trait": "Trait"
+    }
+  },
+  "MASINA": {
+    "Systeme": "La Mašina"
+  }
+}

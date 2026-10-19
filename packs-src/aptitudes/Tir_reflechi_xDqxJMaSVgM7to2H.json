@@ -1,0 +1,27 @@
+{
+  "_id": "xDqxJMaSVgM7to2H",
+  "_key": "!items!xDqxJMaSVgM7to2H",
+  "name": "Tir réfléchi",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 2,
+    "limite": "aucune",
+    "citation": "« Chaque flèche a son histoire. »",
+    "effet": "<p>Il renonce à attaquer ce tour pour viser une cible. Au tour suivant, si elle ne s'est pas déplacée de plus de 1,5 m, sa première attaque contre elle a l'avantage et inflige DA ×2.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 239,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

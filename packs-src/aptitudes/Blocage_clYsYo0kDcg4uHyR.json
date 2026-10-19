@@ -1,0 +1,27 @@
+{
+  "_id": "clYsYo0kDcg4uHyR",
+  "_key": "!items!clYsYo0kDcg4uHyR",
+  "name": "Blocage",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Défense de classe. Jet de VC FOR + Blocage + 1d10 contre le total de l'attaque, avec une arme ou un bouclier. Réussite : dégâts divisés par 2, annulés si le jet dépasse l'attaque de 5 ou plus. Contre une attaque à distance, il faut tenir un bouclier.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 101,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

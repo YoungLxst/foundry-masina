@@ -1,0 +1,27 @@
+{
+  "_id": "oWf7ABet6DUD4fks",
+  "_key": "!items!oWf7ABet6DUD4fks",
+  "name": "Sang chaud",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "soldat",
+    "voie": "L'Enragé",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Tant qu'il a la moitié de ses PV ou moins, ses attaques au corps à corps infligent +2 dégâts.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "refhDTFR8jGyzljq",
+  "sort": 312,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

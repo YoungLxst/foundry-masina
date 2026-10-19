@@ -1,0 +1,27 @@
+{
+  "_id": "eWs7i5jDH9P2A7eh",
+  "_key": "!items!eWs7i5jDH9P2A7eh",
+  "name": "Adaptation",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« Je commence à perdre mon souffle, mais ma vision est plus claire. »",
+    "effet": "<p>+3 m de vitesse et +½B à ses jets d'attaque à distance.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> −2 DP, et il perd le double bonus d'Œil exercé (B simple en Perception).</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 138,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

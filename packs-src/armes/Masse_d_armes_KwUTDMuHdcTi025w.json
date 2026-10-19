@@ -1,0 +1,29 @@
+{
+  "_id": "KwUTDMuHdcTi025w",
+  "_key": "!items!KwUTDMuHdcTi025w",
+  "name": "Masse d'armes",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesUneMain",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "contondant",
+    "poids": 2,
+    "prix": "2 pe",
+    "proprietes": {},
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "3lY2LxmcyBB3QrR0",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

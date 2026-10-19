@@ -1,0 +1,32 @@
+{
+  "_id": "ftr1dp8XD8xLuy0r",
+  "_key": "!items!ftr1dp8XD8xLuy0r",
+  "name": "Francisque (hache de jet)",
+  "type": "arme",
+  "img": "icons/svg/thrust.svg",
+  "system": {
+    "competence": "armesJet",
+    "categorie": "guerre",
+    "degats": "1d6",
+    "typeDegats": "tranchant",
+    "poids": 1,
+    "prix": "1 pe",
+    "proprietes": {
+      "lancer": true,
+      "briseGarde": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9bXWAKHu3cpRlW82",
+  "sort": 3700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

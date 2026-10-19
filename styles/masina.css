@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap");
+
+/* ============================================================
+   La Mašina : palette reprise de la fiche de personnage
+   ============================================================ */
+
+.masina {
+  --m-paper: #efe6d2;
+  --m-paper-2: #e6dabf;
+  --m-ink: #2a2118;
+  --m-ink-soft: #5b4c3b;
+  --m-rust: #8a3b1f;
+  --m-iron: #4a4f55;
+  --m-line: #a8957a;
+  --m-field: #f7f1e3;
+  --m-warn: #b3261e;
+  --m-ok: #3d6b3a;
+  --m-titre: "Cinzel", Georgia, serif;
+  --m-texte: "EB Garamond", Georgia, serif;
+}
+
+/* ------------------------------------------------------------
+   Fiches
+   ------------------------------------------------------------ */
+
+.masina.sheet .window-content {
+  background: var(--m-paper);
+  color: var(--m-ink);
+  font-family: var(--m-texte);
+  font-size: 15px;
+  padding: 10px 14px;
+  gap: 8px;
+}
+
+.masina.sheet h2 {
+  font-family: var(--m-titre);
+  font-size: 13px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--m-rust);
+  border-bottom: 2px solid var(--m-rust);
+  padding-bottom: 3px;
+  margin: 0 0 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.masina.sheet h2 small,
+.masina.sheet h3 small {
+  font-family: var(--m-texte);
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--m-ink-soft);
+  font-size: 12px;
+  font-weight: 400;
+}
+.masina.sheet h3 {
+  font-family: var(--m-titre);
+  font-size: 12px;
+  margin: 0 0 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6px;
+  border: none;
+}
+.masina.sheet .mt { margin-top: 12px; }
+.masina.sheet .aide { font-size: 12px; font-style: italic; color: var(--m-ink-soft); margin: 4px 0; }
+.masina.sheet .tag { font-size: 11px; color: var(--m-ink-soft); }
+.masina.sheet .vide { color: var(--m-ink-soft); font-style: italic; list-style: none; }
+
+.masina.sheet input,
+.masina.sheet select {
+  font-family: var(--m-texte);
+  color: var(--m-ink);
+  background: var(--m-field);
+  border: none;
+  border-bottom: 1px solid var(--m-ink-soft);
+  border-radius: 0;
+  height: auto;
+  padding: 2px 4px;
+}
+.masina.sheet input[type="number"] { text-align: center; }
+.masina.sheet input[type="checkbox"] { accent-color: var(--m-rust); width: auto; height: auto; }
+.masina.sheet input:focus,
+.masina.sheet select:focus { outline: 2px solid var(--m-rust); box-shadow: none; }
+
+.masina.sheet button {
+  font-family: var(--m-titre);
+  font-size: 11px;
+  background: var(--m-ink);
+  color: var(--m-paper);
+  border: none;
+  border-radius: 0;
+  padding: 4px 10px;
+  line-height: 1.4;
+  width: auto;
+  height: auto;
+}
+.masina.sheet button:hover { background: var(--m-rust); }
+.masina.sheet button.ajouter {
+  background: transparent;
+  color: var(--m-ink-soft);
+  border: 1px dashed var(--m-ink-soft);
+  margin-top: 4px;
+}
+.masina.sheet button.ajouter:hover { color: var(--m-rust); border-color: var(--m-rust); }
+
+.masina.sheet a[data-action] { cursor: pointer; }
+.masina.sheet a[data-action]:hover { color: var(--m-rust); text-shadow: none; }
+
+.masina.sheet .champ {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--m-ink-soft);
+  gap: 2px;
+}
+.masina.sheet .champ input,
+.masina.sheet .champ select { font-size: 14px; text-transform: none; letter-spacing: 0; }
+.masina.sheet .champ.case-ligne { flex-direction: row; align-items: center; gap: 6px; font-size: 12px; }
+.masina.sheet .champ-inline { font-size: 11px; color: var(--m-ink-soft); display: inline-flex; align-items: center; gap: 4px; }
+.masina.sheet .champ-inline input { width: 38px; }
+.masina.sheet .case { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; margin-right: 10px; }
+.masina.sheet .cases { display: flex; flex-wrap: wrap; gap: 4px 0; }
+
+.masina.sheet .boite {
+  border: 1px solid var(--m-line);
+  padding: 8px;
+  background: color-mix(in srgb, var(--m-paper) 80%, var(--m-field));
+}
+
+/* En-tête ---------------------------------------------------- */
+
+.masina .masina-entete {
+  display: grid;
+  grid-template-columns: 110px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  flex: 0 0 auto;
+}
+.masina .masina-entete.objet { grid-template-columns: 64px 1fr; align-items: center; }
+.masina .masina-entete .portrait {
+  width: 110px;
+  height: 130px;
+  object-fit: cover;
+  border: 2px solid var(--m-ink);
+  outline: 1px solid var(--m-line);
+  outline-offset: 3px;
+  background: var(--m-field);
+  cursor: pointer;
+}
+.masina .masina-entete .portrait.petit { width: 64px; height: 64px; }
+.masina .masina-entete .nom {
+  font-family: var(--m-titre);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  width: 100%;
+  background: transparent;
+  border-bottom: 2px solid var(--m-ink);
+  margin-bottom: 6px;
+}
+.masina .grille-identite {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px 10px;
+}
+.masina .valeurs-cles {
+  display: grid;
+  grid-template-columns: repeat(2, 76px);
+  gap: 6px;
+}
+.masina .pastille {
+  border: 1px solid var(--m-ink);
+  background: var(--m-field);
+  text-align: center;
+  padding: 3px 4px;
+}
+.masina .pastille span {
+  display: block;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--m-ink-soft);
+}
+.masina .pastille strong { font-family: var(--m-titre); font-size: 18px; }
+.masina .pastille.pv { grid-column: span 2; border-width: 2px; }
+.masina .pastille.mauvais strong { color: var(--m-warn); }
+.masina .pv-ligne { display: flex; align-items: center; justify-content: center; gap: 4px; }
+.masina .pv-ligne input { width: 54px; font-family: var(--m-titre); font-size: 20px; border: none; background: transparent; }
+.masina .pastilles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; align-items: end; }
+
+/* Onglets ---------------------------------------------------- */
+
+.masina.sheet nav.tabs {
+  border-top: 1px solid var(--m-line);
+  border-bottom: 1px solid var(--m-line);
+  flex: 0 0 auto;
+}
+.masina.sheet nav.tabs a,
+.masina.sheet nav.tabs [data-action="tab"] {
+  font-family: var(--m-titre);
+  font-size: 12px;
+  color: var(--m-ink-soft);
+}
+.masina.sheet nav.tabs .active { color: var(--m-rust); text-shadow: none; border-bottom: 2px solid var(--m-rust); }
+.masina.sheet .tab { flex: 1; overflow-y: auto; }
+.masina.sheet .tab:not(.active) { display: none; }
+
+.masina .colonnes { display: grid; grid-template-columns: 1fr 1.05fr; gap: 16px; }
+.masina .barre-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; align-items: center; }
+.masina .barre-actions .compteur { margin-right: auto; font-family: var(--m-titre); font-size: 12px; }
+.masina .compteur.mauvais b { color: var(--m-warn); }
+
+/* Caractéristiques ------------------------------------------ */
+
+.masina .caracs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.masina .carac { border: 2px solid var(--m-ink); background: var(--m-field); text-align: center; padding: 4px 2px; }
+.masina .carac-nom { font-family: var(--m-titre); font-size: 13px; font-weight: 700; display: block; }
+.masina .carac input { font-size: 17px; border: none; background: transparent; width: 100%; }
+.masina .carac .vc { font-family: var(--m-titre); font-size: 22px; border-top: 1px solid var(--m-line); }
+.masina .carac .vc small { display: block; font-family: var(--m-texte); font-size: 9px; color: var(--m-ink-soft); }
+.masina .carac .mod { font-size: 11px; color: var(--m-ink-soft); }
+
+.masina .creation { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
+.masina .creation .champ { width: 160px; }
+.masina .points.mauvais b { color: var(--m-warn); }
+.masina .points.bon b { color: var(--m-ok); }
+
+.masina .corruption { display: flex; gap: 10px; align-items: center; }
+.masina .corruption input { flex: 1; accent-color: var(--m-rust); }
+.masina .marques { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 6px; }
+.masina .marque { border: 1px solid var(--m-line); padding: 6px; font-size: 12px; background: color-mix(in srgb, var(--m-paper) 80%, var(--m-field)); }
+.masina .marque.atteint:not(.active) { outline: 2px dashed var(--m-rust); }
+.masina .marque.active { border-color: var(--m-rust); }
+.masina .marque p { margin: 4px 0; }
+.masina .marque select { width: 100%; }
+
+/* Compétences ----------------------------------------------- */
+
+.masina table { width: 100%; border-collapse: collapse; background: transparent; border: none; margin: 0; }
+.masina table thead { background: none; text-shadow: none; }
+.masina th {
+  font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--m-ink-soft);
+  text-align: left; border-bottom: 1px solid var(--m-ink); padding: 2px 3px; font-weight: 400;
+}
+.masina td { border-bottom: 1px dotted var(--m-line); padding: 1px 3px; vertical-align: middle; }
+.masina tr:nth-child(even) { background: transparent; }
+.masina .competences .groupe td {
+  font-family: var(--m-titre); font-size: 12px; color: var(--m-rust);
+  border-bottom: 1px solid var(--m-rust); padding-top: 6px;
+}
+.masina .competences td.c { width: 20px; text-align: center; color: var(--m-rust); }
+.masina .competences td.n { width: 46px; }
+.masina .competences td.n input { width: 40px; padding: 0; }
+.masina .competences td.max { width: 30px; text-align: center; font-size: 11px; color: var(--m-ink-soft); }
+.masina .competences td.total { width: 36px; text-align: center; font-family: var(--m-titre); font-weight: 700; }
+.masina .competences td.total.faible { color: var(--m-warn); }
+.masina .competences tr.classe .nom a { font-weight: 600; }
+.masina .competences tr.depasse td.n input { color: var(--m-warn); font-weight: 700; }
+.masina .competences .precision { width: 90px; display: inline-block; font-size: 12px; }
+
+/* Listes ----------------------------------------------------- */
+
+.masina .liste .icone,
+.masina .aptitude .icone { width: 22px; height: 22px; border: none; vertical-align: middle; object-fit: cover; }
+.masina .liste td.total { font-family: var(--m-titre); font-weight: 700; text-align: center; }
+.masina .liste tr.inactif { opacity: .5; }
+.masina .controles { white-space: nowrap; text-align: right; }
+.masina .controles a { margin-left: 4px; color: var(--m-ink-soft); }
+
+.masina .defense { margin: 6px 0 0; font-size: 15px; }
+
+/* Corps et blessures ---------------------------------------- */
+
+.masina .corps { display: flex; justify-content: center; }
+.masina .silhouette { width: 150px; height: auto; }
+.masina .silhouette .z { fill: var(--m-field); stroke: var(--m-ink); stroke-width: 2; }
+.masina .silhouette .z.blesse { fill: color-mix(in srgb, var(--m-rust) 55%, var(--m-field)); }
+.masina .silhouette text { font-family: var(--m-titre); font-size: 11px; fill: var(--m-ink); }
+.masina .silhouette text.pa { font-family: var(--m-texte); font-size: 9px; fill: var(--m-ink-soft); }
+
+.masina .zones { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.masina .zone { border: 1px solid var(--m-line); padding: 6px; background: color-mix(in srgb, var(--m-paper) 80%, var(--m-field)); }
+.masina .zone.blesse { border-color: var(--m-rust); }
+.masina .zone .directeur { color: var(--m-rust); font-size: 11px; }
+.masina .pa-ligne { font-size: 13px; display: flex; gap: 8px; align-items: center; }
+.masina .pa-ligne .abime { color: var(--m-warn); }
+.masina .blessure { border-top: 1px dotted var(--m-line); margin-top: 4px; padding-top: 3px; font-size: 12px; }
+.masina .blessure.soignee { opacity: .55; }
+.masina .blessure-titre { display: flex; justify-content: space-between; }
+.masina .blessure .effet { font-style: italic; color: var(--m-rust); }
+.masina .blessure .soins { display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.masina .ajout-blessure { display: flex; gap: 6px; align-items: center; margin-top: 4px; }
+.masina .ajout-blessure select { flex: 1; font-size: 12px; }
+
+/* Roulement -------------------------------------------------- */
+
+.masina ul.aptitudes { list-style: none; margin: 0; padding: 0; }
+.masina .aptitude { border: 1px solid var(--m-line); margin-bottom: 6px; padding: 4px 6px; background: color-mix(in srgb, var(--m-paper) 80%, var(--m-field)); }
+.masina .aptitude.utilisee { opacity: .55; }
+.masina .aptitude-tete { display: flex; align-items: center; gap: 6px; }
+.masina .aptitude-nom { font-family: var(--m-titre); font-size: 13px; font-weight: 700; }
+.masina .aptitude .controles { margin-left: auto; }
+.masina .genre, .masina .limite {
+  font-size: 10px; text-transform: uppercase; letter-spacing: .05em; padding: 0 5px; border: 1px solid currentColor;
+}
+.masina .genre.posture { color: var(--m-rust); }
+.masina .genre.technique { color: var(--m-iron); }
+.masina .genre.reflexe { color: var(--m-ok); }
+.masina .genre.passif { color: var(--m-ink-soft); }
+.masina .limite { color: var(--m-warn); }
+.masina .aptitude-texte { font-size: 13px; }
+.masina .aptitude-texte p { margin: 3px 0; }
+.masina .contrepartie { color: var(--m-ink-soft); font-style: italic; }
+
+.masina .bourse { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+
+/* Fiche d'objet ---------------------------------------------- */
+
+.masina .masina-objet { display: flex; flex-direction: column; gap: 8px; }
+.masina .grille-objet { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 10px; align-items: end; }
+.masina.sheet prose-mirror { min-height: 90px; background: var(--m-field); border: 1px solid var(--m-line); }
+.masina.sheet prose-mirror .editor-content { padding: 4px 8px; }
+
+/* Fenêtres de jet -------------------------------------------- */
+
+.masina-dialog .masina-jet .note { font-size: 13px; margin: 0 0 6px; }
+
+/* ------------------------------------------------------------
+   Cartes de chat
+   ------------------------------------------------------------ */
+
+.masina-carte {
+  --m-ink: #2a2118; --m-ink-soft: #5b4c3b; --m-rust: #8a3b1f; --m-line: #a8957a;
+  --m-ok: #3d6b3a; --m-warn: #b3261e; --m-field: #f7f1e3;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 14px;
+  color: var(--m-ink);
+}
+.masina-carte header { border-bottom: 2px solid var(--m-rust); margin-bottom: 4px; }
+.masina-carte header.avec-image { display: flex; gap: 8px; align-items: center; }
+.masina-carte header.avec-image img { width: 36px; height: 36px; border: none; }
+.masina-carte h3 {
+  font-family: "Cinzel", Georgia, serif; font-size: 14px; margin: 0; border: none; color: var(--m-rust);
+}
+.masina-carte .sous-titre { font-size: 12px; color: var(--m-ink-soft); font-style: italic; }
+.masina-carte .detail { display: flex; flex-wrap: wrap; gap: 2px 8px; font-size: 12px; color: var(--m-ink-soft); }
+.masina-carte .des { display: flex; gap: 4px; align-items: center; justify-content: center; margin: 6px 0 2px; }
+.masina-carte .d10 {
+  display: inline-block; min-width: 26px; padding: 2px 4px; text-align: center;
+  font-family: "Cinzel", serif; font-weight: 700; border: 1px solid var(--m-ink); background: var(--m-field);
+}
+.masina-carte .d10.ecarte { opacity: .4; text-decoration: line-through; }
+.masina-carte .d10.max { color: var(--m-ok); border-color: var(--m-ok); }
+.masina-carte .d10.min { color: var(--m-warn); border-color: var(--m-warn); }
+.masina-carte .relance { font-weight: 700; }
+.masina-carte .total {
+  font-family: "Cinzel", serif; font-size: 28px; font-weight: 700; text-align: center; line-height: 1.1;
+}
+.masina-carte .total small { font-family: "EB Garamond", serif; font-size: 13px; font-weight: 400; color: var(--m-ink-soft); }
+.masina-carte .degre { text-align: center; font-family: "Cinzel", serif; font-size: 13px; padding: 2px; margin: 2px 0; }
+.masina-carte .degre.exceptionnelle { background: color-mix(in srgb, var(--m-ok) 25%, transparent); color: var(--m-ok); }
+.masina-carte .degre.reussite { color: var(--m-ok); }
+.masina-carte .degre.prix { color: #8a6a1f; }
+.masina-carte .degre.echec { color: var(--m-warn); }
+.masina-carte .degre.grave { background: color-mix(in srgb, var(--m-warn) 20%, transparent); color: var(--m-warn); }
+.masina-carte .note { font-size: 12px; color: var(--m-ink-soft); text-align: center; margin: 2px 0; }
+.masina-carte .cibles { list-style: none; padding: 0; margin: 4px 0; font-size: 13px; }
+.masina-carte .cibles .ok b { color: var(--m-ok); }
+.masina-carte .cibles .ko b { color: var(--m-warn); }
+.masina-carte .localisation { text-align: center; }
+.masina-carte .boutons { display: flex; gap: 4px; margin-top: 6px; }
+.masina-carte .boutons button { font-family: "Cinzel", serif; font-size: 11px; line-height: 1.6; }
+.masina-carte .masina-effet { text-align: center; font-weight: 600; }
+.masina-carte .masina-effet.ok { color: var(--m-ok); }
+.masina-carte .masina-effet.ko { color: var(--m-warn); }
+.masina-carte .masina-grave { color: var(--m-warn); }
+.masina-carte .citation { font-style: italic; color: var(--m-ink-soft); margin: 2px 0; }
+.masina-carte .contenu p { margin: 3px 0; }
+.masina-carte .contrepartie { font-style: italic; color: var(--m-ink-soft); }

@@ -1,0 +1,32 @@
+{
+  "_id": "f6CGkLFAuSBEEyx7",
+  "_key": "!items!f6CGkLFAuSBEEyx7",
+  "name": "Trident",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesHast",
+    "categorie": "guerre",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 2,
+    "prix": "1 pe",
+    "proprietes": {
+      "lancer": true,
+      "polyvalente": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "1d8",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "x7lDAadPkRvnsbL2",
+  "sort": 2400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

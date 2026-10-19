@@ -1,0 +1,33 @@
+{
+  "_id": "5XQS8iI1xOklHW3T",
+  "_key": "!items!5XQS8iI1xOklHW3T",
+  "name": "Arc long",
+  "type": "arme",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "competence": "arc",
+    "categorie": "guerre",
+    "degats": "1d8",
+    "typeDegats": "perforant",
+    "poids": 1.5,
+    "prix": "3 pe",
+    "proprietes": {
+      "munitions": true,
+      "deuxMains": true,
+      "lourde": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "45/180 m",
+    "forMin": 13,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NGnBeEpxeESGaUjl",
+  "sort": 2900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

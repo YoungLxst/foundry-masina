@@ -1,0 +1,27 @@
+{
+  "_id": "xppqstocvaAF9JvN",
+  "_key": "!items!xppqstocvaAF9JvN",
+  "name": "Solide sur ses appuis",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« Ne bouge pas. Ne tremble pas. »",
+    "effet": "<p>+B à ses jets d'attaque à distance.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Sa vitesse tombe à 0 tant qu'il garde cette Posture.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 136,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

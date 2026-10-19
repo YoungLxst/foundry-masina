@@ -1,0 +1,132 @@
+<section class="tab combat {{tab.cssClass}}" data-group="primary" data-tab="combat">
+  <div class="barre-actions">
+    <button type="button" data-action="lireAdversaire" title="Perception contre 10 + B de la cible (ciblez-la avec T)"><i class="fa-solid fa-eye"></i> Lire l'adversaire</button>
+    <button type="button" data-action="jetDefense"><i class="fa-solid fa-shield-halved"></i> Défense active</button>
+    <button type="button" data-action="jetSurvie"><i class="fa-solid fa-heart-pulse"></i> Jet de survie</button>
+    {{#if estPJ}}
+    <button type="button" data-action="deVie" title="Repos court : dépenser un dé de vie"><i class="fa-solid fa-mug-hot"></i> Dé de vie ({{system.deVie.value}}/{{system.deVie.max}} d{{system.deVie.taille}})</button>
+    <button type="button" data-action="reposLong"><i class="fa-solid fa-bed"></i> Repos long</button>
+    {{/if}}
+  </div>
+
+  <div class="colonnes">
+    <div class="colonne">
+      <h2>Posture <small>secrète : choisie au début du tour</small></h2>
+      <div class="boite">
+        <select name="system.combat.posture">{{selectOptions postures selected=source.combat.posture}}</select>
+        {{#if system.defenseClasse}}
+        <p class="defense"><b>{{system.defenseClasse.label}}</b> : {{masinaSigne system.defenseClasse.total}} + 1d10</p>
+        <p class="aide">{{aideDefense}}</p>
+        {{/if}}
+      </div>
+
+      <h2 class="mt">Armes <small>clic sur le nom = attaque</small></h2>
+      <table class="liste">
+        <thead><tr><th>Arme</th><th>Comp.</th><th>Att.</th><th>Dégâts</th><th>Portée</th><th></th></tr></thead>
+        <tbody>
+          {{#each armes}}
+          <tr data-item-id="{{item.id}}" class="{{#unless item.system.equipee}}inactif{{/unless}}">
+            <td><a data-action="jetAttaque" title="Attaquer"><img src="{{item.img}}" class="icone"> {{item.name}}</a></td>
+            <td class="tag">{{item.system.competenceLabel}}</td>
+            <td class="total">{{attaque}}</td>
+            <td>{{degats}}</td>
+            <td class="tag">{{item.system.portee}}</td>
+            <td class="controles">
+              <a data-action="itemBasculer" data-champ="equipee" title="En main / rangée"><i class="fa-solid {{#if item.system.equipee}}fa-hand-fist{{else}}fa-box{{/if}}"></i></a>
+              <a data-action="itemEditer" title="Modifier"><i class="fa-solid fa-pen"></i></a>
+              <a data-action="itemSupprimer" title="Supprimer"><i class="fa-solid fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      <button type="button" class="ajouter" data-action="itemCreer" data-type="arme"><i class="fa-solid fa-plus"></i> Arme</button>
+
+      <h2 class="mt">Armure et boucliers</h2>
+      <table class="liste">
+        <thead><tr><th>Pièce</th><th>Zones</th><th>PA</th><th>DEX max</th><th></th></tr></thead>
+        <tbody>
+          {{#each armures}}
+          <tr data-item-id="{{id}}" class="{{#unless system.equipee}}inactif{{/unless}}">
+            <td><a data-action="itemEditer"><img src="{{img}}" class="icone"> {{name}}</a></td>
+            <td class="tag">{{#if (eq system.categorie "bouclier")}}DP +{{system.dp}}{{else}}{{system.couvreLabel}}{{/if}}</td>
+            <td>{{#if (eq system.categorie "bouclier")}}—{{else}}{{system.pa}}{{/if}}</td>
+            <td>{{#if (eq system.dexMax null)}}—{{else}}{{system.dexMax}}{{/if}}</td>
+            <td class="controles">
+              <a data-action="itemBasculer" data-champ="equipee" title="Portée / retirée"><i class="fa-solid {{#if system.equipee}}fa-shirt{{else}}fa-box{{/if}}"></i></a>
+              <a data-action="itemSupprimer" title="Supprimer"><i class="fa-solid fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      <button type="button" class="ajouter" data-action="itemCreer" data-type="armure"><i class="fa-solid fa-plus"></i> Armure</button>
+
+      <h2 class="mt">États</h2>
+      <div class="boite">
+        <label class="champ">Épuisement<select name="system.epuisement" data-dtype="Number">{{selectOptions choix.epuisement selected=epuisementActuel}}</select></label>
+        <p class="aide">Les autres états (à terre, étourdi, saignement…) se posent sur le jeton (clic droit sur le jeton).</p>
+      </div>
+    </div>
+
+    <div class="colonne">
+      <h2>Blessures et armure <small>seuil torse = PV ÷ 2 · autres = PV ÷ 4</small></h2>
+      <div class="corps">
+        <svg class="silhouette" viewBox="0 0 200 380" role="img" aria-label="Silhouette, vue de face">
+          <circle class="z {{#if zonesParCle.tete.blessuresActives}}blesse{{/if}}" cx="100" cy="40" r="28"/>
+          <rect class="z {{#if zonesParCle.torse.blessuresActives}}blesse{{/if}}" x="62" y="74" width="76" height="122" rx="14"/>
+          <rect class="z {{#if zonesParCle.brasD.blessuresActives}}blesse{{/if}}" x="30" y="78" width="27" height="124" rx="12"/>
+          <rect class="z {{#if zonesParCle.brasG.blessuresActives}}blesse{{/if}}" x="143" y="78" width="27" height="124" rx="12"/>
+          <rect class="z {{#if zonesParCle.jambeD.blessuresActives}}blesse{{/if}}" x="64" y="202" width="34" height="150" rx="12"/>
+          <rect class="z {{#if zonesParCle.jambeG.blessuresActives}}blesse{{/if}}" x="102" y="202" width="34" height="150" rx="12"/>
+          <text x="100" y="38" text-anchor="middle">1</text>
+          <text x="100" y="52" text-anchor="middle" class="pa">PA {{zonesParCle.tete.pa}}</text>
+          <text x="100" y="132" text-anchor="middle">2–4</text>
+          <text x="100" y="148" text-anchor="middle" class="pa">PA {{zonesParCle.torse.pa}}</text>
+          <text x="43" y="136" text-anchor="middle">5</text>
+          <text x="43" y="152" text-anchor="middle" class="pa">{{zonesParCle.brasD.pa}}</text>
+          <text x="157" y="136" text-anchor="middle">6</text>
+          <text x="157" y="152" text-anchor="middle" class="pa">{{zonesParCle.brasG.pa}}</text>
+          <text x="81" y="274" text-anchor="middle">7–8</text>
+          <text x="81" y="290" text-anchor="middle" class="pa">{{zonesParCle.jambeD.pa}}</text>
+          <text x="119" y="274" text-anchor="middle">9–10</text>
+          <text x="119" y="290" text-anchor="middle" class="pa">{{zonesParCle.jambeG.pa}}</text>
+          {{#if zonesParCle.brasD.directeur}}<text x="43" y="220" text-anchor="middle">★</text>{{/if}}
+          {{#if zonesParCle.brasG.directeur}}<text x="157" y="220" text-anchor="middle">★</text>{{/if}}
+          <text x="100" y="372" text-anchor="middle" class="pa">vue de face · D = droite du personnage</text>
+        </svg>
+      </div>
+      <button type="button" class="ajouter" data-action="reparer" title="Remet le PA de toutes les zones à son maximum"><i class="fa-solid fa-hammer"></i> Armure réparée</button>
+
+      <div class="zones">
+        {{#each zones}}
+        <div class="zone {{#if blessuresActives}}blesse{{/if}}">
+          <h3>{{label}} {{#if directeur}}<span class="directeur">★ directeur</span>{{/if}} <small>d10 {{d10}} · seuil <b>{{seuil}}</b></small></h3>
+          <div class="pa-ligne">
+            PA <b class="{{#if usure}}abime{{/if}}">{{pa}}</b> / {{paMax}}
+            <label class="champ-inline">usure <input type="number" name="system.zones.{{cle}}.usure" value="{{usure}}" min="0"></label>
+            {{#if usure}}<a data-action="reparer" data-zone="{{cle}}" title="Réparer cette zone"><i class="fa-solid fa-hammer"></i></a>{{/if}}
+          </div>
+          {{#each blessures}}
+          <div class="blessure {{#if soignee}}soignee{{/if}}">
+            <div class="blessure-titre"><b>{{nom}}</b>
+              <a data-action="blessureSupprimer" data-zone="{{../cle}}" data-index="{{index}}" title="Retirer"><i class="fa-solid fa-xmark"></i></a></div>
+            <div class="effet">{{effet}}</div>
+            <div class="soins">
+              <label class="case"><input type="checkbox" name="system.zones.{{../cle}}.blessures.{{index}}.soignee" {{checked soignee}}> Médecine SD 15 + guérie</label>
+              <label class="champ-inline">repos longs <input type="number" name="system.zones.{{../cle}}.blessures.{{index}}.repos" value="{{repos}}" min="0" max="3"> / 3</label>
+            </div>
+          </div>
+          {{/each}}
+          <div class="ajout-blessure">
+            <select data-blessure-zone="{{cle}}"><option value="">— blessure —</option>{{#each options}}<option value="{{value}}">{{label}}</option>{{/each}}</select>
+            <a data-action="blessureAjouter" data-zone="{{cle}}" title="Ajouter"><i class="fa-solid fa-plus"></i></a>
+            <a data-action="blessureTirer" data-zone="{{cle}}" title="Tirer 1d6"><i class="fa-solid fa-dice"></i></a>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      <p class="aide">Dégâts subis = dégâts − PA de la zone. Un coup qui traverse l'armure lui retire 1 PA (usure). Perce-armure : PA ÷ 2. Main faible : −2 à l'attaque (sauf ambidextre). Guérison : Médecine SD 15 (trousse de chirurgien) puis 3 repos longs.</p>
+    </div>
+  </div>
+</section>

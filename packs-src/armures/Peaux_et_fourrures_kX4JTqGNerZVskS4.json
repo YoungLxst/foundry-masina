@@ -1,0 +1,34 @@
+{
+  "_id": "kX4JTqGNerZVskS4",
+  "_key": "!items!kX4JTqGNerZVskS4",
+  "name": "Peaux et fourrures",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "legere",
+    "couvre": {
+      "tete": false,
+      "torse": true,
+      "bras": true,
+      "jambes": true
+    },
+    "pa": 1,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 4,
+    "prix": "5 pc",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "1shvPnW3GwxP29Fe",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

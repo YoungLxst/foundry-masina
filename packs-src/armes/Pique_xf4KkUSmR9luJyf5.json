@@ -1,0 +1,34 @@
+{
+  "_id": "xf4KkUSmR9luJyf5",
+  "_key": "!items!xf4KkUSmR9luJyf5",
+  "name": "Pique",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesHast",
+    "categorie": "guerre",
+    "degats": "1d10",
+    "typeDegats": "perforant",
+    "poids": 8,
+    "prix": "2 pe",
+    "proprietes": {
+      "deuxMains": true,
+      "lourde": true,
+      "allonge": true,
+      "perceArmure": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "x7lDAadPkRvnsbL2",
+  "sort": 2700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

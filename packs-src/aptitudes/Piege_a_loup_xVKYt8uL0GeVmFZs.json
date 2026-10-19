@@ -1,0 +1,27 @@
+{
+  "_id": "xVKYt8uL0GeVmFZs",
+  "_key": "!items!xVKYt8uL0GeVmFZs",
+  "name": "Piège à loup",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "oeil",
+    "voie": "Le Trappeur",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il pose un piège dans une case adjacente. La première créature qui y entre fait un jet d'Esquive (SD de classe). En cas d'échec, elle subit 2d6 dégâts et est entravée (jet d'Athlétisme pour se libérer).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "YAqi33iW0eJX1GSr",
+  "sort": 347,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

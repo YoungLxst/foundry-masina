@@ -1,0 +1,33 @@
+{
+  "_id": "xPRzR42D1xYpi4Ci",
+  "_key": "!items!xPRzR42D1xYpi4Ci",
+  "name": "Hache danoise",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesLourdes",
+    "categorie": "guerre",
+    "degats": "1d12",
+    "typeDegats": "tranchant",
+    "poids": 3.5,
+    "prix": "4 pe",
+    "proprietes": {
+      "deuxMains": true,
+      "lourde": true,
+      "crochet": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "FWhUuSXbvZJNUiwX",
+  "sort": 1900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+<table class="competences">
+  <thead>
+    <tr><th title="Compétence de classe">Cl.</th><th>Compétence</th><th>Niv.</th><th>Max</th><th>Total</th></tr>
+  </thead>
+  <tbody>
+    {{#each groupes}}
+    <tr class="groupe"><td colspan="5">{{label}}</td></tr>
+    {{#each competences}}
+    <tr class="{{#if estClasse}}classe{{/if}} {{#if depasse}}depasse{{/if}}">
+      <td class="c">{{#if estClasse}}⚔{{/if}}</td>
+      <td class="nom">
+        <a data-action="jetCompetence" data-cle="{{cle}}" title="Jet de {{label}}">{{label}}</a>
+        {{#if cfg.precision}}<input class="precision" type="text" name="system.competences.{{cle}}.precision" value="{{precision}}" placeholder="laquelle ?">{{/if}}
+        <span class="tag">{{tags}}</span>
+      </td>
+      <td class="n"><input type="number" name="system.competences.{{cle}}.niveau" value="{{niveau}}" min="0" max="10"></td>
+      <td class="max">{{max}}</td>
+      <td class="total {{#if faiblesse}}faible{{/if}}" {{#if faiblesse}}title="Faiblesse de classe : −{{@root.system.M}}"{{/if}}>{{total}}</td>
+    </tr>
+    {{/each}}
+    {{/each}}
+  </tbody>
+</table>
+<p class="aide">⚔ compétence de classe · ★ compétence de base · ×2 coût doublé · 🔒 nécessite un maître. Un niveau en rouge dépasse le maximum autorisé.</p>

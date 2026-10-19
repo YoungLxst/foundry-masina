@@ -1,0 +1,34 @@
+{
+  "_id": "OBxb0TdZkUPUx45m",
+  "_key": "!items!OBxb0TdZkUPUx45m",
+  "name": "Arbalète légère",
+  "type": "arme",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "competence": "arbalete",
+    "categorie": "courante",
+    "degats": "1d8",
+    "typeDegats": "perforant",
+    "poids": 2.5,
+    "prix": "1 po",
+    "proprietes": {
+      "munitions": true,
+      "chargement": true,
+      "deuxMains": true,
+      "perceArmure": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "24/96 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "rkiUG6IbeNPMQ5N5",
+  "sort": 3100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

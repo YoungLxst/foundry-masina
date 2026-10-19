@@ -1,0 +1,27 @@
+{
+  "_id": "hk6xJek1RVDnWxfZ",
+  "_key": "!items!hk6xJek1RVDnWxfZ",
+  "name": "Médecin",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "Le Chirurgien de campagne",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il maîtrise le kit de soins. Par une action, il soigne 1d6 + mod. SAG PV à une créature adjacente, une fois par créature et par repos court.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "Kdfw1JWCnQUDiq9X",
+  "sort": 348,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

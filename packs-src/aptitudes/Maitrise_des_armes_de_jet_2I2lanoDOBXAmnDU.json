@@ -1,0 +1,27 @@
+{
+  "_id": "2I2lanoDOBXAmnDU",
+  "_key": "!items!2I2lanoDOBXAmnDU",
+  "name": "Maîtrise des armes de jet",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il maîtrise toutes les armes de jet et à distance (arcs, arbalètes, frondes, javelots, lances de jet…).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 131,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

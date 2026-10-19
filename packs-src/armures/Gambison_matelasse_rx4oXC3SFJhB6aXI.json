@@ -1,0 +1,34 @@
+{
+  "_id": "rx4oXC3SFJhB6aXI",
+  "_key": "!items!rx4oXC3SFJhB6aXI",
+  "name": "Gambison matelassé",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "legere",
+    "couvre": {
+      "tete": false,
+      "torse": true,
+      "bras": true,
+      "jambes": false
+    },
+    "pa": 2,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 4,
+    "prix": "1 pe",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": true,
+    "particularite": "",
+    "description": "<p>Superposition : porté sous une broigne, une cotte, un haubert ou des écailles, il ajoute +1 PA aux zones qu'ils couvrent tous les deux.</p>"
+  },
+  "effects": [],
+  "folder": "1shvPnW3GwxP29Fe",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

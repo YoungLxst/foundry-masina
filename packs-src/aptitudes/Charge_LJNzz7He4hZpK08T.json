@@ -1,0 +1,27 @@
+{
+  "_id": "LJNzz7He4hZpK08T",
+  "_key": "!items!LJNzz7He4hZpK08T",
+  "name": "Charge",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "soldat",
+    "voie": "L'Enragé",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il se déplace en ligne droite du double de sa vitesse, puis attaque. S'il a parcouru au moins 6 m, la cible fait un jet d'Athlétisme (SD de classe) ou tombe à terre.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "refhDTFR8jGyzljq",
+  "sort": 313,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "IKl9p2zEASEXeuuY",
+  "_key": "!items!IKl9p2zEASEXeuuY",
+  "name": "Haubert (mailles longues)",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "lourde",
+    "couvre": {
+      "tete": false,
+      "torse": true,
+      "bras": true,
+      "jambes": true
+    },
+    "pa": 6,
+    "dexMax": 1,
+    "forMin": 13,
+    "desavDiscretion": true,
+    "poids": 18,
+    "prix": "5 po",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "1shvPnW3GwxP29Fe",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

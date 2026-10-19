@@ -1,0 +1,27 @@
+{
+  "_id": "AERwCFfqCMPG0QUQ",
+  "_key": "!items!AERwCFfqCMPG0QUQ",
+  "name": "Attaque supplémentaire",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Quand le Soldat utilise son action pour attaquer, il peut faire deux attaques au lieu d'une.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 511,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+<div class="masina-jet">
+  {{#if critique}}<p class="note"><b>Coup critique</b> : ×2 sur le dé d'arme (ajouté automatiquement).</p>{{/if}}
+  {{#if zone}}<p class="note">Zone visée : <b>{{zone}}</b>.</p>{{else}}<p class="note">La zone sera tirée au d10 (tête : ×2).</p>{{/if}}
+  <div class="form-group">
+    <label>Multiplicateur de Technique</label>
+    <select name="mult">
+      <option value="1" {{#if (eq mult 1)}}selected{{/if}}>Aucun</option>
+      <option value="2" {{#if (eq mult 2)}}selected{{/if}}>×2 (Coup bas, riposte…)</option>
+      <option value="3" {{#if (eq mult 3)}}selected{{/if}}>×3 (Poignard dans le dos…)</option>
+    </select>
+    <p class="hint">Les multiplicateurs s'additionnent : ×3 et un critique donnent ×4.</p>
+  </div>
+  <div class="form-group">
+    <label>Dés en plus</label>
+    <input type="text" name="supp" placeholder="{{#if lameVicieuse}}1d6 (Lame vicieuse){{else}}ex. 1d6{{/if}}">
+    <p class="hint">+1 DA, Lame vicieuse… Ces dés ne sont jamais multipliés.</p>
+  </div>
+  <div class="form-group">
+    <label>Bonus fixe</label>
+    <input type="number" name="bonus" value="0">
+  </div>
+  <div class="form-group">
+    <label>Dégâts maximum</label>
+    <input type="checkbox" name="maximiser">
+    <p class="hint">Contre un Fourbe dont la Parade a échoué.</p>
+  </div>
+</div>

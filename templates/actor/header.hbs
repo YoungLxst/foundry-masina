@@ -1,0 +1,43 @@
+<header class="masina-entete">
+  <img class="portrait" src="{{actor.img}}" alt="{{actor.name}}" data-action="choisirPortrait" title="Changer le portrait">
+  <div class="identite">
+    <input class="nom" type="text" name="name" value="{{actor.name}}" placeholder="Nom">
+    {{#if estPJ}}
+    <div class="grille-identite">
+      <label class="champ">Joueur<input type="text" name="system.identite.joueur" value="{{source.identite.joueur}}"></label>
+      <label class="champ">Peuple<select name="system.identite.race">{{selectOptions choix.races selected=source.identite.race}}</select></label>
+      <label class="champ">Origine / clan / lignée<input type="text" name="system.identite.origine" value="{{source.identite.origine}}" placeholder="Marqué ?"></label>
+      <label class="champ">Classe<select name="system.identite.classe">{{selectOptions choix.classes selected=source.identite.classe}}</select></label>
+      <label class="champ">Voie<input type="text" name="system.identite.voie" value="{{source.identite.voie}}" placeholder="au niveau 3"></label>
+      <label class="champ court">Niveau<input type="number" name="system.identite.niveau" value="{{source.identite.niveau}}" min="1" max="20"></label>
+      <label class="champ">Latéralité<select name="system.identite.lateralite">{{selectOptions choix.lateralites selected=source.identite.lateralite}}</select></label>
+      <label class="champ">Âge · taille<input type="text" name="system.identite.age" value="{{source.identite.age}}"></label>
+      <label class="champ">Regard des autres<input type="text" value="{{regard}}" disabled></label>
+    </div>
+    {{else}}
+    <div class="grille-identite">
+      <label class="champ">Rang<select name="system.rang">{{selectOptions choix.rangs selected=source.rang}}</select></label>
+      <label class="champ court">B (forcé)<input type="number" name="system.bonusB" value="{{source.bonusB}}" placeholder="—"></label>
+      <label class="champ">Classe<select name="system.classe">{{selectOptions choix.classes selected=source.classe}}</select></label>
+      <label class="champ">Peuple<select name="system.race">{{selectOptions choix.races selected=source.race}}</select></label>
+    </div>
+    {{/if}}
+  </div>
+
+  <div class="valeurs-cles">
+    <div class="pastille pv">
+      <span>PV</span>
+      <div class="pv-ligne">
+        <input type="number" name="system.pv.value" value="{{source.pv.value}}">
+        <b>/</b>
+        <input type="number" name="system.pv.max" value="{{source.pv.max}}">
+      </div>
+    </div>
+    <div class="pastille" title="Défense passive : VC CON + VC DEX (limitée par l'armure) + bouclier"><span>DP</span><strong>{{system.dp}}</strong></div>
+    <div class="pastille" title="Bonus de classe : fixe le niveau maximum des compétences"><span>B</span><strong>+{{system.B}}</strong></div>
+    {{#if estPJ}}<div class="pastille" title="Malus de classe sur la faiblesse"><span>M</span><strong>{{#if system.M}}−{{system.M}}{{else}}0{{/if}}</strong></div>{{/if}}
+    <div class="pastille" title="SD de classe : 7 + VC principale + B"><span>SD classe</span><strong>{{system.sdClasse}}</strong></div>
+    <div class="pastille" title="SD pour lire votre Posture : 10 + B"><span>Lecture</span><strong>{{system.sdLecture}}</strong></div>
+    <div class="pastille"><span>Vitesse</span><strong>{{system.vitesse}} m</strong></div>
+  </div>
+</header>

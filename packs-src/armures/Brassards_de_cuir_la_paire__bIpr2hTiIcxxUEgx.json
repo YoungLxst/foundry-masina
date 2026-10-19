@@ -1,0 +1,34 @@
+{
+  "_id": "bIpr2hTiIcxxUEgx",
+  "_key": "!items!bIpr2hTiIcxxUEgx",
+  "name": "Brassards de cuir (la paire)",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "piece",
+    "couvre": {
+      "tete": false,
+      "torse": false,
+      "bras": true,
+      "jambes": false
+    },
+    "pa": 2,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 1,
+    "prix": "5 pc",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NnbQ49ZUGOnpX3Zc",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,66 @@
+<section class="tab equipement {{tab.cssClass}}" data-group="primary" data-tab="equipement">
+  <div class="colonnes">
+    <div class="colonne">
+      <h2>Sac et matériel</h2>
+      <table class="liste">
+        <thead><tr><th>Objet</th><th>Qté</th><th>Poids</th><th></th></tr></thead>
+        <tbody>
+          {{#each objets}}
+          <tr data-item-id="{{id}}">
+            <td><a data-action="itemEditer"><img src="{{img}}" class="icone"> {{name}}</a></td>
+            <td>{{system.quantite}}</td>
+            <td class="tag">{{system.poids}} kg</td>
+            <td class="controles">
+              <a data-action="itemChat" title="Montrer dans le chat"><i class="fa-solid fa-comment"></i></a>
+              <a data-action="itemSupprimer" title="Supprimer"><i class="fa-solid fa-trash"></i></a>
+            </td>
+          </tr>
+          {{else}}<tr><td colspan="4" class="vide">Rien dans le sac.</td></tr>
+          {{/each}}
+        </tbody>
+      </table>
+      <button type="button" class="ajouter" data-action="itemCreer" data-type="objet"><i class="fa-solid fa-plus"></i> Objet</button>
+
+      <h2 class="mt">Charge</h2>
+      <div class="pastilles">
+        <div class="pastille {{#if system.charge.charge}}mauvais{{/if}}"><span>Portée</span><strong>{{system.charge.value}} kg</strong></div>
+        <div class="pastille"><span>Normale</span><strong>{{system.charge.normale}} kg</strong></div>
+        <div class="pastille"><span>Maximum</span><strong>{{system.charge.max}} kg</strong></div>
+      </div>
+      <p class="aide">Une armure portée compte pour la moitié de son poids. Chargé : −3 m de vitesse, désavantage en Acrobaties, Discrétion et Esquive.{{#if system.armure.desavDiscretion}} <b>Votre armure impose le désavantage en Discrétion.</b>{{/if}}</p>
+    </div>
+
+    <div class="colonne">
+      {{#if estPJ}}
+      <h2>Bourse</h2>
+      <div class="bourse">
+        <label class="champ">pf <small>fer</small><input type="number" name="system.argent.pf" value="{{source.argent.pf}}" min="0"></label>
+        <label class="champ">pc <small>cuivre</small><input type="number" name="system.argent.pc" value="{{source.argent.pc}}" min="0"></label>
+        <label class="champ">pe <small>électrum</small><input type="number" name="system.argent.pe" value="{{source.argent.pe}}" min="0"></label>
+        <label class="champ">po <small>or</small><input type="number" name="system.argent.po" value="{{source.argent.po}}" min="0"></label>
+        <label class="champ">pp <small>platine</small><input type="number" name="system.argent.pp" value="{{source.argent.pp}}" min="0"></label>
+      </div>
+      <p class="aide">1 pc = 10 pf · 1 pe = 20 pc · 1 po = 5 pe = 100 pc · 1 pp = 10 po</p>
+      {{/if}}
+
+      <h2 class="mt">Traits <small>peuple, voie, autres</small></h2>
+      <ul class="aptitudes">
+        {{#each traits}}
+        <li class="aptitude" data-item-id="{{id}}">
+          <div class="aptitude-tete">
+            <img src="{{img}}" class="icone">
+            <a class="aptitude-nom" data-action="itemChat">{{name}}</a>
+            <span class="controles">
+              <a data-action="itemEditer"><i class="fa-solid fa-pen"></i></a>
+              <a data-action="itemSupprimer"><i class="fa-solid fa-trash"></i></a>
+            </span>
+          </div>
+          <div class="aptitude-texte">{{{system.description}}}</div>
+        </li>
+        {{else}}<li class="vide">—</li>
+        {{/each}}
+      </ul>
+      <button type="button" class="ajouter" data-action="itemCreer" data-type="trait"><i class="fa-solid fa-plus"></i> Trait</button>
+    </div>
+  </div>
+</section>

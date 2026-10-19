@@ -1,0 +1,27 @@
+{
+  "_id": "BJhOm5igorPVlqaz",
+  "_key": "!items!BJhOm5igorPVlqaz",
+  "name": "Pression sanguinaire",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 4,
+    "limite": "aucune",
+    "citation": "« Je vois le flot de son sang. »",
+    "effet": "<p>Ses tirs qui touchent provoquent un saignement de 1d4 dégâts au début du tour de la cible, pendant 2 rounds. Cumulable jusqu'à 3 saignements.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 442,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

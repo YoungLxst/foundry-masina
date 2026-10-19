@@ -1,0 +1,34 @@
+{
+  "_id": "CjiFOCOR7LdEtQc1",
+  "_key": "!items!CjiFOCOR7LdEtQc1",
+  "name": "Calotte de cuir",
+  "type": "armure",
+  "img": "icons/svg/helmet.svg",
+  "system": {
+    "categorie": "casque",
+    "couvre": {
+      "tete": true,
+      "torse": false,
+      "bras": false,
+      "jambes": false
+    },
+    "pa": 1,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 0.5,
+    "prix": "5 pc",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NnbQ49ZUGOnpX3Zc",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

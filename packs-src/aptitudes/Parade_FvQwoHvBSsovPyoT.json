@@ -1,0 +1,27 @@
+{
+  "_id": "FvQwoHvBSsovPyoT",
+  "_key": "!items!FvQwoHvBSsovPyoT",
+  "name": "Parade",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Défense de classe, au corps à corps uniquement. Jet de VC DEX + Parade + 1d10 contre le total de l'attaque. Réussite : l'attaque est annulée et il riposte (DA ×2 + modificateur). Échec : il subit les dégâts maximum de l'arme ennemie.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 117,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

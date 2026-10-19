@@ -1,0 +1,65 @@
+<section class="tab principal {{tab.cssClass}}" data-group="primary" data-tab="principal">
+  <div class="colonnes">
+    <div class="colonne">
+      <h2>Caractéristiques <small>VC = score ÷ 2 · clic = jet</small></h2>
+      <div class="caracs">
+        {{#each caracs}}
+        <div class="carac">
+          <a class="carac-nom" data-action="jetCarac" data-cle="{{cle}}" title="Jet de {{label}} (VC + 1d10)">{{abbr}}</a>
+          <input type="number" name="system.caracs.{{cle}}.value" value="{{value}}" min="1" max="20">
+          <div class="vc"><small>VC</small>{{vc}}</div>
+          <div class="mod" title="Modificateur (VC − 5)">{{modTexte}}</div>
+        </div>
+        {{/each}}
+      </div>
+
+      {{#if estPJ}}
+      <div class="pastilles mt">
+        <div class="pastille"><span>Emplacements</span><strong>{{system.emplacements}}</strong></div>
+        <div class="pastille"><span>Max classe</span><strong>{{system.maxClasse}}</strong></div>
+        <div class="pastille"><span>Max autres</span><strong>{{system.maxAutres}}</strong></div>
+      </div>
+
+      <h2 class="mt">Création <small>30 points · +1 niveau = 1 point (×2 = 2 points)</small></h2>
+      <div class="boite creation">
+        <label class="champ court">Niveaux gratuits (peuple)<input type="number" name="system.creation.gratuits" value="{{source.creation.gratuits}}" min="0"></label>
+        <div class="points {{#if (gt system.creation.depenses system.creation.disponibles)}}mauvais{{else if (eq system.creation.depenses system.creation.disponibles)}}bon{{/if}}">
+          Dépensés : <b>{{system.creation.depenses}}</b> / {{system.creation.disponibles}}
+        </div>
+        <p class="aide">Les niveaux gratuits du peuple s'ajoutent au total disponible. L'ambidextrie coûte 3 points.</p>
+      </div>
+
+      <h2 class="mt">Expérience <small>compétence : 10 × niveau visé (×2) · classe : 40 × niveau visé</small></h2>
+      <div class="pastilles">
+        <label class="champ">XP gagnés<input type="number" name="system.xp.gain" value="{{source.xp.gain}}"></label>
+        <label class="champ">XP dépensés<input type="number" name="system.xp.depense" value="{{source.xp.depense}}"></label>
+        <div class="pastille"><span>Disponibles</span><strong>{{system.xp.disponibles}}</strong></div>
+      </div>
+
+      <h2 class="mt">Corruption <small>marque aux paliers 3, 5, 7 et 9</small></h2>
+      <div class="corruption">
+        <input type="range" name="system.corruption" value="{{source.corruption}}" min="0" max="10" step="1">
+        <strong>{{system.corruption}} / 10</strong>
+      </div>
+      <div class="marques">
+        {{#each marques}}
+        <div class="marque {{#if atteint}}atteint{{/if}} {{#if marque}}active{{/if}}">
+          <h3>Palier {{seuil}} <small>{{label}}</small></h3>
+          <select name="system.marques.{{cle}}.marque">{{selectOptions @root.choix.marques selected=marque}}</select>
+          {{#if details}}
+          <p><b>Signe :</b> {{details.signe}}<br><b>Donne :</b> {{details.donne}}<br><b>Prend :</b> {{details.prend}}{{#if aggravee}} <b>(doublé)</b>{{/if}}</p>
+          {{else if atteint}}<p class="aide">Palier atteint : lancez 1d10 sur la table des marques.</p>{{/if}}
+          <label class="case"><input type="checkbox" name="system.marques.{{cle}}.aggravee" {{checked aggravee}}> Aggravée</label>
+          <label class="case"><input type="checkbox" name="system.marques.{{cle}}.cachee" {{checked cachee}}> Cachée</label>
+        </div>
+        {{/each}}
+      </div>
+      {{/if}}
+    </div>
+
+    <div class="colonne">
+      <h2>Compétences <small>total = VC + niveau (− M) · jet = total + 1d10 · Maj+clic = jet rapide</small></h2>
+      {{> "systems/masina/templates/actor/partials/competences.hbs"}}
+    </div>
+  </div>
+</section>

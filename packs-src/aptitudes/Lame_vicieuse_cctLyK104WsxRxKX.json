@@ -1,0 +1,27 @@
+{
+  "_id": "cctLyK104WsxRxKX",
+  "_key": "!items!cctLyK104WsxRxKX",
+  "name": "Lame vicieuse",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Une fois par tour, quand il touche une cible contre laquelle il a l'avantage, ou qu'un allié lui est adjacent, il inflige +1 DA. Ce bonus passe à +2 DA au niveau 9 et à +3 DA au niveau 17. Ces dés ne sont jamais multipliés.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 118,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "jCQt6pb8WJjmbB2Y",
+  "_key": "!items!jCQt6pb8WJjmbB2Y",
+  "name": "Pic de guerre",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesUneMain",
+    "categorie": "guerre",
+    "degats": "1d8",
+    "typeDegats": "perforant",
+    "poids": 1.5,
+    "prix": "2 pe",
+    "proprietes": {
+      "perceArmure": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "3lY2LxmcyBB3QrR0",
+  "sort": 1600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

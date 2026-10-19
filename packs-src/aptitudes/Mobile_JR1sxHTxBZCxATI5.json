@@ -1,0 +1,27 @@
+{
+  "_id": "JR1sxHTxBZCxATI5",
+  "_key": "!items!JR1sxHTxBZCxATI5",
+  "name": "Mobile",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Quand il fait l'alternative (action + mouvement), son mouvement n'est pas divisé par deux.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 133,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "SFjgbHygHE8atOkr",
+  "_key": "!items!SFjgbHygHE8atOkr",
+  "name": "Targe (petit bouclier)",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "bouclier",
+    "couvre": {
+      "tete": false,
+      "torse": false,
+      "bras": false,
+      "jambes": false
+    },
+    "pa": 0,
+    "dexMax": null,
+    "dp": 1,
+    "forMin": 0,
+    "particularite": "Permet la Parade",
+    "desavDiscretion": false,
+    "sousCouche": false,
+    "poids": 1.5,
+    "prix": "5 pc",
+    "equipee": true,
+    "description": "<p>Permet la Parade</p>"
+  },
+  "effects": [],
+  "folder": "CO2qHX9ADSfMHQjx",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

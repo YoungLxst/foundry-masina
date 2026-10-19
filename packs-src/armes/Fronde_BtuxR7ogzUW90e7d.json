@@ -1,0 +1,31 @@
+{
+  "_id": "BtuxR7ogzUW90e7d",
+  "_key": "!items!BtuxR7ogzUW90e7d",
+  "name": "Fronde",
+  "type": "arme",
+  "img": "icons/svg/thrust.svg",
+  "system": {
+    "competence": "armesJet",
+    "categorie": "courante",
+    "degats": "1d4",
+    "typeDegats": "contondant",
+    "poids": 0,
+    "prix": "2 pf",
+    "proprietes": {
+      "munitions": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "9/36 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9bXWAKHu3cpRlW82",
+  "sort": 3400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

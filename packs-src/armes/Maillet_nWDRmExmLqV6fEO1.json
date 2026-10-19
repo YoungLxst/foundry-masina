@@ -1,0 +1,32 @@
+{
+  "_id": "nWDRmExmLqV6fEO1",
+  "_key": "!items!nWDRmExmLqV6fEO1",
+  "name": "Maillet",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesLourdes",
+    "categorie": "guerre",
+    "degats": "2d6",
+    "typeDegats": "contondant",
+    "poids": 5,
+    "prix": "2 pe",
+    "proprietes": {
+      "deuxMains": true,
+      "lourde": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "FWhUuSXbvZJNUiwX",
+  "sort": 1800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

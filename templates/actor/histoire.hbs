@@ -1,0 +1,14 @@
+<section class="tab histoire {{tab.cssClass}}" data-group="primary" data-tab="histoire">
+  {{#if estPJ}}
+  <label class="champ">Concept <small>en une phrase</small><input type="text" name="system.identite.concept" value="{{source.identite.concept}}" placeholder="Ancien sergent des plaines, chassé de l'armée pour avoir frappé un noble…"></label>
+  <h2 class="mt">Histoire</h2>
+  {{formInput systemFields.histoire name="system.histoire" value=source.histoire enriched=enrichi.histoire toggled=true}}
+  <h2 class="mt">Liens et motivations</h2>
+  {{formInput systemFields.liens name="system.liens" value=source.liens enriched=enrichi.liens toggled=true}}
+  {{else}}
+  <h2>Description</h2>
+  {{formInput systemFields.description name="system.description" value=source.description enriched=enrichi.description toggled=true}}
+  {{/if}}
+  <h2 class="mt">Notes et marques</h2>
+  {{formInput systemFields.notes name="system.notes" value=source.notes enriched=enrichi.notes toggled=true}}
+</section>

@@ -1,0 +1,32 @@
+{
+  "_id": "nFUr505xTKCY7Ma3",
+  "_key": "!items!nFUr505xTKCY7Ma3",
+  "name": "Couteau de lancer",
+  "type": "arme",
+  "img": "icons/svg/thrust.svg",
+  "system": {
+    "competence": "armesJet",
+    "categorie": "courante",
+    "degats": "1d4",
+    "typeDegats": "perforant",
+    "poids": 0.2,
+    "prix": "5 pc",
+    "proprietes": {
+      "finesse": true,
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "6/18 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9bXWAKHu3cpRlW82",
+  "sort": 3500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

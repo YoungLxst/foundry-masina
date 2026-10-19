@@ -1,0 +1,27 @@
+{
+  "_id": "6AhhGnwZ3sRi7iNV",
+  "_key": "!items!6AhhGnwZ3sRi7iNV",
+  "name": "Maître du bouclier",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "soldat",
+    "voie": "Le Rempart",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Avec un bouclier, il peut bloquer les attaques à distance sans désavantage et ajoute +1 à tous ses jets de Blocage.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "cfkMFwVXBWw6t95x",
+  "sort": 314,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

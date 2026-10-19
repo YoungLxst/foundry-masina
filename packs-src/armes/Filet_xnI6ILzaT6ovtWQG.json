@@ -1,0 +1,32 @@
+{
+  "_id": "xnI6ILzaT6ovtWQG",
+  "_key": "!items!xnI6ILzaT6ovtWQG",
+  "name": "Filet",
+  "type": "arme",
+  "img": "icons/svg/thrust.svg",
+  "system": {
+    "competence": "armesJet",
+    "categorie": "guerre",
+    "degats": "0",
+    "typeDegats": "",
+    "poids": 1.5,
+    "prix": "5 pc",
+    "proprietes": {
+      "special": true,
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "1,5/4,5 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": "<p>Si l'attaque touche, la cible (de taille Moyenne ou plus petite) est entravée. Se libérer demande une action et un jet d'Athlétisme ou d'Acrobaties SD 13. On peut aussi trancher le filet : 5 dégâts tranchants le détruisent.</p>"
+  },
+  "effects": [],
+  "folder": "9bXWAKHu3cpRlW82",
+  "sort": 3900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "cV9ex4LCGxNOw02E",
+  "_key": "!items!cV9ex4LCGxNOw02E",
+  "name": "Lame enduite",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "fourbe",
+    "voie": "L'Empoisonneur",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Il enduit son arme d'une dose (action libre) puis attaque. Si l'attaque touche : +1d6 poison, et la cible fait un jet de Résistance (SD de classe) ou elle est empoisonnée (désavantage à ses attaques) pendant 1 minute. Elle refait le jet à la fin de chacun de ses tours.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "hwNpcfetSlqxR6R0",
+  "sort": 328,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

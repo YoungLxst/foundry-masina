@@ -1,0 +1,34 @@
+{
+  "_id": "9Q8jxDCQxPpZ0JCl",
+  "_key": "!items!9Q8jxDCQxPpZ0JCl",
+  "name": "Grand bouclier (pavois)",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "bouclier",
+    "couvre": {
+      "tete": false,
+      "torse": false,
+      "bras": false,
+      "jambes": false
+    },
+    "pa": 0,
+    "dexMax": null,
+    "dp": 3,
+    "forMin": 13,
+    "particularite": "Désavantage en Acrobaties",
+    "desavDiscretion": false,
+    "sousCouche": false,
+    "poids": 6,
+    "prix": "3 pe",
+    "equipee": true,
+    "description": "<p>Désavantage en Acrobaties</p>"
+  },
+  "effects": [],
+  "folder": "CO2qHX9ADSfMHQjx",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "MS3wxX64XDlRxqNv",
+  "_key": "!items!MS3wxX64XDlRxqNv",
+  "name": "Coup bas",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 3,
+    "limite": "aucune",
+    "citation": "« La guerre, c'est une question d'angle. »",
+    "effet": "<p>Il attaque un ennemi distrait (adjacent à un allié du Fourbe, ou qui ne l'a pas ciblé depuis son dernier tour) et inflige DA ×2.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> −2 DP jusqu'à son prochain tour (en plus d'être à découvert).</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 323,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

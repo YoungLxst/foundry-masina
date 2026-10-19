@@ -1,0 +1,34 @@
+{
+  "_id": "oGGHaHxeJsoxA9oE",
+  "_key": "!items!oGGHaHxeJsoxA9oE",
+  "name": "Casque fermé (à masque)",
+  "type": "armure",
+  "img": "icons/svg/helmet.svg",
+  "system": {
+    "categorie": "casque",
+    "couvre": {
+      "tete": true,
+      "torse": false,
+      "bras": false,
+      "jambes": false
+    },
+    "pa": 5,
+    "dexMax": null,
+    "forMin": 0,
+    "desavDiscretion": false,
+    "poids": 2.5,
+    "prix": "1 po",
+    "dp": 0,
+    "equipee": true,
+    "sousCouche": false,
+    "particularite": "−2 en Perception",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "NnbQ49ZUGOnpX3Zc",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

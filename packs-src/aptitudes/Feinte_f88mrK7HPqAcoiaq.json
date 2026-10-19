@@ -1,0 +1,27 @@
+{
+  "_id": "f88mrK7HPqAcoiaq",
+  "_key": "!items!f88mrK7HPqAcoiaq",
+  "name": "Feinte",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 2,
+    "limite": "aucune",
+    "citation": "« Regarde ma main droite. »",
+    "effet": "<p>Si une attaque rate contre lui, sa prochaine attaque contre cet ennemi a l'avantage et l'ennemi perd sa Posture (à découvert) jusqu'à la fin de son prochain tour.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 222,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

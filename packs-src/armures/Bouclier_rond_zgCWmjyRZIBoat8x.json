@@ -1,0 +1,34 @@
+{
+  "_id": "zgCWmjyRZIBoat8x",
+  "_key": "!items!zgCWmjyRZIBoat8x",
+  "name": "Bouclier rond",
+  "type": "armure",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "categorie": "bouclier",
+    "couvre": {
+      "tete": false,
+      "torse": false,
+      "bras": false,
+      "jambes": false
+    },
+    "pa": 0,
+    "dexMax": null,
+    "dp": 2,
+    "forMin": 0,
+    "particularite": "Permet le Blocage à distance",
+    "desavDiscretion": false,
+    "sousCouche": false,
+    "poids": 3,
+    "prix": "1 pe",
+    "equipee": true,
+    "description": "<p>Permet le Blocage à distance</p>"
+  },
+  "effects": [],
+  "folder": "CO2qHX9ADSfMHQjx",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

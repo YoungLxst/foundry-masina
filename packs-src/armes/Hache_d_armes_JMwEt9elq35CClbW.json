@@ -1,0 +1,32 @@
+{
+  "_id": "JMwEt9elq35CClbW",
+  "_key": "!items!JMwEt9elq35CClbW",
+  "name": "Hache d'armes",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesUneMain",
+    "categorie": "guerre",
+    "degats": "1d8",
+    "typeDegats": "tranchant",
+    "poids": 2,
+    "prix": "3 pe",
+    "proprietes": {
+      "polyvalente": true,
+      "crochet": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "1d10",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "3lY2LxmcyBB3QrR0",
+  "sort": 1200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

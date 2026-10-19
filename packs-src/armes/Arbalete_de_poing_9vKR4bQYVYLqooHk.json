@@ -1,0 +1,34 @@
+{
+  "_id": "9vKR4bQYVYLqooHk",
+  "_key": "!items!9vKR4bQYVYLqooHk",
+  "name": "Arbalète de poing",
+  "type": "arme",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "competence": "arbalete",
+    "categorie": "guerre",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 1.5,
+    "prix": "3 po",
+    "proprietes": {
+      "munitions": true,
+      "chargement": true,
+      "legere": true,
+      "rare": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "9/36 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "rkiUG6IbeNPMQ5N5",
+  "sort": 3300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "Sb1dqk3QxNm3TBcb",
+  "_key": "!items!Sb1dqk3QxNm3TBcb",
+  "name": "Masque du lâche",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 4,
+    "limite": "combat",
+    "citation": "« On ne frappe pas celui qui se couche. »",
+    "effet": "<p>Il simule une reddition, avec un jet de Tromperie contre l'Intuition de la cible. En cas de réussite, la cible ne l'attaque pas jusqu'à son prochain tour, et sa prochaine attaque contre elle a l'avantage et un critique sur 9–10.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 424,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

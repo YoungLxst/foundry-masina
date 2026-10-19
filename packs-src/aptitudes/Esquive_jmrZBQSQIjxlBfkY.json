@@ -1,0 +1,27 @@
+{
+  "_id": "jmrZBQSQIjxlBfkY",
+  "_key": "!items!jmrZBQSQIjxlBfkY",
+  "name": "Esquive",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Défense de classe. Jet de VC DEX + Esquive + 1d10 contre le total de l'attaque. Réussite : attaque annulée, et il se déplace de 1,5 m sans attaque d'opportunité.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 134,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

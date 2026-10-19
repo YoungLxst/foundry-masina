@@ -1,0 +1,32 @@
+{
+  "_id": "WwVJG4RolHdDbttJ",
+  "_key": "!items!WwVJG4RolHdDbttJ",
+  "name": "Massue",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesLourdes",
+    "categorie": "courante",
+    "degats": "1d8",
+    "typeDegats": "contondant",
+    "poids": 5,
+    "prix": "5 pc",
+    "proprietes": {
+      "deuxMains": true,
+      "lourde": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "FWhUuSXbvZJNUiwX",
+  "sort": 1700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

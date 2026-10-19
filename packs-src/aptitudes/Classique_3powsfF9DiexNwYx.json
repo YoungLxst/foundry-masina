@@ -1,0 +1,27 @@
+{
+  "_id": "3powsfF9DiexNwYx",
+  "_key": "!items!3powsfF9DiexNwYx",
+  "name": "Classique",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« Je fais ce que je sais faire. »",
+    "effet": "<p>Il peut utiliser l'Esquive comme défense. Il ajoute son modificateur d'Intelligence aux dégâts de ses attaques.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Il ne peut pas parer.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 121,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

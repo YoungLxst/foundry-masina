@@ -1,0 +1,33 @@
+{
+  "_id": "MqdFnI3rRFomgCZL",
+  "_key": "!items!MqdFnI3rRFomgCZL",
+  "name": "Coutille",
+  "type": "arme",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "competence": "armesHast",
+    "categorie": "guerre",
+    "degats": "1d10",
+    "typeDegats": "tranchant",
+    "poids": 3,
+    "prix": "3 pe",
+    "proprietes": {
+      "deuxMains": true,
+      "lourde": true,
+      "allonge": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "x7lDAadPkRvnsbL2",
+  "sort": 2500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

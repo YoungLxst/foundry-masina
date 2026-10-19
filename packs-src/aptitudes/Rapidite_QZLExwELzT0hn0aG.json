@@ -1,0 +1,27 @@
+{
+  "_id": "QZLExwELzT0hn0aG",
+  "_key": "!items!QZLExwELzT0hn0aG",
+  "name": "Rapidité",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "« Deux flèches, un souffle. »",
+    "effet": "<p>Il fait une attaque à distance supplémentaire quand il attaque.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Ses attaques à distance de ce tour n'ajoutent pas de modificateur de caractéristique aux dégâts, et il ne peut pas utiliser Pluie de flèches.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 137,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

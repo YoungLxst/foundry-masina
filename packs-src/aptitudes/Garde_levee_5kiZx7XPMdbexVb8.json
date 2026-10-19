@@ -1,0 +1,27 @@
+{
+  "_id": "5kiZx7XPMdbexVb8",
+  "_key": "!items!5kiZx7XPMdbexVb8",
+  "name": "Garde levée",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 2,
+    "limite": "aucune",
+    "citation": "« Viens. Essaie. »",
+    "effet": "<p>Son prochain Blocage avant le début de son prochain tour réussit automatiquement et annule les dégâts.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Adopter cette posture consomme son action ; il ne peut pas attaquer ce tour-ci.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 206,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

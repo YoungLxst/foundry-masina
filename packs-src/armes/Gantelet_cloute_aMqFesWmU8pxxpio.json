@@ -1,0 +1,29 @@
+{
+  "_id": "aMqFesWmU8pxxpio",
+  "_key": "!items!aMqFesWmU8pxxpio",
+  "name": "Gantelet clouté",
+  "type": "arme",
+  "img": "icons/svg/fist.svg",
+  "system": {
+    "competence": "bagarre",
+    "categorie": "courante",
+    "degats": "1d4",
+    "typeDegats": "contondant",
+    "poids": 0.5,
+    "prix": "1 pe",
+    "proprietes": {},
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "2z1gLGNxXHZQfH6v",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

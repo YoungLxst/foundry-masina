@@ -1,0 +1,27 @@
+{
+  "_id": "dCojhBalyFlJnL68",
+  "_key": "!items!dCojhBalyFlJnL68",
+  "name": "Poignard dans le dos",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "« L'angle parfait existe. »",
+    "effet": "<p>Il attaque une cible qui ne le voit pas ou qui est engagée au corps à corps par un allié, et inflige DA ×3.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Les attaques contre lui ont l'avantage jusqu'à son prochain tour.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 526,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

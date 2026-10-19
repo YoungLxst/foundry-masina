@@ -1,0 +1,31 @@
+{
+  "_id": "jZFuvvHoKExVdk3d",
+  "_key": "!items!jZFuvvHoKExVdk3d",
+  "name": "Javelot",
+  "type": "arme",
+  "img": "icons/svg/thrust.svg",
+  "system": {
+    "competence": "armesJet",
+    "categorie": "courante",
+    "degats": "1d6",
+    "typeDegats": "perforant",
+    "poids": 1,
+    "prix": "5 pc",
+    "proprietes": {
+      "lancer": true
+    },
+    "equipee": true,
+    "degatsDeuxMains": "",
+    "portee": "9/36 m",
+    "forMin": 0,
+    "qualite": "fer",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9bXWAKHu3cpRlW82",
+  "sort": 3600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

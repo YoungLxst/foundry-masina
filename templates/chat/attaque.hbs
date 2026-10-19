@@ -1,0 +1,9 @@
+{{#if critique}}<div class="degre exceptionnelle">Coup critique ! Le dé d'arme compte ×2.</div>{{/if}}
+{{#if maladresse}}<div class="degre grave">Maladresse : le MJ peut imposer un contretemps.</div>{{/if}}
+{{#if zone}}<div class="note">Zone visée : {{zone}}</div>{{/if}}
+{{#if deuxMains}}<div class="note">À deux mains</div>{{/if}}
+{{#if cibles.length}}
+<ul class="cibles">
+  {{#each cibles}}<li class="{{#if touche}}ok{{else}}ko{{/if}}">{{nom}} (DP {{dp}}) : <b>{{#if touche}}touché{{else}}raté{{/if}}</b></li>{{/each}}
+</ul>
+{{/if}}

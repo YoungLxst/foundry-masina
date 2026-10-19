@@ -1,0 +1,27 @@
+{
+  "_id": "f1syNAUKTLrJR6Xy",
+  "_key": "!items!f1syNAUKTLrJR6Xy",
+  "name": "Tir intrusif",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "« Pas le temps de viser, juste sentir. »",
+    "effet": "<p>Ses tirs qui touchent imposent −1 aux jets de la cible pendant 2 rounds (cumulable jusqu'à −3).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 544,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

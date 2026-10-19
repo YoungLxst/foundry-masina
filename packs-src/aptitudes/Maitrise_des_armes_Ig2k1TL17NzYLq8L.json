@@ -1,0 +1,27 @@
+{
+  "_id": "Ig2k1TL17NzYLq8L",
+  "_key": "!items!Ig2k1TL17NzYLq8L",
+  "name": "Maîtrise des armes",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Le Fourbe maîtrise les dagues, couteaux, hachoirs, épées courtes, épées longues, rapières et arbalètes de poing.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 116,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

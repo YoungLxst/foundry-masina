@@ -1,0 +1,27 @@
+{
+  "_id": "7nUtzAkNdZkzan2e",
+  "_key": "!items!7nUtzAkNdZkzan2e",
+  "name": "Vision périphérique",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "oeil",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "« Je te vois, même sur le côté. »",
+    "effet": "<p>Une seule attaque vise deux créatures différentes, chacune avec son propre jet d'attaque à −½B. Les dégâts ne comprennent que le DA, sans modificateur.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "JiQM0VFfFHAuqxHf",
+  "sort": 543,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

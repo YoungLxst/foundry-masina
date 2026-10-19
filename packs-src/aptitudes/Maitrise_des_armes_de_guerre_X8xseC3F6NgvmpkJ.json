@@ -1,0 +1,27 @@
+{
+  "_id": "X8xseC3F6NgvmpkJ",
+  "_key": "!items!X8xseC3F6NgvmpkJ",
+  "name": "Maîtrise des armes de guerre",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "soldat",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "citation": "",
+    "effet": "<p>Le Soldat maîtrise toutes les armes courantes et de guerre (épée, marteau, masse, hache, lance…).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "xwtxFfpIPvDxKDa7",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

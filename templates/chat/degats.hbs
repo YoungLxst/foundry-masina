@@ -1,0 +1,15 @@
+<div class="total">{{total}} <small>dégâts</small></div>
+<div class="detail">
+  <span class="terme">{{formule}}</span>
+  {{#if sources}}<span class="terme">{{sources}}</span>{{/if}}
+  {{#if maximiser}}<span class="terme">dégâts maximum</span>{{/if}}
+</div>
+<div class="localisation">Zone : <b>{{zone}}</b>{{#if loc}} <span class="tag">(1d10 = {{loc}})</span>{{/if}}</div>
+{{#if typeDegats}}<div class="note">{{typeDegats}}</div>{{/if}}
+{{#if perceArmure}}<div class="note"><b>Perce-armure</b> : le PA de la zone est divisé par 2.</div>{{/if}}
+{{#if cibles}}<div class="note">Cible : {{cibles}}</div>{{/if}}
+<div class="boutons">
+  <button type="button" data-masina-action="appliquer"><i class="fa-solid fa-heart-crack"></i> Appliquer</button>
+  <button type="button" data-masina-action="appliquerMoitie" title="Blocage ou Parade réussis"><i class="fa-solid fa-shield"></i> Appliquer ÷ 2</button>
+</div>
+<p class="note">Appliquer : aux jetons sélectionnés, sinon à la cible. Le PA, l'usure, les PV et les blessures graves sont calculés automatiquement.</p>

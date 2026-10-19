@@ -1,0 +1,95 @@
+<div class="masina-objet">
+  <header class="masina-entete objet">
+    <img class="portrait petit" src="{{item.img}}" alt="{{item.name}}" data-action="choisirImage" title="Changer l'image">
+    <input class="nom" type="text" name="name" value="{{item.name}}" placeholder="Nom">
+  </header>
+
+  {{#if estType.arme}}
+  <div class="grille-objet">
+    <label class="champ">Compétence<select name="system.competence">{{selectOptions choix.competencesArme selected=source.competence}}</select></label>
+    <label class="champ">Catégorie<select name="system.categorie">{{selectOptions choix.categoriesArme selected=source.categorie}}</select></label>
+    <label class="champ">Qualité<select name="system.qualite">{{selectOptions choix.qualites selected=source.qualite}}</select></label>
+    <label class="champ">Dé d'arme (DA)<input type="text" name="system.degats" value="{{source.degats}}" placeholder="1d8"></label>
+    <label class="champ">À deux mains (polyvalente)<input type="text" name="system.degatsDeuxMains" value="{{source.degatsDeuxMains}}" placeholder="1d10"></label>
+    <label class="champ">Type de dégâts<input type="text" name="system.typeDegats" value="{{source.typeDegats}}" placeholder="tranchant"></label>
+    <label class="champ">Portée<input type="text" name="system.portee" value="{{source.portee}}" placeholder="24/96 m"></label>
+    <label class="champ">FOR minimum<input type="number" name="system.forMin" value="{{source.forMin}}" min="0"></label>
+    <label class="champ case-ligne"><input type="checkbox" name="system.equipee" {{checked source.equipee}}> En main</label>
+  </div>
+  <h2 class="mt">Propriétés</h2>
+  <div class="cases">
+    {{#each proprietes}}
+    <label class="case"><input type="checkbox" name="system.proprietes.{{cle}}" {{checked coche}}> {{label}}</label>
+    {{/each}}
+  </div>
+  {{/if}}
+
+  {{#if estType.armure}}
+  <div class="grille-objet">
+    <label class="champ">Catégorie<select name="system.categorie">{{selectOptions choix.categoriesArmure selected=source.categorie}}</select></label>
+    {{#if (eq source.categorie "bouclier")}}
+    <label class="champ">Bonus de DP<input type="number" name="system.dp" value="{{source.dp}}" min="0"></label>
+    {{else}}
+    <label class="champ">Pouvoir d'arrêt (PA)<input type="number" name="system.pa" value="{{source.pa}}" min="0"></label>
+    {{/if}}
+    <label class="champ">VC DEX max<input type="number" name="system.dexMax" value="{{source.dexMax}}" placeholder="—"></label>
+    <label class="champ">FOR minimum<input type="number" name="system.forMin" value="{{source.forMin}}" min="0"></label>
+    <label class="champ">Particularité<input type="text" name="system.particularite" value="{{source.particularite}}"></label>
+    <label class="champ case-ligne"><input type="checkbox" name="system.equipee" {{checked source.equipee}}> Portée</label>
+  </div>
+  {{#unless (eq source.categorie "bouclier")}}
+  <h2 class="mt">Zones couvertes</h2>
+  <div class="cases">
+    {{#each couvertures}}
+    <label class="case"><input type="checkbox" name="system.couvre.{{cle}}" {{checked coche}}> {{label}}</label>
+    {{/each}}
+  </div>
+  {{/unless}}
+  <div class="cases mt">
+    <label class="case"><input type="checkbox" name="system.desavDiscretion" {{checked source.desavDiscretion}}> Désavantage en Discrétion</label>
+    <label class="case" title="Un gambison porté sous une broigne, une cotte, un haubert ou des écailles ajoute +1 PA"><input type="checkbox" name="system.sousCouche" {{checked source.sousCouche}}> Sous-couche (+1 PA sous une armure intermédiaire ou lourde)</label>
+  </div>
+  {{/if}}
+
+  {{#if estType.aptitude}}
+  <div class="grille-objet">
+    <label class="champ">Type<select name="system.genre">{{selectOptions choix.genres selected=source.genre}}</select></label>
+    <label class="champ">Classe<select name="system.classe">{{selectOptions choix.classes selected=source.classe}}</select></label>
+    <label class="champ">Voie<input type="text" name="system.voie" value="{{source.voie}}"></label>
+    <label class="champ">Niveau<input type="number" name="system.niveau" value="{{source.niveau}}" min="1" max="20"></label>
+    <label class="champ">Limite<select name="system.limite">{{selectOptions choix.limites selected=source.limite}}</select></label>
+    <label class="champ case-ligne"><input type="checkbox" name="system.equipee" {{checked source.equipee}}> Équipée</label>
+    <label class="champ case-ligne" title="Comme Pluie de flèches : toujours disponible"><input type="checkbox" name="system.horsEmplacement" {{checked source.horsEmplacement}}> N'occupe pas d'emplacement</label>
+    <label class="champ case-ligne"><input type="checkbox" name="system.utilisee" {{checked source.utilisee}}> Déjà utilisée</label>
+  </div>
+  <label class="champ mt">Citation<input type="text" name="system.citation" value="{{source.citation}}"></label>
+  <h2 class="mt">Effet</h2>
+  {{formInput systemFields.effet name="system.effet" value=source.effet enriched=enrichi.effet toggled=true}}
+  <h2 class="mt">Contrepartie</h2>
+  {{formInput systemFields.contrepartie name="system.contrepartie" value=source.contrepartie enriched=enrichi.contrepartie toggled=true}}
+  {{/if}}
+
+  {{#if estType.objet}}
+  <div class="grille-objet">
+    <label class="champ">Quantité<input type="number" name="system.quantite" value="{{source.quantite}}" min="0"></label>
+  </div>
+  {{/if}}
+
+  {{#if estType.trait}}
+  <div class="grille-objet">
+    <label class="champ">Source<select name="system.source">{{selectOptions choix.sources selected=source.source}}</select></label>
+  </div>
+  {{/if}}
+
+  {{#unless (or estType.aptitude estType.trait)}}
+  <div class="grille-objet">
+    <label class="champ">Poids (kg)<input type="number" name="system.poids" value="{{source.poids}}" min="0" step="0.1"></label>
+    <label class="champ">Prix<input type="text" name="system.prix" value="{{source.prix}}" placeholder="1 po"></label>
+  </div>
+  {{/unless}}
+
+  {{#unless estType.aptitude}}
+  <h2 class="mt">Description</h2>
+  {{formInput systemFields.description name="system.description" value=source.description enriched=enrichi.description toggled=true}}
+  {{/unless}}
+</div>

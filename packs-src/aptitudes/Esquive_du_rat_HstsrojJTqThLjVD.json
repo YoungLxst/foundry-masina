@@ -1,0 +1,27 @@
+{
+  "_id": "HstsrojJTqThLjVD",
+  "_key": "!items!HstsrojJTqThLjVD",
+  "name": "Esquive du rat",
+  "type": "aptitude",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "genre": "reflexe",
+    "classe": "fourbe",
+    "voie": "",
+    "niveau": 5,
+    "limite": "aucune",
+    "citation": "« Petit, rapide, insaisissable. »",
+    "effet": "<p>Il peut esquiver (Acrobaties + B contre le jet d'attaque) quelle que soit sa Posture, même Plutôt toi que moi.<br><i>Variante IRL (optionnelle) : le MJ lance un défi physique rapide. En cas de réussite, le joueur a l'avantage au jet.</i></p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "8EBCmPSc22xNe0me",
+  "sort": 525,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}
