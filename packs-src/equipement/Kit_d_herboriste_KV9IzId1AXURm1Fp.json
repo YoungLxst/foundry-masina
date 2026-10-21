@@ -1,0 +1,20 @@
+{
+  "_id": "KV9IzId1AXURm1Fp",
+  "_key": "!items!KV9IzId1AXURm1Fp",
+  "name": "Kit d'herboriste",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1.5,
+    "prix": "1 pe",
+    "description": "<p>Nécessaires pour la compétence Herboristerie. Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

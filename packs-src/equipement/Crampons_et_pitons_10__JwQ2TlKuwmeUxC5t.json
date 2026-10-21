@@ -1,0 +1,20 @@
+{
+  "_id": "JwQ2TlKuwmeUxC5t",
+  "_key": "!items!JwQ2TlKuwmeUxC5t",
+  "name": "Crampons et pitons (10)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

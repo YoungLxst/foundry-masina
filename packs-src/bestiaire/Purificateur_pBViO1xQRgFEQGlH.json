@@ -1,0 +1,521 @@
+{
+  "_id": "pBViO1xQRgFEQGlH",
+  "_key": "!actors!pBViO1xQRgFEQGlH",
+  "name": "Purificateur",
+  "type": "pnj",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "KzGKft8nSqepYX8x",
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "_id": "xIAx6mrJwPmCdx9u",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.xIAx6mrJwPmCdx9u",
+      "name": "Épée longue d'argent",
+      "type": "arme",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "competence": "armesUneMain",
+        "categorie": "guerre",
+        "degats": "1d8",
+        "typeDegats": "tranchant",
+        "poids": 1.5,
+        "prix": "1 po",
+        "proprietes": {
+          "polyvalente": true
+        },
+        "equipee": true,
+        "degatsDeuxMains": "1d10",
+        "portee": "",
+        "forMin": 0,
+        "qualite": "argent",
+        "description": "",
+        "bonusAttaque": 0,
+        "bonusDegats": 0
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "REOCHXKb9qJ2iUzK",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.REOCHXKb9qJ2iUzK",
+      "name": "Arbalète légère",
+      "type": "arme",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "competence": "arbalete",
+        "categorie": "courante",
+        "degats": "1d8",
+        "typeDegats": "perforant",
+        "poids": 2.5,
+        "prix": "1 po",
+        "proprietes": {
+          "munitions": true,
+          "chargement": true,
+          "deuxMains": true,
+          "perceArmure": true
+        },
+        "equipee": true,
+        "degatsDeuxMains": "",
+        "portee": "24/96 m",
+        "forMin": 0,
+        "qualite": "fer",
+        "description": "",
+        "bonusAttaque": 0,
+        "bonusDegats": 0
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "CVOv3PD2nFNQ7smi",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.CVOv3PD2nFNQ7smi",
+      "name": "Casque à nasal",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "casque",
+        "couvre": {
+          "tete": true,
+          "torse": false,
+          "bras": false,
+          "jambes": false
+        },
+        "pa": 3,
+        "dexMax": null,
+        "forMin": 0,
+        "desavDiscretion": false,
+        "poids": 1.5,
+        "prix": "1 pe",
+        "dp": 0,
+        "equipee": true,
+        "sousCouche": false,
+        "particularite": "",
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "h7QWbp0b42GxEgS6",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.h7QWbp0b42GxEgS6",
+      "name": "Cotte de mailles",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "intermediaire",
+        "couvre": {
+          "tete": false,
+          "torse": true,
+          "bras": true,
+          "jambes": false
+        },
+        "pa": 5,
+        "dexMax": 2,
+        "forMin": 0,
+        "desavDiscretion": true,
+        "poids": 12,
+        "prix": "3 po",
+        "dp": 0,
+        "equipee": true,
+        "sousCouche": false,
+        "particularite": "",
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "xMtqW6CnKkSs76xX",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.xMtqW6CnKkSs76xX",
+      "name": "Jambières de cuir (la paire)",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "piece",
+        "couvre": {
+          "tete": false,
+          "torse": false,
+          "bras": false,
+          "jambes": true
+        },
+        "pa": 2,
+        "dexMax": null,
+        "forMin": 0,
+        "desavDiscretion": false,
+        "poids": 1.5,
+        "prix": "5 pc",
+        "dp": 0,
+        "equipee": true,
+        "sousCouche": false,
+        "particularite": "",
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Flairer la Mašina",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Avantage en Perception et en Intuition pour repérer un personnage qui a au moins 3 en Corruption.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "lzGu9eQNMdDGDxit",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.lzGu9eQNMdDGDxit",
+      "folder": null,
+      "sort": 600
+    },
+    {
+      "name": "Foi inébranlable",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Immunisé à l'état effrayé.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "HZQ3dxHg7TFguV2V",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.HZQ3dxHg7TFguV2V",
+      "folder": null,
+      "sort": 700
+    },
+    {
+      "name": "Bûcher",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Il porte de l'huile et de la poix.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "cxeEqvhfgp7dxJkX",
+      "_key": "!actors.items!pBViO1xQRgFEQGlH.cxeEqvhfgp7dxJkX",
+      "folder": null,
+      "sort": 800
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 16
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 12
+      },
+      "sag": {
+        "value": 14
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 5,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 5,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 28,
+      "max": 28
+    },
+    "rang": "chef",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 3,
+    "typeCreature": "Humain",
+    "dpFixe": 13,
+    "paNaturel": {
+      "tete": 0,
+      "torse": 0,
+      "bras": 0,
+      "jambes": 0
+    },
+    "defense": "parade",
+    "resistanceFer": false,
+    "description": "<p><i>Chasseur de Marqués au service de l'Ordre de la Cendre Blanche, qui brûle ce qu'il ne comprend pas. Il croit sincèrement sauver le monde.</i></p><p><b>Menace 3 · Humain</b></p><p><b>Comportement :</b> Postures : un Roulement de Soldat de niveau 5.</p><section class=\"secret\" id=\"secret-hLR96vrCpA1xpUvr\"><p><b>Butin :</b> Une épée plaquée d'argent (environ 2 po), un registre de noms, des Marqués « à purifier ».</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Purificateur",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "UcB0UYsnodktdhok",
+  "_key": "!items!UcB0UYsnodktdhok",
+  "name": "Destrier (cheval de guerre)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 po",
+    "description": "<p>Vitesse 18 m · charge 270 kg. Dressé au combat, ne panique pas.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

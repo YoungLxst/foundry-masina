@@ -1,0 +1,20 @@
+{
+  "_id": "qg028kn3zytxzu2s",
+  "_key": "!items!qg028kn3zytxzu2s",
+  "name": "Poney",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "4 pe",
+    "description": "<p>Vitesse 12 m · charge 110 kg. Monture des nains et des gobelins. Monture non dressée au combat : au premier coup ou au premier bruit violent, le cavalier fait un jet de Dressage SD 13, ou la monture panique.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

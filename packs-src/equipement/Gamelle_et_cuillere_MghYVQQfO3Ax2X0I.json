@@ -1,0 +1,20 @@
+{
+  "_id": "MghYVQQfO3Ax2X0I",
+  "_key": "!items!MghYVQQfO3Ax2X0I",
+  "name": "Gamelle et cuillère",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "3 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "_id": "4Dm4RiBGu8xq2Wz3",
+  "_key": "!actors!4Dm4RiBGu8xq2Wz3",
+  "name": "Upiór (le revenant)",
+  "type": "pnj",
+  "img": "icons/svg/terror.svg",
+  "folder": "7xYAxCC27mNmNzw5",
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "name": "Griffes",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d8",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "tranchant"
+      },
+      "_id": "Hl2Eqy3BwYgj9swy",
+      "_key": "!actors.items!4Dm4RiBGu8xq2Wz3.Hl2Eqy3BwYgj9swy",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "name": "Morsure",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d6",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "perforant"
+      },
+      "_id": "cS5dgWx10xCc8h6E",
+      "_key": "!actors.items!4Dm4RiBGu8xq2Wz3.cS5dgWx10xCc8h6E",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "name": "Boire",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Si la morsure fait une blessure grave, il regagne autant de PV que les dégâts infligés.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "OXyOfZlr5uGsCEmR",
+      "_key": "!actors.items!4Dm4RiBGu8xq2Wz3.OXyOfZlr5uGsCEmR",
+      "folder": null,
+      "sort": 300
+    },
+    {
+      "name": "Régénération",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Il regagne 3 PV au début de chacun de ses tours, sauf s'il a subi des dégâts d'argent ou de feu depuis son dernier tour.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "X6TowQHjE56BPxeg",
+      "_key": "!actors.items!4Dm4RiBGu8xq2Wz3.X6TowQHjE56BPxeg",
+      "folder": null,
+      "sort": 400
+    },
+    {
+      "name": "Revenir",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>À 0 PV, il s'effondre, mais il se relève à la nuit suivante, sauf si on l'achève comme il faut.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "AZq0k9vkLnvvWYH5",
+      "_key": "!actors.items!4Dm4RiBGu8xq2Wz3.AZq0k9vkLnvvWYH5",
+      "folder": null,
+      "sort": 500
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 16
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 10
+      },
+      "sag": {
+        "value": 12
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 32,
+      "max": 32
+    },
+    "rang": "chef",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 3,
+    "typeCreature": "Créature de la Mašina (Krev)",
+    "dpFixe": 13,
+    "paNaturel": {
+      "tete": 2,
+      "torse": 2,
+      "bras": 2,
+      "jambes": 2
+    },
+    "defense": "esquive",
+    "resistanceFer": true,
+    "description": "<p><i>Un mort qui sort de sa tombe la nuit pour boire le sang des vivants, à commencer par sa propre famille. Ses joues sont rouges, ses ongles longs, sa tombe toujours chaude.</i></p><p><b>Menace 3 · Créature de la Mašina (Krev)</b></p><p><b>Comportement :</b> PA 2 partout (peau dure).</p><p><i>Résistance au fer : moitié des dégâts des armes de fer et d'acier (après l'armure), l'argent blesse normalement. Une blessure grave infligée par une créature de la Mašina demande un jet de Résistance SD 15, sinon +1 Corruption. Elles ciblent en priorité les personnages les plus corrompus.</i></p><section class=\"secret\" id=\"secret-34oNcUwmfAbfmKTR\"><p><b>Faiblesses :</b> Le jour, il dort dans sa tombe (−4 à tous ses jets s'il est réveillé). Pour l'achever, il faut lui planter un pieu de <b>tremble</b> dans le cœur et l'enterrer face contre terre, ou le brûler. L'ail sur les portes l'empêche d'entrer.</p><p><b>Monstrologie :</b></p><ul><li><b>SD 9</b> : Les morts qui reviennent boivent le sang.</li><li><b>SD 13</b> : Il dort le jour, le tremble et l'ail le repoussent.</li><li><b>SD 17</b> : Il revient tant qu'il n'est pas pieuté et retourné.</li><li><b>SD 21</b> : Il est revenu parce qu'il est mort sans confession, ou qu'un chat a sauté sur son cercueil… ou parce que quelqu'un l'a voulu.</li></ul><p><b>Butin :</b> Sang noir (ingrédient de poison, 1 pe), et souvent les objets de valeur enterrés avec lui.</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Upiór (le revenant)",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    }
+  }
+}

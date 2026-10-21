@@ -1,0 +1,29 @@
+{
+  "_id": "qX4wPocYbA0Ni3Nq",
+  "_key": "!items!qX4wPocYbA0Ni3Nq",
+  "name": "Marque visible",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "marque",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": true,
+    "citation": "",
+    "effet": "<p>Il faut un jet de Tromperie SD 15 pour la cacher.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "m7gGTg8NrTb5x4Xf",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "4qQR6Pnr6xk4BFFI",
+  "_key": "!items!4qQR6Pnr6xk4BFFI",
+  "name": "Bateau de rivière",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pe",
+    "description": "<p>3 km/h · équipage 2 · 8 passagers. Rames, perche, voile carrée.</p>"
+  },
+  "effects": [],
+  "folder": "28WTjBRxLFifixwu",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

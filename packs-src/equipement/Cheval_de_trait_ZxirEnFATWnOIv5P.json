@@ -1,0 +1,20 @@
+{
+  "_id": "ZxirEnFATWnOIv5P",
+  "_key": "!items!ZxirEnFATWnOIv5P",
+  "name": "Cheval de trait",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "6 pe",
+    "description": "<p>Vitesse 12 m · charge 270 kg. Ne supporte pas le combat.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

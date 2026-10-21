@@ -1,0 +1,29 @@
+{
+  "_id": "nuci61hGn7Iz17OA",
+  "_key": "!items!nuci61hGn7Iz17OA",
+  "name": "Fureur des petits",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "",
+    "peuple": "gobelin",
+    "voie": "",
+    "niveau": 1,
+    "limite": "jour",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il attaque une créature plus grande que lui. Si l'attaque touche, elle inflige <b>+1d4</b> dégâts. Utilisable <b>B fois par repos long</b>.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "k1N4RNNVExnLmqxw",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

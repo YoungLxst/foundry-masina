@@ -1,0 +1,29 @@
+{
+  "_id": "0bqXZ1oExNLhmV8P",
+  "_key": "!items!0bqXZ1oExNLhmV8P",
+  "name": "Coude à coude",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "",
+    "peuple": "humain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Les humains ont inventé le mur de boucliers. Tant qu'un allié est adjacent, le personnage et cet allié gagnent <b>+1 DP</b>. Si l'allié s'éloigne, le bonus cesse.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "t9IOcMUYl1RUHh6e",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "4xd5N5leOOayPbTu",
+  "_key": "!items!4xd5N5leOOayPbTu",
+  "name": "Bottes de cuir",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1.5,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9NOsBE0p5ABGxz3g",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

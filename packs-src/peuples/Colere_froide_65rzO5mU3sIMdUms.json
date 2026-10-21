@@ -1,0 +1,29 @@
+{
+  "_id": "65rzO5mU3sIMdUms",
+  "_key": "!items!65rzO5mU3sIMdUms",
+  "name": "Colère froide",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "",
+    "peuple": "gobelin",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il laisse monter la colère, mais la tient en laisse. Chaque fois qu'il est blessé, sa prochaine attaque avant la fin de son prochain tour a l'<b>avantage</b>.</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Il fait ses jets de <i>Sang brûlant</i> avec désavantage tant que la Posture est active.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "k1N4RNNVExnLmqxw",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

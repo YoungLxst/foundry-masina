@@ -1,0 +1,29 @@
+{
+  "_id": "UAX0CM2XEznzzp4e",
+  "_key": "!items!UAX0CM2XEznzzp4e",
+  "name": "Sommeil léger",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "elfe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>4 heures de repos suffisent pour un repos long. Il n'est jamais surpris pendant son sommeil s'il réussit un jet de Perception SD 13.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "sX9fuGAHtTF2xZcx",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

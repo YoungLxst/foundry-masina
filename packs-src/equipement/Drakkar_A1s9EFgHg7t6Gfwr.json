@@ -1,0 +1,20 @@
+{
+  "_id": "A1s9EFgHg7t6Gfwr",
+  "_key": "!items!A1s9EFgHg7t6Gfwr",
+  "name": "Drakkar",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "30 po",
+    "description": "<p>5 km/h · équipage 40 · 60 passagers. Rames et voile, faible tirant d'eau.</p>"
+  },
+  "effects": [],
+  "folder": "28WTjBRxLFifixwu",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

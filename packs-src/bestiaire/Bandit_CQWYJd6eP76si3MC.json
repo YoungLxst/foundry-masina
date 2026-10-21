@@ -1,0 +1,391 @@
+{
+  "_id": "CQWYJd6eP76si3MC",
+  "_key": "!actors!CQWYJd6eP76si3MC",
+  "name": "Bandit",
+  "type": "pnj",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "KzGKft8nSqepYX8x",
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "_id": "TM1fniV8iJTFzRMS",
+      "_key": "!actors.items!CQWYJd6eP76si3MC.TM1fniV8iJTFzRMS",
+      "name": "Masse d'armes",
+      "type": "arme",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "competence": "armesUneMain",
+        "categorie": "courante",
+        "degats": "1d6",
+        "typeDegats": "contondant",
+        "poids": 2,
+        "prix": "2 pe",
+        "proprietes": {},
+        "equipee": true,
+        "degatsDeuxMains": "",
+        "portee": "",
+        "forMin": 0,
+        "qualite": "fer",
+        "description": "",
+        "bonusAttaque": 0,
+        "bonusDegats": 0
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rHWHgjrSvtTPhvgw",
+      "_key": "!actors.items!CQWYJd6eP76si3MC.rHWHgjrSvtTPhvgw",
+      "name": "Arc court",
+      "type": "arme",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "competence": "arc",
+        "categorie": "courante",
+        "degats": "1d6",
+        "typeDegats": "perforant",
+        "poids": 1,
+        "prix": "1 pe",
+        "proprietes": {
+          "munitions": true,
+          "deuxMains": true
+        },
+        "equipee": true,
+        "degatsDeuxMains": "",
+        "portee": "24/96 m",
+        "forMin": 0,
+        "qualite": "fer",
+        "description": "",
+        "bonusAttaque": 0,
+        "bonusDegats": -1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "OgBMFK9itL2wBdab",
+      "_key": "!actors.items!CQWYJd6eP76si3MC.OgBMFK9itL2wBdab",
+      "name": "Gambison matelassé",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "legere",
+        "couvre": {
+          "tete": false,
+          "torse": true,
+          "bras": true,
+          "jambes": false
+        },
+        "pa": 2,
+        "dexMax": null,
+        "forMin": 0,
+        "desavDiscretion": false,
+        "poids": 4,
+        "prix": "1 pe",
+        "dp": 0,
+        "equipee": true,
+        "sousCouche": true,
+        "particularite": "",
+        "description": "<p>Superposition : porté sous une broigne, une cotte, un haubert ou des écailles, il ajoute +1 PA aux zones qu'ils couvrent tous les deux.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Embuscade",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>En terrain boisé, les bandits ont l'avantage aux jets de surprise.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "RuVLgTMdloiL5S4U",
+      "_key": "!actors.items!CQWYJd6eP76si3MC.RuVLgTMdloiL5S4U",
+      "folder": null,
+      "sort": 400
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 12
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 10
+      },
+      "int": {
+        "value": 10
+      },
+      "sag": {
+        "value": 10
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 1,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 1,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 14,
+      "max": 14
+    },
+    "rang": "sbire",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 1,
+    "typeCreature": "Humain",
+    "dpFixe": 10,
+    "paNaturel": {
+      "tete": 0,
+      "torse": 0,
+      "bras": 0,
+      "jambes": 0
+    },
+    "defense": "parade",
+    "resistanceFer": false,
+    "description": "<p><i>Paysan ruiné, déserteur, gamin sans terre. Il a faim, et il a une masse.</i></p><p><b>Menace 1 · Humain</b></p><p><b>Comportement :</b> Postures : Offensive / Défensive. Fuit ou se rend quand le moral flanche.</p><section class=\"secret\" id=\"secret-EdArUiAgkT6xnucV\"><p><b>Butin :</b> 2d6 pf, une arme usée, parfois un objet volé qui intéressera quelqu'un.</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Bandit",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

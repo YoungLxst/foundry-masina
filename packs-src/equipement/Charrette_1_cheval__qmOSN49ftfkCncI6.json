@@ -1,0 +1,20 @@
+{
+  "_id": "qmOSN49ftfkCncI6",
+  "_key": "!items!qmOSN49ftfkCncI6",
+  "name": "Charrette (1 cheval)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 100,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

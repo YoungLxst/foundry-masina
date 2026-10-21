@@ -1,0 +1,29 @@
+{
+  "_id": "DVxwPTlH6WtvRucn",
+  "_key": "!items!DVxwPTlH6WtvRucn",
+  "name": "Vision dans le noir",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Jusqu'à 18 m, il voit dans la lumière faible comme en plein jour, et dans l'obscurité comme dans une lumière faible (en nuances de gris).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

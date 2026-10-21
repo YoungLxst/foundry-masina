@@ -1,0 +1,20 @@
+{
+  "_id": "1Rs9EBcOuPVgvij6",
+  "_key": "!items!1Rs9EBcOuPVgvij6",
+  "name": "Allume-feu (silex, briquet, amadou)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "5 pf",
+    "description": "<p>Allumer une torche prend une action ; un feu de camp, une minute (plus longtemps sous la pluie).</p>"
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

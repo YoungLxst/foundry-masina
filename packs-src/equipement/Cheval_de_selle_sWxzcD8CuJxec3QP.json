@@ -1,0 +1,20 @@
+{
+  "_id": "sWxzcD8CuJxec3QP",
+  "_key": "!items!sWxzcD8CuJxec3QP",
+  "name": "Cheval de selle",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 po",
+    "description": "<p>Vitesse 18 m · charge 220 kg. Monture non dressée au combat : au premier coup ou au premier bruit violent, le cavalier fait un jet de Dressage SD 13, ou la monture panique.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

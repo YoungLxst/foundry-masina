@@ -1,0 +1,20 @@
+{
+  "_id": "GdDxZdFK8vCoyFgO",
+  "_key": "!items!GdDxZdFK8vCoyFgO",
+  "name": "Mouton",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

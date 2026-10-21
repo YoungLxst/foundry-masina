@@ -1,0 +1,29 @@
+{
+  "_id": "BVwwCHL503sVB5Nb",
+  "_key": "!items!BVwwCHL503sVB5Nb",
+  "name": "Robustesse",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "Nain des collines",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p><i>Nain des collines uniquement.</i> +1 PV maximum à chaque niveau.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

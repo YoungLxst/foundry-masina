@@ -1,0 +1,20 @@
+{
+  "_id": "hBBTm2C9tU8H3Sm0",
+  "_key": "!items!hBBTm2C9tU8H3Sm0",
+  "name": "Cape à capuche",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1.5,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 1200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

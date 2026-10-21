@@ -1,0 +1,29 @@
+{
+  "_id": "iRMzB2elwGhxey8b",
+  "_key": "!items!iRMzB2elwGhxey8b",
+  "name": "Enfant des bois",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "elfe",
+    "voie": "Elfe des forêts",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p><i>Elfe des forêts uniquement.</i> Avantage en Discrétion dans la nature sauvage.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "sX9fuGAHtTF2xZcx",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "PYjNCG6nPywzXAiB",
+  "_key": "!items!PYjNCG6nPywzXAiB",
+  "name": "Laine fine teinte (1 m²)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

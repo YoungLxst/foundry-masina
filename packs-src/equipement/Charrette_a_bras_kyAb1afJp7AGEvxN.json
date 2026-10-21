@@ -1,0 +1,20 @@
+{
+  "_id": "kyAb1afJp7AGEvxN",
+  "_key": "!items!kyAb1afJp7AGEvxN",
+  "name": "Charrette à bras",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 40,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

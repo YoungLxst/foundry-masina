@@ -1,0 +1,20 @@
+{
+  "_id": "D0OcyJLeNdfS4qWn",
+  "_key": "!items!D0OcyJLeNdfS4qWn",
+  "name": "Cadenas et clé",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pe",
+    "description": "<p>L'ouvrir sans clé demande un jet de Mécanismes SD 15 avec des crochets.</p>"
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

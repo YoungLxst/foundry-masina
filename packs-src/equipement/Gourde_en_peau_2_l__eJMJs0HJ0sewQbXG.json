@@ -1,0 +1,20 @@
+{
+  "_id": "eJMJs0HJ0sewQbXG",
+  "_key": "!items!eJMJs0HJ0sewQbXG",
+  "name": "Gourde en peau (2 l)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2.5,
+    "prix": "5 pf",
+    "description": "<p>2,5 kg pleine.</p>"
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

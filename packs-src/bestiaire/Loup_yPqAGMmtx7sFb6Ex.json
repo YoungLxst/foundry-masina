@@ -1,0 +1,381 @@
+{
+  "_id": "yPqAGMmtx7sFb6Ex",
+  "_key": "!actors!yPqAGMmtx7sFb6Ex",
+  "name": "Loup",
+  "type": "pnj",
+  "img": "icons/svg/pawprint.svg",
+  "folder": "LfFxBzP6UP2dDSmD",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "name": "Morsure",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d6",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "perforant"
+      },
+      "_id": "rhWvrW65M97L1Dt4",
+      "_key": "!actors.items!yPqAGMmtx7sFb6Ex.rhWvrW65M97L1Dt4",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "name": "Croc-en-jambe",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Si la morsure touche, la cible fait un jet d'Athlétisme SD 13 ou tombe à terre.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "DN5eUmh9feDAKrcN",
+      "_key": "!actors.items!yPqAGMmtx7sFb6Ex.DN5eUmh9feDAKrcN",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "name": "Meute",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Les loups encerclent toujours (prise en tenaille, +2).</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "5wtrEADK5lc2ylvc",
+      "_key": "!actors.items!yPqAGMmtx7sFb6Ex.5wtrEADK5lc2ylvc",
+      "folder": null,
+      "sort": 300
+    },
+    {
+      "name": "Odorat",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Avantage aux jets de Perception à l'odorat.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "3vOxTG8rzGc4Tmhh",
+      "_key": "!actors.items!yPqAGMmtx7sFb6Ex.3vOxTG8rzGc4Tmhh",
+      "folder": null,
+      "sort": 400
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 12
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 4
+      },
+      "sag": {
+        "value": 12
+      },
+      "cha": {
+        "value": 6
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 12,
+      "max": 12
+    },
+    "rang": "sbire",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 1,
+    "typeCreature": "Bête",
+    "dpFixe": 13,
+    "paNaturel": {
+      "tete": 0,
+      "torse": 0,
+      "bras": 0,
+      "jambes": 0
+    },
+    "defense": "esquive",
+    "resistanceFer": false,
+    "description": "<p><i>Il ne chasse jamais seul.</i></p><p><b>Menace 1 · Bête</b></p><p><b>Comportement :</b> Une meute de 2d4 loups. Elle fuit si la moitié des loups tombe.</p><p><i>Pas de Posture : une bête ne peut pas être lue, mais elle n'est jamais à découvert. Une bête blessée sous la moitié de ses PV fuit, sauf si elle est acculée, affamée ou protège ses petits. Localisation des quadrupèdes : 1 tête (×2), 2–5 corps, 6–7 pattes avant, 8–10 pattes arrière (blessures : tables humaines).</i></p><section class=\"secret\" id=\"secret-x3iiW8OLq4pYTDuB\"><p><b>Butin :</b> Peau (5 pc), crocs.</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Loup",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "tV0YPLWl2zZzUc2e",
+  "_key": "!items!tV0YPLWl2zZzUc2e",
+  "name": "Chaîne (3 m)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 5,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

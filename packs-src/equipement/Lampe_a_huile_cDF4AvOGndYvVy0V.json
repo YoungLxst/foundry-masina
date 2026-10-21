@@ -1,0 +1,20 @@
+{
+  "_id": "cDF4AvOGndYvVy0V",
+  "_key": "!items!cDF4AvOGndYvVy0V",
+  "name": "Lampe à huile",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "3 pf",
+    "description": "<p>Lumière vive 4,5 m, lumière faible 4,5 m de plus. Dure 6 heures (1 flasque d'huile).</p>"
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

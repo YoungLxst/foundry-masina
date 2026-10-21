@@ -1,0 +1,29 @@
+{
+  "_id": "djxcyFnslm6j8RGJ",
+  "_key": "!items!djxcyFnslm6j8RGJ",
+  "name": "Écho de la Mašina",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "marque",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il commence avec <b>1 point de Corruption</b> et ressent les anomalies de la Mašina comme un gobelin (<i>Sens des courants</i>).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "m7gGTg8NrTb5x4Xf",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

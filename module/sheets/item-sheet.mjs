@@ -45,6 +45,7 @@ export class MasinaItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
         categoriesArmure: MASINA.categoriesArmure,
         genres: MASINA.genresAptitude,
         limites: MASINA.limitesAptitude,
+        peuples: MASINA.peuplesAptitude,
         classes: { "": "—", ...Object.fromEntries(Object.entries(MASINA.classes).map(([k, c]) => [k, c.label])) },
         sources: { peuple: "Peuple", classe: "Classe", voie: "Voie", autre: "Autre" }
       },

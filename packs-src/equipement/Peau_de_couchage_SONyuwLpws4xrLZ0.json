@@ -1,0 +1,20 @@
+{
+  "_id": "SONyuwLpws4xrLZ0",
+  "_key": "!items!SONyuwLpws4xrLZ0",
+  "name": "Peau de couchage",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 3,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

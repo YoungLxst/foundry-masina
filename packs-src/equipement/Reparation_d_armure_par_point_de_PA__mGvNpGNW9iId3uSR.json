@@ -1,0 +1,20 @@
+{
+  "_id": "mGvNpGNW9iId3uSR",
+  "_key": "!items!mGvNpGNW9iId3uSR",
+  "name": "Réparation d'armure (par point de PA)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "10 % du prix",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "hVD1rlEBMACQG2gn",
+  "_key": "!items!hVD1rlEBMACQG2gn",
+  "name": "Matériel de pêche",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 1400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

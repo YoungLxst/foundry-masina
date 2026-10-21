@@ -1,0 +1,20 @@
+{
+  "_id": "sTSjArHrSbR7rYHQ",
+  "_key": "!items!sTSjArHrSbR7rYHQ",
+  "name": "Passage en bac",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 pf par personne, 5 pf par cheval",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

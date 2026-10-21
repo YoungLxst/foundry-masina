@@ -1,0 +1,20 @@
+{
+  "_id": "cnTXD2vR77fw5bd7",
+  "_key": "!items!cnTXD2vR77fw5bd7",
+  "name": "Écurie et fourrage (par nuit)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

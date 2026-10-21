@@ -1,0 +1,20 @@
+{
+  "_id": "wguzJvex1cpBNI2w",
+  "_key": "!items!wguzJvex1cpBNI2w",
+  "name": "Blé ou orge (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "1 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

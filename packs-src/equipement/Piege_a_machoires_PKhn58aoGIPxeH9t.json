@@ -1,0 +1,20 @@
+{
+  "_id": "PKhn58aoGIPxeH9t",
+  "_key": "!items!PKhn58aoGIPxeH9t",
+  "name": "Piège à mâchoires",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 10,
+    "prix": "1 pe",
+    "description": "<p>Se pose en une action. La créature qui marche dessus fait un jet d'Esquive SD 13. En cas d'échec, elle subit 2d4 dégâts perforants et ne peut plus s'éloigner au-delà de la chaîne. Se libérer demande une action et un jet d'Athlétisme SD 13 ; chaque échec inflige 1 dégât.</p>"
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 1200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

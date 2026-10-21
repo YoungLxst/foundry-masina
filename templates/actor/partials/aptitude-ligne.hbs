@@ -1,10 +1,10 @@
 <li class="aptitude {{system.genre}} {{#if system.utilisee}}utilisee{{/if}}" data-item-id="{{id}}">
   <div class="aptitude-tete">
     <img src="{{img}}" class="icone">
-    <a class="aptitude-nom" data-action="itemChat" title="Montrer dans le chat">{{name}}</a>
+    <a class="aptitude-nom" data-action="itemChat" title="Montrer dans le chat">{{#if system.defaut}}⚠ {{/if}}{{name}}</a>
     <span class="genre {{system.genre}}">{{system.genreLabel}}</span>
     {{#if system.limiteLabel}}<span class="limite">{{system.limiteLabel}}</span>{{/if}}
-    <span class="tag">niv. {{system.niveau}}</span>
+    <span class="tag">{{system.origineLabel}}</span>
     <span class="controles">
       {{#if system.limiteLabel}}<a data-action="itemBasculer" data-champ="utilisee" title="Utilisée / disponible"><i class="fa-solid {{#if system.utilisee}}fa-hourglass-end{{else}}fa-hourglass-start{{/if}}"></i></a>{{/if}}
       {{#unless (eq system.genre "passif")}}<a data-action="itemBasculer" data-champ="equipee" title="{{#if system.equipee}}Retirer du Roulement{{else}}Équiper dans le Roulement{{/if}}"><i class="fa-solid {{#if system.equipee}}fa-circle-minus{{else}}fa-circle-plus{{/if}}"></i></a>{{/unless}}

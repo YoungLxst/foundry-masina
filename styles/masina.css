@@ -318,6 +318,17 @@
 .masina .aptitude-texte p { margin: 3px 0; }
 .masina .contrepartie { color: var(--m-ink-soft); font-style: italic; }
 
+.masina .profil-pnj { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px 10px; align-items: end; }
+.masina .profil-pnj .pa-naturel { grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+/* Vue limitée ----------------------------------------------- */
+
+.masina .vue-limitee { display: grid; grid-template-columns: 180px 1fr; gap: 16px; align-items: start; }
+.masina .vue-limitee .portrait { width: 180px; height: 220px; object-fit: cover; border: 2px solid var(--m-ink); outline: 1px solid var(--m-line); outline-offset: 3px; }
+.masina .vue-limitee h1 { font-family: var(--m-titre); font-size: 24px; margin: 0 0 4px; border: none; }
+.masina .vue-limitee .sous-titre { font-style: italic; color: var(--m-ink-soft); margin-bottom: 10px; }
+.masina .vue-limitee .texte { font-size: 15px; }
+
 .masina .bourse { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
 
 /* Fiche d'objet ---------------------------------------------- */

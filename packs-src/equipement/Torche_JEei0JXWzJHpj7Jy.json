@@ -1,0 +1,20 @@
+{
+  "_id": "JEei0JXWzJHpj7Jy",
+  "_key": "!items!JEei0JXWzJHpj7Jy",
+  "name": "Torche",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pf",
+    "description": "<p>Lumière vive 6 m, lumière faible 6 m de plus. Dure 1 heure.</p>"
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

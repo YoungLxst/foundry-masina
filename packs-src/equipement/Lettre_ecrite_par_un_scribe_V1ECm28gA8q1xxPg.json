@@ -1,0 +1,20 @@
+{
+  "_id": "V1ECm28gA8q1xxPg",
+  "_key": "!items!V1ECm28gA8q1xxPg",
+  "name": "Lettre écrite par un scribe",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

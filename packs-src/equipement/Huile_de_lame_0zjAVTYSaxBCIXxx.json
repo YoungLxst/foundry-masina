@@ -1,0 +1,20 @@
+{
+  "_id": "0zjAVTYSaxBCIXxx",
+  "_key": "!items!0zjAVTYSaxBCIXxx",
+  "name": "Huile de lame",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pe",
+    "description": "<p>Une préparation contre <b>une famille de créatures</b> (nécrophages, bêtes, spectres…), à choisir à l'achat. On l'applique en une action. Pendant 1 minute, l'arme inflige +1d6 dégâts à ces créatures. On la fabrique avec Herboristerie (SD 15) et il faut connaître la créature (Monstrologie SD 13).</p>"
+  },
+  "effects": [],
+  "folder": "WASeJJ8EMxtmGIal",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

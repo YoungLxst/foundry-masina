@@ -1,0 +1,20 @@
+{
+  "_id": "jkXgDG28nz64PkHl",
+  "_key": "!items!jkXgDG28nz64PkHl",
+  "name": "Fourrures d'hiver",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 4,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9NOsBE0p5ABGxz3g",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

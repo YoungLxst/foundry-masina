@@ -1,0 +1,20 @@
+{
+  "_id": "JVvI0bEgv8PkwJ4u",
+  "_key": "!items!JVvI0bEgv8PkwJ4u",
+  "name": "Outre de vin ou de bière (2 l)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2.5,
+    "prix": "1 pc",
+    "description": "<p>2,5 kg pleine.</p>"
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

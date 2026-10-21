@@ -1,0 +1,20 @@
+{
+  "_id": "IFAxtHFoFKvdqPiX",
+  "_key": "!items!IFAxtHFoFKvdqPiX",
+  "name": "Couverture de laine",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1.5,
+    "prix": "5 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

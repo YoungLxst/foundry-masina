@@ -1,0 +1,381 @@
+{
+  "_id": "EN2Ai7nJJeHg1tsF",
+  "_key": "!actors!EN2Ai7nJJeHg1tsF",
+  "name": "Rusalka",
+  "type": "pnj",
+  "img": "icons/svg/terror.svg",
+  "folder": "7xYAxCC27mNmNzw5",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "name": "Griffes glacées",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d6",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "froid"
+      },
+      "_id": "Xfnx5I18519cWe6t",
+      "_key": "!actors.items!EN2Ai7nJJeHg1tsF.Xfnx5I18519cWe6t",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "name": "Chant",
+      "type": "aptitude",
+      "img": "icons/svg/combat.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "posture",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Chaque créature qui l'entend fait un jet de Volonté SD 15 au début de son tour. En cas d'échec, elle est <b>charmée</b> et se déplace vers l'eau.</p>",
+        "contrepartie": "",
+        "equipee": true,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "NJIx3MhlQ6U8poUo",
+      "_key": "!actors.items!EN2Ai7nJJeHg1tsF.NJIx3MhlQ6U8poUo",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "name": "Danse des noyées",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Les nuits de pleine lune, elle entraîne ses victimes à danser jusqu'à l'épuisement (un niveau par heure, Endurance SD 15).</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "Gxarmv3v5OGAjIJI",
+      "_key": "!actors.items!EN2Ai7nJJeHg1tsF.Gxarmv3v5OGAjIJI",
+      "folder": null,
+      "sort": 300
+    },
+    {
+      "name": "Évanescente",
+      "type": "aptitude",
+      "img": "icons/svg/explosion.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "technique",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Elle disparaît dans l'eau par une action. Elle ne peut pas s'en éloigner de plus de 100 m.</p>",
+        "contrepartie": "",
+        "equipee": true,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "XtmqxTcwxBR6oe9x",
+      "_key": "!actors.items!EN2Ai7nJJeHg1tsF.XtmqxTcwxBR6oe9x",
+      "folder": null,
+      "sort": 400
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 14
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 10
+      },
+      "sag": {
+        "value": 12
+      },
+      "cha": {
+        "value": 16
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 24,
+      "max": 24
+    },
+    "rang": "veteran",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 2,
+    "typeCreature": "Créature de la Mašina (Snov)",
+    "dpFixe": 14,
+    "paNaturel": {
+      "tete": 0,
+      "torse": 0,
+      "bras": 0,
+      "jambes": 0
+    },
+    "defense": "esquive",
+    "resistanceFer": true,
+    "description": "<p><i>Une jeune femme pâle, les cheveux mouillés, assise sur une branche au-dessus de la rivière. Elle chante. Elle est morte noyée, et elle n'a pas pardonné.</i></p><p><b>Menace 2 · Créature de la Mašina (Snov)</b></p><p><i>Résistance au fer : moitié des dégâts des armes de fer et d'acier (après l'armure), l'argent blesse normalement. Une blessure grave infligée par une créature de la Mašina demande un jet de Résistance SD 15, sinon +1 Corruption. Elles ciblent en priorité les personnages les plus corrompus.</i></p><section class=\"secret\" id=\"secret-J6LKxgFO67APuoNI\"><p><b>Faiblesses :</b> L'armoise portée sur soi donne l'avantage contre le <i>Chant</i>. <b>Lui rendre justice</b> (retrouver qui l'a poussée à se noyer) l'apaise pour toujours.</p><p><b>Monstrologie :</b></p><ul><li><b>SD 13</b> : Son chant charme, l'armoise protège.</li><li><b>SD 17</b> : Elle ne quitte pas l'eau, et elle est vulnérable au soleil levant.</li><li><b>SD 21</b> : Elle cherche un coupable, et on peut la libérer.</li></ul><p><b>Butin :</b> Des cheveux qui ne sèchent jamais (ingrédient rare, 1 pe).</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Rusalka",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    }
+  }
+}

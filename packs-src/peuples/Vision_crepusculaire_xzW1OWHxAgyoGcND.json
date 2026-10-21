@@ -1,0 +1,29 @@
+{
+  "_id": "xzW1OWHxAgyoGcND",
+  "_key": "!items!xzW1OWHxAgyoGcND",
+  "name": "Vision crépusculaire",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "elfe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Jusqu'à 18 m, il voit dans la lumière faible comme en plein jour. Dans l'obscurité totale, il est aveugle comme un humain.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "sX9fuGAHtTF2xZcx",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

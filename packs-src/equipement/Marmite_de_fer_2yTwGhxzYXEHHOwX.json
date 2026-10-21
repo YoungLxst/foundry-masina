@@ -1,0 +1,20 @@
+{
+  "_id": "2yTwGhxzYXEHHOwX",
+  "_key": "!items!2yTwGhxzYXEHHOwX",
+  "name": "Marmite de fer",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 4,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

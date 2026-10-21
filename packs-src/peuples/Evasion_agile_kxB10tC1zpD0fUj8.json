@@ -1,0 +1,29 @@
+{
+  "_id": "kxB10tC1zpD0fUj8",
+  "_key": "!items!kxB10tC1zpD0fUj8",
+  "name": "Évasion agile",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "gobelin",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Une fois par tour, quand il se déplace, il peut se désengager sans provoquer d'attaque d'opportunité.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "k1N4RNNVExnLmqxw",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -70,6 +70,7 @@ async function actionCarte(message, action, bouton) {
       for ( const a of acteurs ) {
         if ( !a.isOwner ) { ui.notifications.warn(`Vous ne contrôlez pas ${a.name}.`); continue; }
         await a.subirDegats(flags.degats, flags.zone, { perceArmure: flags.perceArmure, critique: flags.critique,
+          qualite: flags.qualite ?? null, armeNaturelle: !!flags.armeNaturelle,
           diviser: action === "appliquerMoitie" });
       }
       return;

@@ -1,0 +1,20 @@
+{
+  "_id": "I2zHIvRSeF64Hj2q",
+  "_key": "!items!I2zHIvRSeF64Hj2q",
+  "name": "Bain chaud",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

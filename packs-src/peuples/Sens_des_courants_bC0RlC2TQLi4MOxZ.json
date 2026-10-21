@@ -1,0 +1,29 @@
+{
+  "_id": "bC0RlC2TQLi4MOxZ",
+  "_key": "!items!bC0RlC2TQLi4MOxZ",
+  "name": "Sens des courants",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "gobelin",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il ressent les anomalies de la Mašina (sort lancé, lieu corrompu, créature liée) à 9 m, avec un jet de Perception SD 13. Il a l'avantage aux jets de Volonté contre les effets de la Mašina.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "k1N4RNNVExnLmqxw",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

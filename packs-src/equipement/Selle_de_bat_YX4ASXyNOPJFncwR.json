@@ -1,0 +1,20 @@
+{
+  "_id": "YX4ASXyNOPJFncwR",
+  "_key": "!items!YX4ASXyNOPJFncwR",
+  "name": "Selle de bât",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 7,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

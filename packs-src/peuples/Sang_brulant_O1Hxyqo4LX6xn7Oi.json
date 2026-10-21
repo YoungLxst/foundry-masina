@@ -1,0 +1,29 @@
+{
+  "_id": "O1Hxyqo4LX6xn7Oi",
+  "_key": "!items!O1Hxyqo4LX6xn7Oi",
+  "name": "Sang brûlant",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "gobelin",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": true,
+    "citation": "",
+    "effet": "<p>Quand on l'insulte, l'humilie ou le blesse, Volonté SD 13, sinon il réagit avec colère (il frappe, crie, ou fait quelque chose qu'il regrettera). Le joueur décide de la forme, le MJ de l'occasion.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "k1N4RNNVExnLmqxw",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

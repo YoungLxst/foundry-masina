@@ -3,7 +3,7 @@
     <img src="{{item.img}}" alt="">
     <div>
       <h3>{{item.name}}</h3>
-      {{#if system.genreLabel}}<div class="sous-titre">{{system.genreLabel}}{{#if system.limiteLabel}} · {{system.limiteLabel}}{{/if}} · niveau {{system.niveau}}</div>{{/if}}
+      {{#if system.genreLabel}}<div class="sous-titre">{{system.genreLabel}}{{#if system.limiteLabel}} · {{system.limiteLabel}}{{/if}}{{#if system.origineLabel}} · {{system.origineLabel}}{{/if}}</div>{{/if}}
     </div>
   </header>
   {{#if system.citation}}<p class="citation">{{system.citation}}</p>{{/if}}

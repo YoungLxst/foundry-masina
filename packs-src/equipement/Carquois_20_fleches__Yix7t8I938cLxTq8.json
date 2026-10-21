@@ -1,0 +1,20 @@
+{
+  "_id": "Yix7t8I938cLxTq8",
+  "_key": "!items!Yix7t8I938cLxTq8",
+  "name": "Carquois (20 flèches)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

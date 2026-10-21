@@ -1,0 +1,20 @@
+{
+  "_id": "hph0vtZ2fOgAUEPG",
+  "_key": "!items!hph0vtZ2fOgAUEPG",
+  "name": "Guide local (par jour)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

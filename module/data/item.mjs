@@ -34,6 +34,8 @@ export class ArmeData extends MasinaItemBase {
       portee: texte(),
       forMin: nombre(0, { min: 0, integer: true }),
       qualite: texte("fer"),
+      bonusAttaque: nombre(0, { integer: true }),
+      bonusDegats: nombre(0, { integer: true }),
       proprietes: new fields.SchemaField(proprietes),
       equipee: bool(true)
     };
@@ -82,7 +84,9 @@ export class AptitudeData extends foundry.abstract.TypeDataModel {
     return {
       genre: texte("posture"),
       classe: texte(),
+      peuple: texte(),
       voie: texte(),
+      defaut: bool(false),
       niveau: nombre(1, { min: 1, max: 20, integer: true }),
       limite: texte("aucune"),
       citation: texte(),
@@ -97,6 +101,8 @@ export class AptitudeData extends foundry.abstract.TypeDataModel {
   prepareDerivedData() {
     this.genreLabel = MASINA.genresAptitude[this.genre] ?? this.genre;
     this.limiteLabel = this.limite === "aucune" ? "" : MASINA.limitesAptitude[this.limite];
+    this.origineLabel = this.peuple ? `Peuple : ${MASINA.peuplesAptitude[this.peuple] ?? this.peuple}`
+      : this.classe ? `niv. ${this.niveau}` : "";
   }
 }
 

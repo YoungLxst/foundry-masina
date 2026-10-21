@@ -1,0 +1,20 @@
+{
+  "_id": "1BWJZP8c3C8Lx2fw",
+  "_key": "!items!1BWJZP8c3C8Lx2fw",
+  "name": "Outils de bijoutier",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "1 po",
+    "description": "<p>Nécessaires pour la compétence Artisanat (orfèvrerie). Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 1200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

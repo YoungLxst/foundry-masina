@@ -1,0 +1,20 @@
+{
+  "_id": "arYE9C6wyYEaSHc7",
+  "_key": "!items!arYE9C6wyYEaSHc7",
+  "name": "Baume cicatrisant",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 pe",
+    "description": "<p>Appliquer le baume prend une minute. Il rend 1d6 PV. Une créature ne peut en bénéficier qu'une fois par repos long. On le fabrique avec Herboristerie (SD 13). <i>Il n'y a pas de potion magique : la guérison prend du temps.</i></p>"
+  },
+  "effects": [],
+  "folder": "WASeJJ8EMxtmGIal",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

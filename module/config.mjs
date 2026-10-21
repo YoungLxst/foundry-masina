@@ -343,7 +343,18 @@ MASINA.genresAptitude = {
 MASINA.limitesAptitude = {
   aucune: "—",
   combat: "1/combat",
+  scene: "1/scène",
   jour: "1/jour"
+};
+
+MASINA.peuplesAptitude = {
+  "": "—",
+  humain: "Humain",
+  nain: "Nain",
+  elfe: "Elfe",
+  sangMele: "Sang-mêlé",
+  gobelin: "Gobelin",
+  marque: "Marqué"
 };
 
 /* -------------------------------------------- */

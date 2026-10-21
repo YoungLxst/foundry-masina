@@ -1,0 +1,20 @@
+{
+  "_id": "cZxWnCrXkWecE5Ox",
+  "_key": "!items!cZxWnCrXkWecE5Ox",
+  "name": "Outils de forgeron",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 8,
+    "prix": "5 pe",
+    "description": "<p>Nécessaires pour la compétence Artisanat (forge). Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "k9LbjOySEu3opnJS",
+  "_key": "!items!k9LbjOySEu3opnJS",
+  "name": "Antidote",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 pe",
+    "description": "<p>Préparé par un herboriste contre <b>un</b> poison connu (une morsure de vouivre, la ciguë…). Il donne l'avantage aux jets de Résistance contre ce poison pendant 1 heure. On le fabrique avec Herboristerie (SD 15).</p>"
+  },
+  "effects": [],
+  "folder": "WASeJJ8EMxtmGIal",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

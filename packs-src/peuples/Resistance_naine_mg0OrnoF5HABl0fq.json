@@ -1,0 +1,29 @@
+{
+  "_id": "mg0OrnoF5HABl0fq",
+  "_key": "!items!mg0OrnoF5HABl0fq",
+  "name": "Résistance naine",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Avantage aux jets de Résistance contre le poison, et il ne subit que la moitié des dégâts de poison.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

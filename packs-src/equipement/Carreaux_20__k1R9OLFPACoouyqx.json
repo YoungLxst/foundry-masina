@@ -1,0 +1,20 @@
+{
+  "_id": "k1R9OLFPACoouyqx",
+  "_key": "!items!k1R9OLFPACoouyqx",
+  "name": "Carreaux (20)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.75,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "U1PjP2cgt1Pp2nJ2",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

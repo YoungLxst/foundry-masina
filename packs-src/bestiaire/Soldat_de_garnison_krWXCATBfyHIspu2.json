@@ -1,0 +1,464 @@
+{
+  "_id": "krWXCATBfyHIspu2",
+  "_key": "!actors!krWXCATBfyHIspu2",
+  "name": "Soldat de garnison",
+  "type": "pnj",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "KzGKft8nSqepYX8x",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "_id": "1taAH9YotBSSXYNK",
+      "_key": "!actors.items!krWXCATBfyHIspu2.1taAH9YotBSSXYNK",
+      "name": "Lance",
+      "type": "arme",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "competence": "armesHast",
+        "categorie": "courante",
+        "degats": "1d6",
+        "typeDegats": "perforant",
+        "poids": 1.5,
+        "prix": "5 pc",
+        "proprietes": {
+          "lancer": true,
+          "polyvalente": true
+        },
+        "equipee": true,
+        "degatsDeuxMains": "1d8",
+        "portee": "6/18 m",
+        "forMin": 0,
+        "qualite": "fer",
+        "description": "",
+        "bonusAttaque": 0,
+        "bonusDegats": 0
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "85pSY7gxFoNmrQm0",
+      "_key": "!actors.items!krWXCATBfyHIspu2.85pSY7gxFoNmrQm0",
+      "name": "Arbalète légère",
+      "type": "arme",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "competence": "arbalete",
+        "categorie": "courante",
+        "degats": "1d8",
+        "typeDegats": "perforant",
+        "poids": 2.5,
+        "prix": "1 po",
+        "proprietes": {
+          "munitions": true,
+          "chargement": true,
+          "deuxMains": true,
+          "perceArmure": true
+        },
+        "equipee": true,
+        "degatsDeuxMains": "",
+        "portee": "24/96 m",
+        "forMin": 0,
+        "qualite": "fer",
+        "description": "",
+        "bonusAttaque": 0,
+        "bonusDegats": 0
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "kHo9sKAB3qWuCt5k",
+      "_key": "!actors.items!krWXCATBfyHIspu2.kHo9sKAB3qWuCt5k",
+      "name": "Casque à nasal",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "casque",
+        "couvre": {
+          "tete": true,
+          "torse": false,
+          "bras": false,
+          "jambes": false
+        },
+        "pa": 3,
+        "dexMax": null,
+        "forMin": 0,
+        "desavDiscretion": false,
+        "poids": 1.5,
+        "prix": "1 pe",
+        "dp": 0,
+        "equipee": true,
+        "sousCouche": false,
+        "particularite": "",
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "t1xsnbzdU7vzxRVp",
+      "_key": "!actors.items!krWXCATBfyHIspu2.t1xsnbzdU7vzxRVp",
+      "name": "Cotte de mailles",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "intermediaire",
+        "couvre": {
+          "tete": false,
+          "torse": true,
+          "bras": true,
+          "jambes": false
+        },
+        "pa": 5,
+        "dexMax": 2,
+        "forMin": 0,
+        "desavDiscretion": true,
+        "poids": 12,
+        "prix": "3 po",
+        "dp": 0,
+        "equipee": true,
+        "sousCouche": false,
+        "particularite": "",
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "DG7xyLNFEhwbNAYa",
+      "_key": "!actors.items!krWXCATBfyHIspu2.DG7xyLNFEhwbNAYa",
+      "name": "Bouclier rond",
+      "type": "armure",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "categorie": "bouclier",
+        "couvre": {
+          "tete": false,
+          "torse": false,
+          "bras": false,
+          "jambes": false
+        },
+        "pa": 0,
+        "dexMax": null,
+        "dp": 2,
+        "forMin": 0,
+        "particularite": "Permet le Blocage à distance",
+        "desavDiscretion": false,
+        "sousCouche": false,
+        "poids": 3,
+        "prix": "1 pe",
+        "equipee": true,
+        "description": "<p>Permet le Blocage à distance</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Mur de boucliers",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Chaque soldat adjacent à un autre soldat a +1 DP (maximum +2).</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "VODKR5mmH0qIOVgk",
+      "_key": "!actors.items!krWXCATBfyHIspu2.VODKR5mmH0qIOVgk",
+      "folder": null,
+      "sort": 600
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 14
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 10
+      },
+      "sag": {
+        "value": 10
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 20,
+      "max": 20
+    },
+    "rang": "veteran",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 2,
+    "typeCreature": "Humain",
+    "dpFixe": 12,
+    "paNaturel": {
+      "tete": 0,
+      "torse": 0,
+      "bras": 0,
+      "jambes": 0
+    },
+    "defense": "blocage",
+    "resistanceFer": false,
+    "description": "<p><i>Payé quand le seigneur s'en souvient. Discipliné quand le sergent regarde.</i></p><p><b>Menace 2 · Humain</b></p><p><b>Comportement :</b> Postures : Offensive / Défensive. La DP de 12 comprend le bouclier rond.</p><section class=\"secret\" id=\"secret-6tBx5vQ1NwUZC5Nw\"><p><b>Butin :</b> 1d6 pc, la livrée du seigneur (utile pour se déguiser… ou pour se faire pendre).</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Soldat de garnison",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  }
+}

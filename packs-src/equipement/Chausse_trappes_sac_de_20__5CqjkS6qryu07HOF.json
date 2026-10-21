@@ -1,0 +1,20 @@
+{
+  "_id": "5CqjkS6qryu07HOF",
+  "_key": "!items!5CqjkS6qryu07HOF",
+  "name": "Chausse-trappes (sac de 20)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "3 pc",
+    "description": "<p>Couvrent une zone de 1,5 m × 1,5 m. Une créature qui y entre sans ralentir fait un jet d'Esquive SD 13. En cas d'échec, elle subit 1 dégât perforant, s'arrête, et perd 3 m de vitesse jusqu'à ce qu'elle soit soignée.</p>"
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

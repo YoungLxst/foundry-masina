@@ -1,0 +1,29 @@
+{
+  "_id": "BxBCHFPEdH69CtN2",
+  "_key": "!items!BxBCHFPEdH69CtN2",
+  "name": "Enraciné",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Le nain plante ses pieds comme une borne. Il a l'<b>avantage</b> contre tout ce qui veut le renverser, le repousser, le saisir ou l'entraîner (y compris <i>Entraîner au fond</i>).</p>",
+    "contrepartie": "<p><b>Contrepartie :</b> Sa vitesse est réduite de moitié.</p>",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

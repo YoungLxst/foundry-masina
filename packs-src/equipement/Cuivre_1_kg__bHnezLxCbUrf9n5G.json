@@ -1,0 +1,20 @@
+{
+  "_id": "bHnezLxCbUrf9n5G",
+  "_key": "!items!bHnezLxCbUrf9n5G",
+  "name": "Cuivre (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "xxeeF4sXUQiB2xCT",
+  "_key": "!items!xxeeF4sXUQiB2xCT",
+  "name": "Platine (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "50 pp",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 2000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "H9YbWmQT8MKxF99y",
+  "_key": "!items!H9YbWmQT8MKxF99y",
+  "name": "Sel (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "5 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

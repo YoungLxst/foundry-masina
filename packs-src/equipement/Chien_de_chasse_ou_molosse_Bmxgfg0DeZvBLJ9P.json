@@ -1,0 +1,20 @@
+{
+  "_id": "Bmxgfg0DeZvBLJ9P",
+  "_key": "!items!Bmxgfg0DeZvBLJ9P",
+  "name": "Chien de chasse ou molosse",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 pc",
+    "description": "<p>Vitesse 12 m. Dressage : pistage, garde.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

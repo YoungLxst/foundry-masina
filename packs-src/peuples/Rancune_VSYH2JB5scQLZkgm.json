@@ -1,0 +1,29 @@
+{
+  "_id": "VSYH2JB5scQLZkgm",
+  "_key": "!items!VSYH2JB5scQLZkgm",
+  "name": "Rancune",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "combat",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il attaque une créature qui l'a <b>blessé</b> pendant ce combat (elle lui a fait perdre des PV). Si l'attaque touche, elle inflige <b>+1 DA</b>. Un nain n'oublie pas.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

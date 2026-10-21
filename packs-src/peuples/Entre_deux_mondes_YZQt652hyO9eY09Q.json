@@ -1,0 +1,29 @@
+{
+  "_id": "YZQt652hyO9eY09Q",
+  "_key": "!items!YZQt652hyO9eY09Q",
+  "name": "Entre deux mondes",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "sangMele",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Avec une capuche, une coiffure ou un mensonge bien rodé, il peut se faire passer pour un humain (Tromperie SD 13 face à un observateur attentif). Tant qu'il n'est pas démasqué, il ne subit pas le malus de regard.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "SCE2xidX8bVeCgMx",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

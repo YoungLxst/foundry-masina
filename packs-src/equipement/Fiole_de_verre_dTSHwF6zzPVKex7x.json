@@ -1,0 +1,20 @@
+{
+  "_id": "dTSHwF6zzPVKex7x",
+  "_key": "!items!dTSHwF6zzPVKex7x",
+  "name": "Fiole de verre",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

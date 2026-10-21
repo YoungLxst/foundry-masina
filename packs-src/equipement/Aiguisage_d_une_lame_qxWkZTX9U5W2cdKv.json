@@ -1,0 +1,20 @@
+{
+  "_id": "qxWkZTX9U5W2cdKv",
+  "_key": "!items!qxWkZTX9U5W2cdKv",
+  "name": "Aiguisage d'une lame",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

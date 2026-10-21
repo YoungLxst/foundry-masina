@@ -1,0 +1,20 @@
+{
+  "_id": "z1SgvK19gJeSWxHf",
+  "_key": "!items!z1SgvK19gJeSWxHf",
+  "name": "Poison de lame",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 po",
+    "description": "<p>Enduire une arme ou 3 munitions prend une action. La première créature touchée fait un jet de Résistance SD 15. En cas d'échec, elle subit 2d6 dégâts de poison ; en cas de réussite, la moitié. Le poison sèche au bout d'1 minute.</p>"
+  },
+  "effects": [],
+  "folder": "WASeJJ8EMxtmGIal",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "Q3Q6BIMhkIlNVJPi",
+  "_key": "!items!Q3Q6BIMhkIlNVJPi",
+  "name": "Messager (par jour de route)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

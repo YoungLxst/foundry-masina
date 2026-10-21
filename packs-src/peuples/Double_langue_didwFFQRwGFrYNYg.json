@@ -1,0 +1,29 @@
+{
+  "_id": "didwFFQRwGFrYNYg",
+  "_key": "!items!didwFFQRwGFrYNYg",
+  "name": "Double langue",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "",
+    "peuple": "sangMele",
+    "voie": "",
+    "niveau": 1,
+    "limite": "scene",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il a passé sa vie à être ce qu'on attendait de lui. Il fait un jet de Tromperie ou de Persuasion avec <b>avantage</b>. En cas de réussite, la cible garde de lui un souvenir flou : elle ne saura pas le décrire plus tard.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "SCE2xidX8bVeCgMx",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

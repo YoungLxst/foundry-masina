@@ -1,0 +1,29 @@
+{
+  "_id": "HYeHpgwzIbwZTi39",
+  "_key": "!items!HYeHpgwzIbwZTi39",
+  "name": "Glisser entre",
+  "type": "aptitude",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "genre": "reflexe",
+    "classe": "",
+    "peuple": "sangMele",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Quand un ennemi adjacent le <b>rate</b> en mêlée, il se déplace aussitôt de 3 m sans provoquer d'attaque d'opportunité.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "SCE2xidX8bVeCgMx",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

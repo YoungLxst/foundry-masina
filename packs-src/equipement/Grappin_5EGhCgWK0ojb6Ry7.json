@@ -1,0 +1,20 @@
+{
+  "_id": "5EGhCgWK0ojb6Ry7",
+  "_key": "!items!5EGhCgWK0ojb6Ry7",
+  "name": "Grappin",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

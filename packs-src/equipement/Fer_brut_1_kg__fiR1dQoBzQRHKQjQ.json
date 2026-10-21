@@ -1,0 +1,20 @@
+{
+  "_id": "fiR1dQoBzQRHKQjQ",
+  "_key": "!items!fiR1dQoBzQRHKQjQ",
+  "name": "Fer brut (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "XbldYEDPEZSzm0dV",
+  "_key": "!items!XbldYEDPEZSzm0dV",
+  "name": "Péage seigneurial",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

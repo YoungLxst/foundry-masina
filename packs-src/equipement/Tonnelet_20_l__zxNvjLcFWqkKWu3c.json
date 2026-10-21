@@ -1,0 +1,20 @@
+{
+  "_id": "zxNvjLcFWqkKWu3c",
+  "_key": "!items!zxNvjLcFWqkKWu3c",
+  "name": "Tonnelet (20 l)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 5,
+    "prix": "2 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

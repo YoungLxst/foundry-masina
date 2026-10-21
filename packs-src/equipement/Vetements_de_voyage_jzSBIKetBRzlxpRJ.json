@@ -1,0 +1,20 @@
+{
+  "_id": "jzSBIKetBRzlxpRJ",
+  "_key": "!items!jzSBIKetBRzlxpRJ",
+  "name": "Vêtements de voyage",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "9NOsBE0p5ABGxz3g",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

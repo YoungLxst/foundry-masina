@@ -1,0 +1,20 @@
+{
+  "_id": "kzqrRaMd6w8MNk71",
+  "_key": "!items!kzqrRaMd6w8MNk71",
+  "name": "Corde de chanvre (15 m)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 5,
+    "prix": "2 pc",
+    "description": "<p>2 PV. On la rompt avec un jet d'Athlétisme SD 17.</p>"
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

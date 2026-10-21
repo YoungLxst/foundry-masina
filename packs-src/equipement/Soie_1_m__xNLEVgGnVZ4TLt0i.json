@@ -1,0 +1,20 @@
+{
+  "_id": "xNLEVgGnVZ4TLt0i",
+  "_key": "!items!xNLEVgGnVZ4TLt0i",
+  "name": "Soie (1 m²)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.1,
+    "prix": "3 po",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

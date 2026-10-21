@@ -1,0 +1,20 @@
+{
+  "_id": "KpFqq0Hq54YkxWWm",
+  "_key": "!items!KpFqq0Hq54YkxWWm",
+  "name": "Fiole de terre cuite",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "PmxGV8rxuUxXZyVs",
+  "_key": "!items!PmxGV8rxuUxXZyVs",
+  "name": "Trousse de chirurgien (scies, aiguilles, fers)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "3 pe",
+    "description": "<p>Nécessaires pour la compétence Médecine. Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ). Obligatoire pour soigner une blessure grave.</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

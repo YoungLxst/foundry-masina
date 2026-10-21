@@ -1,0 +1,20 @@
+{
+  "_id": "pEj7njiQcx4RxONA",
+  "_key": "!items!pEj7njiQcx4RxONA",
+  "name": "Mors et bride",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

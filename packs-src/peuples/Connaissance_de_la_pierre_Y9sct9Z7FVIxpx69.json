@@ -1,0 +1,29 @@
+{
+  "_id": "Y9sct9Z7FVIxpx69",
+  "_key": "!items!Y9sct9Z7FVIxpx69",
+  "name": "Connaissance de la pierre",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Avantage aux jets sur la pierre, la maçonnerie, les tunnels et les mines (origine d'un mur, solidité d'une galerie, passage secret).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

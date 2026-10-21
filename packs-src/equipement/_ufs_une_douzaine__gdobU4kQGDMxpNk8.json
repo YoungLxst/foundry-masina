@@ -1,0 +1,20 @@
+{
+  "_id": "gdobU4kQGDMxpNk8",
+  "_key": "!items!gdobU4kQGDMxpNk8",
+  "name": "Œufs (une douzaine)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.6,
+    "prix": "1 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

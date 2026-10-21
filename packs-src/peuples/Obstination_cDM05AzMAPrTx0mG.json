@@ -1,0 +1,29 @@
+{
+  "_id": "cDM05AzMAPrTx0mG",
+  "_key": "!items!cDM05AzMAPrTx0mG",
+  "name": "Obstination",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "humain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "jour",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Une fois par repos long, l'humain peut relancer un jet de compétence raté. Il garde le second résultat.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "t9IOcMUYl1RUHh6e",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

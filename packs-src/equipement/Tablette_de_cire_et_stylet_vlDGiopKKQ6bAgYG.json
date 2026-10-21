@@ -1,0 +1,20 @@
+{
+  "_id": "vlDGiopKKQ6bAgYG",
+  "_key": "!items!vlDGiopKKQ6bAgYG",
+  "name": "Tablette de cire et stylet",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "2 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "GBWLdbxkx4zwRsby",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

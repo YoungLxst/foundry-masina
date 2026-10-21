@@ -1,0 +1,20 @@
+{
+  "_id": "9f2hvtojLTlIdyGu",
+  "_key": "!items!9f2hvtojLTlIdyGu",
+  "name": "Fourrage (par jour)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 5,
+    "prix": "2 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

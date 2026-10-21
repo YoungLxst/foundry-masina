@@ -1,0 +1,20 @@
+{
+  "_id": "teWERCyxWMw1Bqm7",
+  "_key": "!items!teWERCyxWMw1Bqm7",
+  "name": "Barbier-chirurgien",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 pc",
+    "description": "<p>Recoudre, arracher une dent.</p>"
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

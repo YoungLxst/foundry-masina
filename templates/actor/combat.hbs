@@ -20,6 +20,22 @@
         {{/if}}
       </div>
 
+      {{#unless estPJ}}
+      <h2 class="mt">Profil de PNJ <small>valeurs du bestiaire</small></h2>
+      <div class="boite profil-pnj">
+        <label class="champ">DP fixe<input type="number" name="system.dpFixe" value="{{source.dpFixe}}" placeholder="calculée"></label>
+        <label class="champ">Défense active<select name="system.defense">{{selectOptions choix.defenses selected=source.defense}}</select></label>
+        <label class="champ case-ligne"><input type="checkbox" name="system.resistanceFer" {{checked source.resistanceFer}}> Résistance au fer</label>
+        <div class="pa-naturel">
+          <span class="tag">PA naturel</span>
+          <label class="champ-inline">tête <input type="number" name="system.paNaturel.tete" value="{{source.paNaturel.tete}}" min="0"></label>
+          <label class="champ-inline">torse <input type="number" name="system.paNaturel.torse" value="{{source.paNaturel.torse}}" min="0"></label>
+          <label class="champ-inline">bras <input type="number" name="system.paNaturel.bras" value="{{source.paNaturel.bras}}" min="0"></label>
+          <label class="champ-inline">jambes <input type="number" name="system.paNaturel.jambes" value="{{source.paNaturel.jambes}}" min="0"></label>
+        </div>
+      </div>
+      {{/unless}}
+
       <h2 class="mt">Armes <small>clic sur le nom = attaque</small></h2>
       <table class="liste">
         <thead><tr><th>Arme</th><th>Comp.</th><th>Att.</th><th>Dégâts</th><th>Portée</th><th></th></tr></thead>

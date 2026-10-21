@@ -1,0 +1,20 @@
+{
+  "_id": "IYvxMN3XEQAU6PFc",
+  "_key": "!items!IYvxMN3XEQAU6PFc",
+  "name": "Poulet",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "2 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

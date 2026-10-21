@@ -1,0 +1,29 @@
+{
+  "_id": "BUqvtrwLG3ZM5e2Y",
+  "_key": "!items!BUqvtrwLG3ZM5e2Y",
+  "name": "Tir patient",
+  "type": "aptitude",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "genre": "technique",
+    "classe": "",
+    "peuple": "elfe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Il renonce à se déplacer ce tour. Son attaque à l'arc se fait avec <b>avantage</b> et ignore le couvert partiel.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "sX9fuGAHtTF2xZcx",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

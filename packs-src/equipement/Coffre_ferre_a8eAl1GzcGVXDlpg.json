@@ -1,0 +1,20 @@
+{
+  "_id": "a8eAl1GzcGVXDlpg",
+  "_key": "!items!a8eAl1GzcGVXDlpg",
+  "name": "Coffre ferré",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 12,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

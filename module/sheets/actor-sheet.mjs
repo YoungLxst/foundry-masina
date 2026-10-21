@@ -63,6 +63,20 @@ export class MasinaActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }
   };
 
+  /**
+   * Un utilisateur qui n'a qu'un accès limité ne voit que le portrait, le nom et la description publique :
+   * ni les valeurs, ni les notes, ni les secrets.
+   */
+  get vueLimitee() {
+    return !game.user.isGM && !this.actor.testUserPermission(game.user, "OBSERVER");
+  }
+
+  _configureRenderParts(options) {
+    const parts = super._configureRenderParts(options);
+    if ( this.vueLimitee ) return { limite: { template: `${T}/limite.hbs` } };
+    return parts;
+  }
+
   /* -------------------------------------------- */
   /*  Contexte                                    */
   /* -------------------------------------------- */
@@ -91,6 +105,7 @@ export class MasinaActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       races: Object.fromEntries(Object.entries(MASINA.races).map(([k, v]) => [k, v.label])),
       classes: { "": "—", ...Object.fromEntries(Object.entries(MASINA.classes).map(([k, v]) => [k, v.label])) },
       lateralites: MASINA.lateralites,
+      defenses: { "": "— selon la classe —", blocage: "Blocage", parade: "Parade", esquive: "Esquive", aucune: "Aucune" },
       rangs: Object.fromEntries(Object.entries(MASINA.rangs).map(([k, v]) => [k, `${v.label} (B ${v.B})`])),
       marques: { "": "— pas de marque —", ...Object.fromEntries(Object.entries(MASINA.marques).map(([k, v]) => [k, v.label])) },
       epuisement: Object.fromEntries(MASINA.epuisement.map((e, i) => [i, i ? `${i} — ${e}` : "0 — aucun"]))
@@ -114,8 +129,8 @@ export class MasinaActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const items = actor.items.contents.sort((a, b) => (a.sort || 0) - (b.sort || 0));
     context.armes = items.filter(i => i.type === "arme").map(i => {
       const s = sys.competences[i.system.competence];
-      const att = (s?.total ?? 0) + (i.system.qualiteCfg?.attaque ?? 0) + actor.bonusAttaquePosture;
-      const mod = actor.modDegats(i) + (i.system.qualiteCfg?.degats ?? 0);
+      const att = (s?.total ?? 0) + (i.system.qualiteCfg?.attaque ?? 0) + (i.system.bonusAttaque ?? 0) + actor.bonusAttaquePosture;
+      const mod = actor.modDegats(i) + (i.system.qualiteCfg?.degats ?? 0) + (i.system.bonusDegats ?? 0);
       return { item: i, attaque: att >= 0 ? `+${att}` : `−${Math.abs(att)}`,
         degats: `${i.system.degats}${mod ? (mod > 0 ? ` + ${mod}` : ` − ${Math.abs(mod)}`) : ""}` };
     });
@@ -155,6 +170,16 @@ export class MasinaActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }
     else {
       context.aideDefense = MASINA.classes[sys.classe]?.aideDefense ?? "";
+    }
+
+    // Vue limitée : rien d'autre que le texte public
+    if ( this.vueLimitee ) {
+      context.sousTitre = estPJ
+        ? [MASINA.races[sys.identite.race]?.label, MASINA.classes[sys.identite.classe]?.label].filter(Boolean).join(" · ")
+        : sys.typeCreature;
+      context.textePublic = await TextEditor.enrichHTML((estPJ ? sys.histoire : sys.description) ?? "",
+        { secrets: false, relativeTo: actor });
+      return context;
     }
 
     // Textes enrichis

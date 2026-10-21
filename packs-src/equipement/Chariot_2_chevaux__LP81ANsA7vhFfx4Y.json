@@ -1,0 +1,20 @@
+{
+  "_id": "LP81ANsA7vhFfx4Y",
+  "_key": "!items!LP81ANsA7vhFfx4Y",
+  "name": "Chariot (2 chevaux)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 200,
+    "prix": "4 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

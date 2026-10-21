@@ -1,0 +1,20 @@
+{
+  "_id": "GMNRa4vBHSZsdnpV",
+  "_key": "!items!GMNRa4vBHSZsdnpV",
+  "name": "Tente de toile (2 personnes)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 10,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

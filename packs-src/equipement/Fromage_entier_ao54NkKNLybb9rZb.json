@@ -1,0 +1,20 @@
+{
+  "_id": "ao54NkKNLybb9rZb",
+  "_key": "!items!ao54NkKNLybb9rZb",
+  "name": "Fromage entier",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

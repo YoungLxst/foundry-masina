@@ -1,0 +1,20 @@
+{
+  "_id": "9wABqJxGkJPxRz2a",
+  "_key": "!items!9wABqJxGkJPxRz2a",
+  "name": "Huile (flasque)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pf",
+    "description": "<p>Jetée sur une cible et enflammée, elle inflige 1d6 dégâts de feu de plus. Versée au sol sur 1,5 m × 1,5 m, elle brûle 2 rounds et inflige 1d6 à qui y entre ou y finit son tour.</p>"
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "Lk5yQ9B4YgDUmuYL",
+  "_key": "!items!Lk5yQ9B4YgDUmuYL",
+  "name": "Poivre (100 g)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.1,
+    "prix": "3 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

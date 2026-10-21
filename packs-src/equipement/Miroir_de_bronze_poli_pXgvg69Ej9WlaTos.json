@@ -1,0 +1,20 @@
+{
+  "_id": "pXgvg69Ej9WlaTos",
+  "_key": "!items!pXgvg69Ej9WlaTos",
+  "name": "Miroir de bronze poli",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.3,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 1500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "OR5rxPhWe8rJjEsR",
+  "_key": "!items!OR5rxPhWe8rJjEsR",
+  "name": "Flèches (20)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "U1PjP2cgt1Pp2nJ2",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

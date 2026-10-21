@@ -1,0 +1,29 @@
+{
+  "_id": "5JbwuqftRFtjuLTq",
+  "_key": "!items!5JbwuqftRFtjuLTq",
+  "name": "Pas lourd",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Une armure lourde ne réduit pas sa vitesse et ne demande pas de minimum de Force.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "8aCY8pAZVFGeRM2U",
+  "_key": "!items!8aCY8pAZVFGeRM2U",
+  "name": "Jeu de dés, osselets ou tablier de jeu",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pf à 1 pc",
+    "description": "<p>Nécessaires pour la compétence Escamotage et Intuition. Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 1500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

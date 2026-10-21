@@ -1,0 +1,20 @@
+{
+  "_id": "nvRaVZuD4cxEPp8t",
+  "_key": "!items!nvRaVZuD4cxEPp8t",
+  "name": "Rebouteux ou guérisseuse de village",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 pc (ou un poulet)",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "hCMBjfvYKG6QWsv6",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

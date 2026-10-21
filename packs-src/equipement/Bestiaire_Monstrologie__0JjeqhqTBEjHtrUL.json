@@ -1,0 +1,20 @@
+{
+  "_id": "0JjeqhqTBEjHtrUL",
+  "_key": "!items!0JjeqhqTBEjHtrUL",
+  "name": "Bestiaire (Monstrologie)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 3,
+    "prix": "2 po, rare",
+    "description": "<p>Un recueil de créatures, souvent faux à moitié. Le lire donne l'avantage aux jets de Monstrologie sur les créatures qu'il décrit (il faut savoir lire).</p>"
+  },
+  "effects": [],
+  "folder": "GBWLdbxkx4zwRsby",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "CbBrbVNke6Z5JaSX",
+  "_key": "!items!CbBrbVNke6Z5JaSX",
+  "name": "Parchemin (une feuille)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "GBWLdbxkx4zwRsby",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

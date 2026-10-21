@@ -1,0 +1,20 @@
+{
+  "_id": "SCx2axo9u1pUqEU6",
+  "_key": "!items!SCx2axo9u1pUqEU6",
+  "name": "Sacoche",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "5 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

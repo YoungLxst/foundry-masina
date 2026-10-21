@@ -1,0 +1,29 @@
+{
+  "_id": "d8gCR98S0BvgIN2D",
+  "_key": "!items!d8gCR98S0BvgIN2D",
+  "name": "Pas des Premiers",
+  "type": "aptitude",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "genre": "posture",
+    "classe": "",
+    "peuple": "elfe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Le terrain difficile naturel (boue, roseaux, broussailles, neige) ne le ralentit pas, et il gagne <b>+1 DP</b> contre les attaques à distance.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "sX9fuGAHtTF2xZcx",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "dVCHUEliuRBv0Gkx",
+  "_key": "!items!dVCHUEliuRBv0Gkx",
+  "name": "Bœuf de labour",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 po",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

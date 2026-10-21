@@ -1,0 +1,20 @@
+{
+  "_id": "sJrql2tFzUFJFBBx",
+  "_key": "!items!sJrql2tFzUFJFBBx",
+  "name": "Sac à dos",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2.5,
+    "prix": "2 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

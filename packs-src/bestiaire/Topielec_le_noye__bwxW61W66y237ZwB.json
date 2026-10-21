@@ -1,0 +1,352 @@
+{
+  "_id": "bwxW61W66y237ZwB",
+  "_key": "!actors!bwxW61W66y237ZwB",
+  "name": "Topielec (le noyé)",
+  "type": "pnj",
+  "img": "icons/svg/terror.svg",
+  "folder": "7xYAxCC27mNmNzw5",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "name": "Griffes",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d6",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "tranchant"
+      },
+      "_id": "5aatQTxl5Sv3Q9aq",
+      "_key": "!actors.items!bwxW61W66y237ZwB.5aatQTxl5Sv3Q9aq",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "name": "Entraîner au fond",
+      "type": "aptitude",
+      "img": "icons/svg/explosion.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "technique",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Au lieu d'attaquer, il empoigne une cible adjacente (Bagarre +10 contre Athlétisme ou Acrobaties). En cas de réussite, il l'entraîne sous l'eau, et elle doit retenir son souffle.</p>",
+        "contrepartie": "",
+        "equipee": true,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "sjXyfkcvknveNzb2",
+      "_key": "!actors.items!bwxW61W66y237ZwB.sjXyfkcvknveNzb2",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "name": "Dans son élément",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Dans l'eau, il a l'avantage à ses attaques. Athlétisme pour nager, Discrétion dans l'eau.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "2gVl4ipx6gGhV1Cs",
+      "_key": "!actors.items!bwxW61W66y237ZwB.2gVl4ipx6gGhV1Cs",
+      "folder": null,
+      "sort": 300
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 14
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 6
+      },
+      "sag": {
+        "value": 10
+      },
+      "cha": {
+        "value": 6
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 18,
+      "max": 18
+    },
+    "rang": "sbire",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 1,
+    "typeCreature": "Créature de la Mašina (Dých)",
+    "dpFixe": 11,
+    "paNaturel": {
+      "tete": 1,
+      "torse": 1,
+      "bras": 1,
+      "jambes": 1
+    },
+    "defense": "aucune",
+    "resistanceFer": true,
+    "description": "<p><i>Un mort qui n'a pas quitté l'eau. La peau verte et gonflée, les doigts palmés, l'œil vitreux. Il attend sous la surface.</i></p><p><b>Menace 1 · Créature de la Mašina (Dých)</b></p><p><b>Comportement :</b> En groupes de 2 à 5, près des gués, des moulins et des noyades récentes. PA 1 partout (peau gonflée).</p><p><i>Résistance au fer : moitié des dégâts des armes de fer et d'acier (après l'armure), l'argent blesse normalement. Une blessure grave infligée par une créature de la Mašina demande un jet de Résistance SD 15, sinon +1 Corruption. Elles ciblent en priorité les personnages les plus corrompus.</i></p><section class=\"secret\" id=\"secret-PJGobbrBFJn3rSn0\"><p><b>Faiblesses :</b> Le feu (+1d6 dégâts de feu). Hors de l'eau depuis plus d'une heure, il s'affaiblit (−2 à tous ses jets).</p><p><b>Monstrologie :</b></p><ul><li><b>SD 9</b> : Les noyés reviennent.</li><li><b>SD 13</b> : Il ne s'éloigne pas de l'eau.</li><li><b>SD 17</b> : Brûler son corps (le vrai, au fond) empêche son retour.</li></ul><p><b>Butin :</b> Cervelle et sang verdâtre, des ingrédients d'huile de lame contre les nécrophages (5 pc).</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Topielec (le noyé)",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    }
+  }
+}

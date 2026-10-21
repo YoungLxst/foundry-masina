@@ -14,6 +14,8 @@
     <label class="champ">Type de dégâts<input type="text" name="system.typeDegats" value="{{source.typeDegats}}" placeholder="tranchant"></label>
     <label class="champ">Portée<input type="text" name="system.portee" value="{{source.portee}}" placeholder="24/96 m"></label>
     <label class="champ">FOR minimum<input type="number" name="system.forMin" value="{{source.forMin}}" min="0"></label>
+    <label class="champ" title="S'ajoute au jet d'attaque (profils de créatures, armes exceptionnelles)">Bonus d'attaque<input type="number" name="system.bonusAttaque" value="{{source.bonusAttaque}}"></label>
+    <label class="champ" title="S'ajoute au modificateur de dégâts">Bonus de dégâts<input type="number" name="system.bonusDegats" value="{{source.bonusDegats}}"></label>
     <label class="champ case-ligne"><input type="checkbox" name="system.equipee" {{checked source.equipee}}> En main</label>
   </div>
   <h2 class="mt">Propriétés</h2>
@@ -55,12 +57,14 @@
   <div class="grille-objet">
     <label class="champ">Type<select name="system.genre">{{selectOptions choix.genres selected=source.genre}}</select></label>
     <label class="champ">Classe<select name="system.classe">{{selectOptions choix.classes selected=source.classe}}</select></label>
-    <label class="champ">Voie<input type="text" name="system.voie" value="{{source.voie}}"></label>
+    <label class="champ">Peuple<select name="system.peuple">{{selectOptions choix.peuples selected=source.peuple}}</select></label>
+    <label class="champ">Voie / variante<input type="text" name="system.voie" value="{{source.voie}}"></label>
     <label class="champ">Niveau<input type="number" name="system.niveau" value="{{source.niveau}}" min="1" max="20"></label>
     <label class="champ">Limite<select name="system.limite">{{selectOptions choix.limites selected=source.limite}}</select></label>
     <label class="champ case-ligne"><input type="checkbox" name="system.equipee" {{checked source.equipee}}> Équipée</label>
     <label class="champ case-ligne" title="Comme Pluie de flèches : toujours disponible"><input type="checkbox" name="system.horsEmplacement" {{checked source.horsEmplacement}}> N'occupe pas d'emplacement</label>
     <label class="champ case-ligne"><input type="checkbox" name="system.utilisee" {{checked source.utilisee}}> Déjà utilisée</label>
+    <label class="champ case-ligne"><input type="checkbox" name="system.defaut" {{checked source.defaut}}> ⚠ Défaut</label>
   </div>
   <label class="champ mt">Citation<input type="text" name="system.citation" value="{{source.citation}}"></label>
   <h2 class="mt">Effet</h2>

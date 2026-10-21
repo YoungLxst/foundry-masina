@@ -49,11 +49,19 @@ Pour mettre à jour : `git pull` dans le dossier `masina`, puis rechargez le mon
 
 ### Compendiums
 - **Armes** (toute la table de l'équipement), **Armures et boucliers**.
-- **Aptitudes de classe** : niveaux 1 à 5 des trois classes et aptitudes de voie du niveau 3. Glissez-les sur la fiche.
+- **Équipement d'aventurier** : matériel, soins et poisons, munitions, vêtements, outils de métier, services, montures, véhicules, bateaux et marchandises.
+- **Aptitudes de classe** : niveaux 1 à 5 des trois classes et aptitudes de voie du niveau 3.
+- **Aptitudes de peuple** : passives (⚠ = défaut) et aptitudes de Roulement de chaque peuple, plus l'héritage des Marqués.
+- **Bestiaire** (privé par défaut) : les 17 PNJ et créatures du chapitre, avec leurs armes, armures, capacités, PA naturel et Résistance au fer. Faiblesses, Monstrologie et butin sont dans des blocs secrets.
+Glissez-les sur la fiche ou sur la scène. Les aptitudes de peuple de Roulement prennent un emplacement normal.
+
+### Confidentialité
+- Accès **limité** à une fiche : on ne voit que le portrait, le nom et la description publique (sans les secrets). Ni valeurs, ni notes.
+- Les blocs **secrets** des descriptions ne sont visibles que des propriétaires et du MJ.
 
 ## Pas encore automatisé
 - Les effets chiffrés des Postures des personnages (ils sont décrits sur la fiche, à ajouter à la main dans la fenêtre de jet).
-- Les traits de peuple : les bonus de caractéristiques se saisissent directement dans les scores.
+- Les bonus de caractéristiques et les niveaux de compétence de peuple se saisissent à la main.
 - Les aptitudes des niveaux 6 à 20.
 
 ## Développement

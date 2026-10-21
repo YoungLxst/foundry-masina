@@ -1,0 +1,29 @@
+{
+  "_id": "DHwDYXRRJPxEmIlE",
+  "_key": "!items!DHwDYXRRJPxEmIlE",
+  "name": "Archerie des Premiers",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "elfe",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p><i>Arc</i> compte toujours comme une compétence de classe (maximum B + 4).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "sX9fuGAHtTF2xZcx",
+  "sort": 200,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

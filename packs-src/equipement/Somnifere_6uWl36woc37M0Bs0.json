@@ -1,0 +1,20 @@
+{
+  "_id": "6uWl36woc37M0Bs0",
+  "_key": "!items!6uWl36woc37M0Bs0",
+  "name": "Somnifère",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 pe",
+    "description": "<p>Versé dans une boisson. Celui qui le boit fait un jet de Résistance SD 15 ; en cas d'échec, il dort 1d4 heures.</p>"
+  },
+  "effects": [],
+  "folder": "WASeJJ8EMxtmGIal",
+  "sort": 600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

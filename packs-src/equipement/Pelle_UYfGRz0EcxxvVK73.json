@@ -1,0 +1,20 @@
+{
+  "_id": "UYfGRz0EcxxvVK73",
+  "_key": "!items!UYfGRz0EcxxvVK73",
+  "name": "Pelle",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2.5,
+    "prix": "2 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

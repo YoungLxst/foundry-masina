@@ -20,6 +20,8 @@
       <label class="champ court">B (forcé)<input type="number" name="system.bonusB" value="{{source.bonusB}}" placeholder="—"></label>
       <label class="champ">Classe<select name="system.classe">{{selectOptions choix.classes selected=source.classe}}</select></label>
       <label class="champ">Peuple<select name="system.race">{{selectOptions choix.races selected=source.race}}</select></label>
+      <label class="champ court">Menace<input type="number" name="system.menace" value="{{source.menace}}" min="0" max="5"></label>
+      <label class="champ">Type<input type="text" name="system.typeCreature" value="{{source.typeCreature}}" placeholder="Humain, Bête, Créature de la Mašina…"></label>
     </div>
     {{/if}}
   </div>

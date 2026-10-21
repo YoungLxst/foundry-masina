@@ -1,0 +1,20 @@
+{
+  "_id": "n6zkahV1FLYxRL1y",
+  "_key": "!items!n6zkahV1FLYxRL1y",
+  "name": "Faucon dressé",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "2 po, rare",
+    "description": "<p>Vol 18 m. Dressage.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

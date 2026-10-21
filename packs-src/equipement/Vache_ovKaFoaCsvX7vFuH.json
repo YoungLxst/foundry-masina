@@ -1,0 +1,20 @@
+{
+  "_id": "ovKaFoaCsvX7vFuH",
+  "_key": "!items!ovKaFoaCsvX7vFuH",
+  "name": "Vache",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "1 po",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "r6qG5RtcGq9g6F7y",
+  "_key": "!items!r6qG5RtcGq9g6F7y",
+  "name": "Argent métal (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "1 po",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1600,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

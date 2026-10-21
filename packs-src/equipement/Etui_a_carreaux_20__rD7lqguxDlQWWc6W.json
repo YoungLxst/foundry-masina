@@ -1,0 +1,20 @@
+{
+  "_id": "rD7lqguxDlQWWc6W",
+  "_key": "!items!rD7lqguxDlQWWc6W",
+  "name": "Étui à carreaux (20)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.5,
+    "prix": "1 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "xyHKtYTbd77BCzwT",
+  "sort": 500,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

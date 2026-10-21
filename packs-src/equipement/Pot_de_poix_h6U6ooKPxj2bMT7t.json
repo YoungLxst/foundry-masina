@@ -1,0 +1,20 @@
+{
+  "_id": "h6U6ooKPxj2bMT7t",
+  "_key": "!items!h6U6ooKPxj2bMT7t",
+  "name": "Pot de poix",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2,
+    "prix": "2 pc",
+    "description": "<p>On l'enflamme et on le lance (<i>Armes de jet</i>, 6/18 m). Si l'attaque touche, la cible subit 1d4 dégâts de feu au début de chacun de ses tours jusqu'à ce qu'elle utilise une action pour l'éteindre (Acrobaties SD 10).</p>"
+  },
+  "effects": [],
+  "folder": "WASeJJ8EMxtmGIal",
+  "sort": 700,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

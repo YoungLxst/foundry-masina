@@ -1,0 +1,20 @@
+{
+  "_id": "330sf1qXueXNVvOx",
+  "_key": "!items!330sf1qXueXNVvOx",
+  "name": "Barde (armure de cheval)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "4 × le prix de l'armure",
+    "description": "<p>Une armure pour cheval coûte 4 fois le prix de l'armure équivalente et pèse 2 fois plus.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

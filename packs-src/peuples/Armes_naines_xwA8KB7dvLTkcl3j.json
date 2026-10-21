@@ -1,0 +1,29 @@
+{
+  "_id": "xwA8KB7dvLTkcl3j",
+  "_key": "!items!xwA8KB7dvLTkcl3j",
+  "name": "Armes naines",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "nain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Pour les haches et les marteaux, <i>Armes à une main</i> et <i>Armes lourdes</i> comptent comme des compétences de classe (maximum B + 4).</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "2sfHpWtWE0XqUoXK",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

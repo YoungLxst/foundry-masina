@@ -1,0 +1,20 @@
+{
+  "_id": "88nLI1cccPlRZ8w3",
+  "_key": "!items!88nLI1cccPlRZ8w3",
+  "name": "Outils de maçon",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 4,
+    "prix": "2 pe",
+    "description": "<p>Nécessaires pour la compétence Artisanat (maçonnerie). Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

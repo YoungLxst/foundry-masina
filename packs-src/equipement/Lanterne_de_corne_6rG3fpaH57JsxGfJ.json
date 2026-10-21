@@ -1,0 +1,20 @@
+{
+  "_id": "6rG3fpaH57JsxGfJ",
+  "_key": "!items!6rG3fpaH57JsxGfJ",
+  "name": "Lanterne de corne",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "2 pc",
+    "description": "<p>Lumière vive 9 m, lumière faible 9 m de plus. Dure 6 heures (1 flasque d'huile).</p>"
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

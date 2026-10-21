@@ -1,0 +1,441 @@
+{
+  "_id": "s8GXfA2AINoPDofz",
+  "_key": "!actors!s8GXfA2AINoPDofz",
+  "name": "Wilkołak (le loup-garou)",
+  "type": "pnj",
+  "img": "icons/svg/terror.svg",
+  "folder": "7xYAxCC27mNmNzw5",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "name": "Griffes",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d8",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "tranchant"
+      },
+      "_id": "DmM6pq5Ei52ExCRm",
+      "_key": "!actors.items!s8GXfA2AINoPDofz.DmM6pq5Ei52ExCRm",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "name": "Morsure",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "bagarre",
+        "degats": "1d10",
+        "bonusAttaque": 1,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "perforant"
+      },
+      "_id": "MVLBxMeEYHb2PCLG",
+      "_key": "!actors.items!s8GXfA2AINoPDofz.MVLBxMeEYHb2PCLG",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "name": "Attaques",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>2 attaques de griffes par tour, ou 1 morsure.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "mYIIIumUWxk9tXU7",
+      "_key": "!actors.items!s8GXfA2AINoPDofz.mYIIIumUWxk9tXU7",
+      "folder": null,
+      "sort": 300
+    },
+    {
+      "name": "Régénération",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Il regagne 5 PV au début de chacun de ses tours, sauf après des dégâts d'argent.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "XBFUGI7M3exLBiux",
+      "_key": "!actors.items!s8GXfA2AINoPDofz.XBFUGI7M3exLBiux",
+      "folder": null,
+      "sort": 400
+    },
+    {
+      "name": "Hurlement",
+      "type": "aptitude",
+      "img": "icons/svg/explosion.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "technique",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "combat",
+        "citation": "",
+        "effet": "<p>Les créatures à 30 m font un jet de Volonté SD 17, sinon elles sont effrayées pendant 1 round.</p>",
+        "contrepartie": "",
+        "equipee": true,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "LyzdAfaIJOHa5Y0I",
+      "_key": "!actors.items!s8GXfA2AINoPDofz.LyzdAfaIJOHa5Y0I",
+      "folder": null,
+      "sort": 500
+    },
+    {
+      "name": "Malédiction",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Une blessure grave infligée par sa morsure demande un jet de Résistance SD 17. En cas d'échec, la victime est maudite : la prochaine pleine lune, elle se transforme (une intrigue pour le MJ).</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "kz5CRLKGlKgzGfTx",
+      "_key": "!actors.items!s8GXfA2AINoPDofz.kz5CRLKGlKgzGfTx",
+      "folder": null,
+      "sort": 600
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 16
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 8
+      },
+      "sag": {
+        "value": 14
+      },
+      "cha": {
+        "value": 8
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 5,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 3,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 2,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 5,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 45,
+      "max": 45
+    },
+    "rang": "chef",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 4,
+    "typeCreature": "Créature de la Mašina (Krev)",
+    "dpFixe": 14,
+    "paNaturel": {
+      "tete": 2,
+      "torse": 2,
+      "bras": 2,
+      "jambes": 2
+    },
+    "defense": "esquive",
+    "resistanceFer": true,
+    "description": "<p><i>Un homme le jour, une bête la nuit. Il ne choisit pas, et il ne se souvient pas.</i></p><p><b>Menace 4 · Créature de la Mašina (Krev)</b></p><p><b>Comportement :</b> PA 2 partout (fourrure). Perception à l'odorat.</p><p><i>Résistance au fer : moitié des dégâts des armes de fer et d'acier (après l'armure), l'argent blesse normalement. Une blessure grave infligée par une créature de la Mašina demande un jet de Résistance SD 15, sinon +1 Corruption. Elles ciblent en priorité les personnages les plus corrompus.</i></p><section class=\"secret\" id=\"secret-VdsqD9vUZ2J2UAZw\"><p><b>Faiblesses :</b> L'argent, l'aconit (une flèche ou une lame enduite d'aconit inflige +1d6 et empêche la régénération pendant 1 round). Le jour, il est humain, avec les caractéristiques d'un villageois.</p><p><b>Monstrologie :</b></p><ul><li><b>SD 13</b> : Argent et aconit.</li><li><b>SD 17</b> : Il est humain le jour, et quelqu'un au village porte des blessures étranges.</li><li><b>SD 21</b> : La malédiction peut être levée par celui qui l'a jetée, ou en portant trois nuits de suite une ceinture de peau de loup consacrée.</li></ul><p><b>Butin :</b> Fourrure (si on ose la vendre), et le secret de son identité.</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Wilkołak (le loup-garou)",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    }
+  }
+}

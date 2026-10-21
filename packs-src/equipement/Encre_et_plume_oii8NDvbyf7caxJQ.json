@@ -1,0 +1,20 @@
+{
+  "_id": "oii8NDvbyf7caxJQ",
+  "_key": "!items!oii8NDvbyf7caxJQ",
+  "name": "Encre et plume",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "GBWLdbxkx4zwRsby",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

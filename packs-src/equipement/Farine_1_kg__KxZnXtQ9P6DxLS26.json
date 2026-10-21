@@ -1,0 +1,20 @@
+{
+  "_id": "KxZnXtQ9P6DxLS26",
+  "_key": "!items!KxZnXtQ9P6DxLS26",
+  "name": "Farine (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "2 pf",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

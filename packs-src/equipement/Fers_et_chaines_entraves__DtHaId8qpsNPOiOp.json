@@ -1,0 +1,20 @@
+{
+  "_id": "DtHaId8qpsNPOiOp",
+  "_key": "!items!DtHaId8qpsNPOiOp",
+  "name": "Fers et chaînes (entraves)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 3,
+    "prix": "1 pe",
+    "description": "<p>S'en libérer demande un jet d'Acrobaties SD 20, les briser un jet d'Athlétisme SD 20, les crocheter un jet de Mécanismes SD 15.</p>"
+  },
+  "effects": [],
+  "folder": "yxZ6YeTes0j9EGWC",
+  "sort": 900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

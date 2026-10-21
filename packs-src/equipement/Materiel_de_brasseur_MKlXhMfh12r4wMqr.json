@@ -1,0 +1,20 @@
+{
+  "_id": "MKlXhMfh12r4wMqr",
+  "_key": "!items!MKlXhMfh12r4wMqr",
+  "name": "Matériel de brasseur",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 5,
+    "prix": "3 pe",
+    "description": "<p>Nécessaires pour la compétence Artisanat (brasserie). Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 1100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "RfAWYiCBtmoJwxN6",
+  "_key": "!items!RfAWYiCBtmoJwxN6",
+  "name": "Ustensiles de cuisine",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 4,
+    "prix": "2 pc",
+    "description": "<p>Nécessaires pour la compétence Artisanat (cuisine). Sans les bons outils, le jet se fait avec désavantage (ou il est impossible, selon le MJ).</p>"
+  },
+  "effects": [],
+  "folder": "4BYTCJ6F8QN8xakw",
+  "sort": 1300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

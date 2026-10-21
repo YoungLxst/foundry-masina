@@ -1,0 +1,29 @@
+{
+  "_id": "yahOhZuuJEIeGnR2",
+  "_key": "!items!yahOhZuuJEIeGnR2",
+  "name": "Vision crépusculaire (sang-mêlé)",
+  "type": "aptitude",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "genre": "passif",
+    "classe": "",
+    "peuple": "sangMele",
+    "voie": "",
+    "niveau": 1,
+    "limite": "aucune",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Comme les elfes, mais jusqu'à 9 m seulement : dans la lumière faible, il voit comme en plein jour. Dans l'obscurité totale, il est aveugle comme un humain.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "SCE2xidX8bVeCgMx",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

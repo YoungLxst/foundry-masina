@@ -1,0 +1,20 @@
+{
+  "_id": "K4QgW4nzx46KH5gj",
+  "_key": "!items!K4QgW4nzx46KH5gj",
+  "name": "Chèvre",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

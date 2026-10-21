@@ -1,0 +1,20 @@
+{
+  "_id": "6AxoAbRLwPJxnAvy",
+  "_key": "!items!6AxoAbRLwPJxnAvy",
+  "name": "Toile de lin (1 m²)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0.3,
+    "prix": "3 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 800,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

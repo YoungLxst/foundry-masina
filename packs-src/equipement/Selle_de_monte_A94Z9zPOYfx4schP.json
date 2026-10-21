@@ -1,0 +1,20 @@
+{
+  "_id": "A94Z9zPOYfx4schP",
+  "_key": "!items!A94Z9zPOYfx4schP",
+  "name": "Selle de monte",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 12,
+    "prix": "5 pc",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

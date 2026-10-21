@@ -1,0 +1,29 @@
+{
+  "_id": "B1pKyco100hFVg4x",
+  "_key": "!items!B1pKyco100hFVg4x",
+  "name": "Pas encore",
+  "type": "aptitude",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "genre": "reflexe",
+    "classe": "",
+    "peuple": "humain",
+    "voie": "",
+    "niveau": 1,
+    "limite": "combat",
+    "defaut": false,
+    "citation": "",
+    "effet": "<p>Quand le personnage tombe à 0 PV ou subit une blessure grave, il reste <b>conscient et debout</b> jusqu'à la fin de son prochain tour. Il subit la blessure normalement, mais ses effets ne s'appliquent qu'ensuite.</p>",
+    "contrepartie": "",
+    "equipee": false,
+    "horsEmplacement": false,
+    "utilisee": false
+  },
+  "effects": [],
+  "folder": "t9IOcMUYl1RUHh6e",
+  "sort": 300,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

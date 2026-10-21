@@ -1,0 +1,20 @@
+{
+  "_id": "6YojSZLBCYzo8H3r",
+  "_key": "!items!6YojSZLBCYzo8H3r",
+  "name": "Livre manuscrit",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 2.5,
+    "prix": "1 po et plus",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "GBWLdbxkx4zwRsby",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "zkwiWU3uWhx6rDwl",
+  "_key": "!items!zkwiWU3uWhx6rDwl",
+  "name": "Or (1 kg)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "50 po",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "B6xdF1ZZdEmt5XJo",
+  "sort": 1900,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "GxFS0Uwf9g4LJxax",
+  "_key": "!items!GxFS0Uwf9g4LJxax",
+  "name": "Traîneau",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 150,
+    "prix": "1 pe",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "pj2fc7MCOhSGQUuF",
+  "sort": 1000,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

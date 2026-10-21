@@ -1,0 +1,381 @@
+{
+  "_id": "ogzexjAkJcQPLheQ",
+  "_key": "!actors!ogzexjAkJcQPLheQ",
+  "name": "Południca (la Dame de midi)",
+  "type": "pnj",
+  "img": "icons/svg/terror.svg",
+  "folder": "7xYAxCC27mNmNzw5",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "effects": [],
+  "items": [
+    {
+      "name": "Faucille",
+      "type": "arme",
+      "img": "icons/svg/bones.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "categorie": "courante",
+        "degatsDeuxMains": "",
+        "forMin": 0,
+        "poids": 0,
+        "prix": "",
+        "description": "<p>Arme naturelle.</p>",
+        "competence": "armesUneMain",
+        "degats": "1d8",
+        "bonusAttaque": 0,
+        "bonusDegats": 0,
+        "qualite": "fer",
+        "proprietes": {},
+        "equipee": true,
+        "portee": "",
+        "typeDegats": "tranchant"
+      },
+      "_id": "sFev5KUx353YILRZ",
+      "_key": "!actors.items!ogzexjAkJcQPLheQ.sFev5KUx353YILRZ",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "name": "La Question",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Elle pose une énigme, ou une question sur le travail des champs. Une bonne réponse la fait disparaître. Une mauvaise réponse ou un silence, et elle attaque.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "J1yxGeqwxTdvTAq8",
+      "_key": "!actors.items!ogzexjAkJcQPLheQ.J1yxGeqwxTdvTAq8",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "name": "Chaleur écrasante",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Les créatures à 9 m font un jet d'Endurance SD 17 au début de leur tour, sinon elles gagnent un niveau d'épuisement (le premier échec seulement, puis tous les deux échecs).</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "4x4Fis2N4uz1Qbdt",
+      "_key": "!actors.items!ogzexjAkJcQPLheQ.4x4Fis2N4uz1Qbdt",
+      "folder": null,
+      "sort": 300
+    },
+    {
+      "name": "L'heure passe",
+      "type": "aptitude",
+      "img": "icons/svg/aura.svg",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "genre": "passif",
+        "classe": "",
+        "peuple": "",
+        "voie": "",
+        "defaut": false,
+        "niveau": 1,
+        "limite": "aucune",
+        "citation": "",
+        "effet": "<p>Elle disparaît à la fin de l'heure de midi, quoi qu'il arrive. Elle reviendra le lendemain.</p>",
+        "contrepartie": "",
+        "equipee": false,
+        "horsEmplacement": true,
+        "utilisee": false
+      },
+      "_id": "PxE6eYMnVnMEYhnN",
+      "_key": "!actors.items!ogzexjAkJcQPLheQ.PxE6eYMnVnMEYhnN",
+      "folder": null,
+      "sort": 400
+    }
+  ],
+  "system": {
+    "caracs": {
+      "for": {
+        "value": 16
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 12
+      },
+      "sag": {
+        "value": 14
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "competences": {
+      "athletisme": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "bagarre": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesLourdes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "blocage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "esquive": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "discretion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "acrobaties": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "escamotage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "equitation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "parade": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "armesUneMain": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "petitesLames": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesHast": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arc": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "arbalete": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "armesJet": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "endurance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "resistance": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "connaissanceLocale": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langue3": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "lettres": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "histoire": {
+        "niveau": 4,
+        "precision": ""
+      },
+      "monstrologie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "medecine": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "herboristerie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat1": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "artisanat2": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "mecanismes": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tactique": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "langueFer": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "perception": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intuition": {
+        "niveau": 5,
+        "precision": ""
+      },
+      "survie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "pistage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "dressage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "volonte": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "persuasion": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "tromperie": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "intimidation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "marchandage": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "etiquette": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "basFonds": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "representation": {
+        "niveau": 0,
+        "precision": ""
+      },
+      "commandement": {
+        "niveau": 0,
+        "precision": ""
+      }
+    },
+    "pv": {
+      "value": 30,
+      "max": 30
+    },
+    "rang": "chef",
+    "bonusB": null,
+    "classe": "",
+    "race": "humain",
+    "menace": 3,
+    "typeCreature": "Créature de la Mašina (Svit)",
+    "dpFixe": 15,
+    "paNaturel": {
+      "tete": 0,
+      "torse": 0,
+      "bras": 0,
+      "jambes": 0
+    },
+    "defense": "parade",
+    "resistanceFer": true,
+    "description": "<p><i>Une femme grande et blanche, une faucille à la main. Elle apparaît dans les champs à l'heure la plus chaude et pose une question. Malheur à qui répond mal.</i></p><p><b>Menace 3 · Créature de la Mašina (Svit)</b></p><p><i>Résistance au fer : moitié des dégâts des armes de fer et d'acier (après l'armure), l'argent blesse normalement. Une blessure grave infligée par une créature de la Mašina demande un jet de Résistance SD 15, sinon +1 Corruption. Elles ciblent en priorité les personnages les plus corrompus.</i></p><section class=\"secret\" id=\"secret-K6MfCgx6rVuarYEp\"><p><b>Faiblesses :</b> Elle ne peut pas entrer dans l'ombre profonde (forêt, grange, cave). Répondre juste. Tenir jusqu'à la fin de l'heure.</p><p><b>Monstrologie :</b></p><ul><li><b>SD 9</b> : Il ne faut pas travailler aux champs à midi.</li><li><b>SD 13</b> : Elle pose une question, et l'ombre protège.</li><li><b>SD 17</b> : Elle s'en va quand l'heure passe.</li><li><b>SD 21</b> : C'est une fiancée morte le jour de ses noces dans un champ ; retrouver sa couronne de fleurs et la brûler l'apaise.</li></ul><p><b>Butin :</b> Une faucille d'un métal inconnu, qui ne rouille jamais (sans valeur, sauf pour un érudit… ou un purificateur).</p></section>",
+    "notes": "",
+    "combat": {
+      "posture": ""
+    },
+    "epuisement": 0,
+    "vitesseBonus": 0
+  },
+  "prototypeToken": {
+    "name": "Południca (la Dame de midi)",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "pv"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    }
+  }
+}

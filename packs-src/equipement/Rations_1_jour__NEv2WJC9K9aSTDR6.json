@@ -1,0 +1,20 @@
+{
+  "_id": "NEv2WJC9K9aSTDR6",
+  "_key": "!items!NEv2WJC9K9aSTDR6",
+  "name": "Rations (1 jour)",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 1,
+    "prix": "3 pf",
+    "description": "<p>Pain dur, viande séchée, fromage.</p>"
+  },
+  "effects": [],
+  "folder": "WPW4WSrB8WJ5pIxD",
+  "sort": 400,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

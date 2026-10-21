@@ -119,7 +119,7 @@ class MasinaActorBase extends foundry.abstract.TypeDataModel {
     for ( const [k, z] of Object.entries(this.zones) ) {
       const cfg = MASINA.zones[k];
       const couvrent = equipees.filter(a => (a.system.categorie !== "bouclier") && a.system.couvre[cfg.couverture]);
-      let paMax = couvrent.reduce((m, a) => Math.max(m, a.system.pa), 0);
+      let paMax = couvrent.reduce((m, a) => Math.max(m, a.system.pa), this._paNaturel(cfg.couverture));
       // Superposition : un gambison sous une armure intermédiaire ou lourde ajoute +1 PA
       const sousCouche = couvrent.some(a => a.system.sousCouche);
       const corps = couvrent.some(a => ["intermediaire", "lourde"].includes(a.system.categorie));
@@ -135,14 +135,14 @@ class MasinaActorBase extends foundry.abstract.TypeDataModel {
     // Défense passive
     const vcDex = this.caracs.dex.vc;
     const dexCompte = dexMax === null ? vcDex : Math.min(vcDex, dexMax);
-    this.dp = this.caracs.con.vc + dexCompte + bouclier + this._bonusDP();
+    this.dp = (this._dpFixe() ?? (this.caracs.con.vc + dexCompte + bouclier)) + this._bonusDP();
 
     // Valeurs de classe
     const principale = classe?.principale ?? "for";
     this.sdClasse = 7 + this.caracs[principale].vc + B;
     this.sdLecture = 10 + B;
-    const defense = classe?.defense ?? null;
-    this.defenseClasse = defense ? { cle: defense, label: MASINA.competences[defense].label,
+    const defense = this._defenseCle();
+    this.defenseClasse = MASINA.competences[defense] ? { cle: defense, label: MASINA.competences[defense].label,
       total: this.competences[defense].total } : null;
 
     // Charge
@@ -170,6 +170,21 @@ class MasinaActorBase extends foundry.abstract.TypeDataModel {
     this.vitesse = Math.max(0, vitesse);
 
     this.epuisementEffet = MASINA.epuisement[this.epuisement] ?? "";
+  }
+
+  /** PA naturel (fourrure, écorce…) sur une couverture : tete, torse, bras, jambes. */
+  _paNaturel(couverture) {
+    return 0;
+  }
+
+  /** DP imposée par un profil (PNJ), ou null pour la calculer. */
+  _dpFixe() {
+    return null;
+  }
+
+  /** Défense active utilisée par défaut. */
+  _defenseCle() {
+    return this.classeConfig?.defense ?? null;
   }
 
   /** Modificateur de DP (postures des sbires). */
@@ -298,8 +313,28 @@ export class PnjData extends MasinaActorBase {
       classe: texte(),
       bonusB: new fields.NumberField({ required: true, nullable: true, integer: true, initial: null }),
       race: texte("humain"),
+      menace: entier(1, { min: 0, max: 5 }),
+      typeCreature: texte("Humain"),
+      dpFixe: new fields.NumberField({ required: true, nullable: true, integer: true, initial: null }),
+      paNaturel: new fields.SchemaField({
+        tete: entier(0, { min: 0 }), torse: entier(0, { min: 0 }), bras: entier(0, { min: 0 }), jambes: entier(0, { min: 0 })
+      }),
+      defense: texte(),
+      resistanceFer: new fields.BooleanField({ initial: false }),
       description: new fields.HTMLField({ required: true, blank: true })
     };
+  }
+
+  _paNaturel(couverture) {
+    return this.paNaturel[couverture] ?? 0;
+  }
+
+  _dpFixe() {
+    return this.dpFixe;
+  }
+
+  _defenseCle() {
+    return this.defense || (this.classeConfig?.defense ?? null);
   }
 
   get classeConfig() {

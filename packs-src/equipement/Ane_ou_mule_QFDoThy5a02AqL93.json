@@ -1,0 +1,20 @@
+{
+  "_id": "QFDoThy5a02AqL93",
+  "_key": "!items!QFDoThy5a02AqL93",
+  "name": "Âne ou mule",
+  "type": "objet",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantite": 1,
+    "poids": 0,
+    "prix": "3 pe",
+    "description": "<p>Vitesse 12 m · charge 200 kg. Têtu mais infatigable. Monture non dressée au combat : au premier coup ou au premier bruit violent, le cavalier fait un jet de Dressage SD 13, ou la monture panique.</p>"
+  },
+  "effects": [],
+  "folder": "qkcRQP5QExxYfoBQ",
+  "sort": 100,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

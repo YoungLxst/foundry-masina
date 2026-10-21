@@ -122,6 +122,7 @@ export class MasinaActor extends Actor {
 
     const details = this._detailsCompetence(sys.competence);
     if ( sys.qualiteCfg.attaque ) details.push({ label: sys.qualiteCfg.label, valeur: sys.qualiteCfg.attaque });
+    if ( sys.bonusAttaque ) details.push({ label: "Bonus de l'arme", valeur: sys.bonusAttaque });
     if ( this.bonusAttaquePosture ) details.push({ label: "Posture", valeur: this.bonusAttaquePosture });
     const zone = choix.zone || null;
     if ( zone ) details.push({ label: `Viser : ${MASINA.zones[zone].label}`, valeur: MASINA.zones[zone].viser });
@@ -210,7 +211,7 @@ export class MasinaActor extends Actor {
     if ( zone === "tete" ) { mult += 1; sources.push("tête ×2"); }
 
     const de = (deuxMains && sys.degatsDeuxMains) ? sys.degatsDeuxMains : sys.degats;
-    const mod = this.modDegats(arme) + (sys.qualiteCfg?.degats ?? 0) + choix.bonus;
+    const mod = this.modDegats(arme) + (sys.qualiteCfg?.degats ?? 0) + (sys.bonusDegats ?? 0) + choix.bonus;
     let formule = multiplierDe(de, mult);
     if ( choix.supp ) formule += ` + ${choix.supp}`;
     if ( mod ) formule += mod > 0 ? ` + ${mod}` : ` - ${Math.abs(mod)}`;
@@ -229,6 +230,7 @@ export class MasinaActor extends Actor {
       contenu,
       rolls: [roll, locRoll].filter(Boolean),
       flags: { type: "degats", degats: total, zone, perceArmure: sys.proprietes.perceArmure, critique,
+        armeNaturelle: sys.competence === "bagarre", qualite: sys.qualite,
         cibles: cibles.map(c => c.uuid) }
     });
     return { total, zone };
@@ -256,7 +258,8 @@ export class MasinaActor extends Actor {
     const def = choix.defense;
     const bouclier = this.system.armure.bouclier > 0;
 
-    if ( def === "blocage" && classe !== "soldat" && !bouclier ) {
+    const defensePnj = (this.type === "pnj") && (this.system.defense === def);
+    if ( def === "blocage" && classe !== "soldat" && !bouclier && !defensePnj ) {
       return ui.notifications.warn("Sans bouclier, seul un Soldat peut bloquer.");
     }
     if ( def === "blocage" && distance && !bouclier ) {
@@ -350,19 +353,24 @@ export class MasinaActor extends Actor {
    * @param {object} [options]
    */
   async subirDegats(degats, zone = "torse", { perceArmure = false, critique = false, diviser = false,
-    sansArmure = false } = {}) {
+    sansArmure = false, qualite = null, armeNaturelle = false } = {}) {
     const sys = this.system;
     const z = sys.zones[zone];
     if ( !z ) return;
     const apresDefense = diviser ? Math.floor(degats / 2) : degats;
     let pa = sansArmure ? 0 : z.pa;
     if ( perceArmure ) pa = Math.floor(pa / 2);
-    const subis = Math.max(0, apresDefense - pa);
+    let subis = Math.max(0, apresDefense - pa);
+    // Créatures de la Mašina : moitié des dégâts des armes de fer et d'acier, après l'armure
+    const resiste = sys.resistanceFer && qualite && (qualite !== "argent") && !armeNaturelle && (subis > 0);
+    if ( resiste ) subis = Math.floor(subis / 2);
 
     const updates = {};
     const lignes = [];
     lignes.push(`<b>${degats}</b> dégâts${diviser ? ` ÷ 2 = <b>${apresDefense}</b>` : ""}, `
       + `PA ${pa}${perceArmure ? " (perce-armure)" : ""} → <b>${subis}</b> subis (${z.label}).`);
+
+    if ( resiste ) lignes.push(`Résistance au fer : dégâts divisés par 2 → <b>${subis}</b>. Seul l'argent la blesse normalement.`);
 
     // Usure : un coup qui traverse l'armure lui retire 1 PA sur cette zone
     if ( !sansArmure && (z.pa > 0) && (apresDefense > pa) ) {
@@ -450,7 +458,7 @@ export class MasinaActor extends Actor {
 
   /** Fin du combat : les compétences 1/combat redeviennent disponibles. */
   async finCombat() {
-    const aptitudes = this.items.filter(i => i.type === "aptitude" && i.system.utilisee && i.system.limite === "combat")
+    const aptitudes = this.items.filter(i => i.type === "aptitude" && i.system.utilisee && ["combat", "scene"].includes(i.system.limite))
       .map(i => ({ _id: i.id, "system.utilisee": false }));
     if ( aptitudes.length ) await this.updateEmbeddedDocuments("Item", aptitudes);
     await this.update({ "system.combat.posture": "" });
